@@ -1,0 +1,183 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say 'Hello' anytime the user says hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say 'sorry' anytime the user uncomfortable
+  steps:
+  - intent: decry
+  - action: utter_sorry
+
+- rule: Say 'thank you' anytime the user challenges
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- rule: Say 'thank' anytime the praise
+  steps:
+  - intent: praise
+  - action: utter_happy
+
+- rule: Say 'ability' anytime the user ask ability
+  steps:
+  - intent: ask_ability
+  - action: utter_show_ability
+
+- rule: Say 'I am fine' anytime the user ask how are you
+  steps:
+  - intent: howareyou
+  - action: utter_howareyou
+
+- rule: Say 'name' anytime the user ask your name
+  steps:
+  - intent: ask_bot_name
+  - action: utter_ask_bot_name
+
+- rule: Say 'yes' anytime the user ask "co xet tuyen hb"
+  steps:
+  - intent: Coxettuyenhocba
+  - action: utter_Coxethb
+
+- rule: Say 'no' anytime the user ask "co xet online"
+  steps:
+  - intent: Xetuyenconline
+  - action: utter_Coxetonline
+
+- rule: Say 'hoc phi info' anytime the user ask "hoc phi"
+  steps:
+  - intent: hocphi
+  - action: utter_hocphi
+
+- rule: Say 'ktx' anytime the user ask "ktx"
+  steps:
+  - intent: Kytucxa
+  - action: utter_kytucxa
+
+- rule: Say 'dieu kien' anytime the user ask "dieu kien xet tuyen su pham"
+  steps:
+  - intent: Dieu_kien_xet_tuyen_nganh_su_pham
+  - action: utter_Dieu_kien_xet_tuyen_nganh_su_pham
+
+- rule: Say 'dieu kien' anytime the user ask "dieu kien xet tuyen cac nganh"
+  steps:
+  - intent: Dieu_kien_xet_tuyen_cac_nganh
+  - action: utter_Dieu_kien_xet_tuyen_cac_nganh
+
+- rule: Say 'cach tinh diem' anytime the user ask "Cach_tinh_diem_xet_tuyen_hoc_ba"
+  steps:
+  - intent: Cach_tinh_diem_xet_tuyen_hoc_ba
+  - action: utter_Cach_tinh_diem_xet_tuyen_hoc_ba
+
+- rule: Say 'do not know' anytime the user ask "advice"
+  steps:
+  - intent: Unexpected
+  - action: utter_Unexpected
+
+- rule: Chi_tieu_tuyen_sinh
+  steps:
+  - intent: Chi_tieu_tuyen_sinh
+  - action: action_Chi_tieu_tuyen_sinh
+
+- rule: Ma_nganh
+  steps:
+  - intent: Ma_nganh
+  - action: action_Ma_nganh
+
+- rule: Diem_xet_tuyen
+  steps:
+  - intent: Diem_xet_tuyen
+  - action: action_Diem_xet_tuyen
+
+- rule: Cong_viec_ra_truong
+  steps:
+  - intent: Cong_viec_ra_truong
+  - action: action_Cong_viec_ra_truong
+
+- rule: Thong_tin_nganh
+  steps:
+  - intent: Thong_tin_nganh
+  - action: action_Thong_tin_nganh
+
+- rule: Ti_le_co_viec_lam
+  steps:
+  - intent: Ti_le_co_viec_lam
+  - action: action_Ti_le_co_viec_lam
+
+- rule: To_hop_xet_tuyen
+  steps:
+  - intent: To_hop_xet_tuyen
+  - action: action_To_hop_xet_tuyen
+
+- rule: Cac_nganh_dao_tao
+  steps:
+  - intent: Cac_nganh_dao_tao
+  - action: action_Cac_nganh_dao_tao
+
+- rule: Cac_khoa_cua_truong
+  steps:
+  - intent: Cac_khoa_cua_truong
+  - action: action_Cac_khoa_cua_truong
+
+- rule: Hoc_phi_hoc_bong
+  steps:
+  - intent: hoc_phi_hoc_bong
+  - action: utter_hoc_phi_hoc_bong
+
+- rule: Hoc_phi
+  steps:
+  - intent: Hocphi
+  - action: utter_hocphi
+
+- rule: Hoc_bong
+  steps:
+  - intent: Hocbong
+  - action: utter_hocbong
+
+- rule: Hoc_bong_khuyen_khich
+  steps:
+  - intent: Hoc_bong_khuyen_khich
+  - action: utter_hoc_bong_khuyen_khich
+
+- rule: Hoc_bong_tai_tro
+  steps:
+  - intent: Hoc_bong_tai_tro
+  - action: utter_hoc_bong_tai_tro
+
+- rule: Hoc_bong_khen_thuong
+  steps:
+  - intent: Hoc_bong_khen_thuong
+  - action: utter_hoc_bong_khen_thuong
+
+- rule: Kytucxa
+  steps:
+  - intent: kytucxa
+  - action: utter_kytucxa
+
+- rule: Thong_tin_ktx
+  steps:
+  - intent: Thong_tin_ktx
+  - action: utter_thong_tin_ktx
+
+- rule: Dieu_kien_o_ktx
+  steps:
+  - intent: Dieu_kien_o_ktx
+  - action: utter_dieu_kien_o_ktx
+
+- rule: Chi_phi_ktx
+  steps:
+  - intent: Chi_phi_ktx
+  - action: utter_chi_phi_ktx

@@ -1,0 +1,184 @@
+version: "2.0"
+stories:
+- story: ask information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_ability
+  - action: utter_show_ability
+  - intent: goodbye
+  - action: utter_goodbye
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_ability
+  - action: utter_show_ability
+  - intent: praise
+  - action: utter_happy
+  - intent: thanks
+  - action: utter_thanks
+- story: sad path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_ability
+  - action: utter_show_ability
+  - intent: decry
+  - action: utter_sorry
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Hoi_ten_bot
+  steps:
+  - intent: ask_bot_name
+  - action: utter_ask_bot_name
+- story: Hoi_suc_khoe
+  steps:
+  - intent: howareyou
+  - action: utter_howareyou
+- story: challange path
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+- story: Hoi_ve_KTX
+  steps:
+  - intent: kytucxa
+  - action: utter_kytucxa
+- story: Hoi_ve_hocphi
+  steps:
+  - intent: hocphi
+  - action: utter_hocphi
+- story: Co_xet_hb
+  steps:
+  - intent: Coxettuyenhocba
+  - action: utter_Coxethb
+- story: Xet_tuyen_online
+  steps:
+  - intent: Xetuyenconline
+  - action: utter_Coxetonline
+- story: Phuong_thuc_xt
+  steps:
+  - intent: Xettuyenhocba
+    entities:
+    - type_admission: ''
+  - action: utter_type_admission
+- story: Ho_so_xet_tuyen
+  steps:
+  - intent: Xettuyenhocba
+    entities:
+    - records: ''
+  - action: utter_records
+- story: Han_xet_tuyen
+  steps:
+  - intent: Xettuyenhocba
+    entities:
+    - admission_deadline: ''
+  - action: utter_admission_deadline
+- story: Thoi_gian_nop_ho_so
+  steps:
+  - intent: Xettuyenhocba
+    entities:
+    - time: ''
+  - action: utter_time
+- story: Dia_chi_nhan_ho_so
+  steps:
+  - intent: Xettuyenhocba
+    entities:
+    - receive_address: ''
+  - action: utter_receive_address
+- story: Hoivexthb&hs
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Coxettuyenhocba
+  - action: utter_Coxethb
+  - intent: Xettuyenhocba
+    entities:
+    - admission_deadline: ''
+  - action: utter_admission_deadline
+  - intent: Xettuyenhocba
+    entities:
+    - records: ''
+  - action: utter_records
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Tu_van_xet_tuyen_hb
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Coxettuyenhocba
+  - action: utter_Coxethb
+  - intent: Xettuyenhocba
+    entities:
+    - type_admission: ''
+  - action: utter_type_admission
+  - intent: Xettuyenhocba
+    entities:
+    - admission_deadline: ''
+  - action: utter_admission_deadline
+  - intent: thanks
+  - action: utter_thanks
+- story: Han_nop_ho_so
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Coxettuyenhocba
+  - action: utter_Coxethb
+  - intent: Xettuyenhocba
+    entities:
+    - time: ''
+  - action: utter_time
+  - intent: Xettuyenhocba
+    entities:
+    - receive_address: ''
+  - action: utter_receive_address
+- story: Ask information 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Coxettuyenhocba
+  - action: utter_Coxethb
+  - intent: Thong_tin_nganh
+  - action: action_Thong_tin_nganh
+  - intent: Cong_viec_ra_truong
+  - action: action_Cong_viec_ra_truong
+  - intent: Ti_le_co_viec_lam
+  - action: action_Ti_le_co_viec_lam
+- story: Ask information 2
+  steps:
+  - intent: To_hop_xet_tuyen
+  - action: action_To_hop_xet_tuyen
+  - intent: Cach_tinh_diem_xet_tuyen_hoc_ba
+  - action: utter_Cach_tinh_diem_xet_tuyen_hoc_ba
+  - intent: Diem_xet_tuyen
+  - action: action_Diem_xet_tuyen
+  - intent: Dieu_kien_xet_tuyen_nganh_su_pham
+  - action: utter_Dieu_kien_xet_tuyen_nganh_su_pham
+- story: Ask information 3
+  steps:
+  - intent: Diem_xet_tuyen
+  - action: action_Diem_xet_tuyen
+  - intent: Cach_tinh_diem_xet_tuyen_hoc_ba
+  - action: utter_Cach_tinh_diem_xet_tuyen_hoc_ba
+  - intent: Dieu_kien_xet_tuyen_cac_nganh
+  - action: utter_Dieu_kien_xet_tuyen_cac_nganh
+- story: Ask information 4
+  steps:
+  - intent: Chi_tieu_tuyen_sinh
+  - action: action_Chi_tieu_tuyen_sinh
+  - intent: Diem_xet_tuyen
+  - action: action_Diem_xet_tuyen
+  - intent: Xettuyenhocba
+    entities:
+    - type_admission: ''
+  - action: utter_type_admission
+  - intent: Thong_tin_nganh
+  - action: action_Thong_tin_nganh
+- story: unexpected information
+  steps:
+  - intent: Unexpected
+  - action: utter_Unexpected
+  - intent: Cac_nganh_dao_tao
+  - action: action_Cac_nganh_dao_tao
+  - intent: Dieu_kien_xet_tuyen_nganh_su_pham
+  - action: utter_Dieu_kien_xet_tuyen_nganh_su_pham
