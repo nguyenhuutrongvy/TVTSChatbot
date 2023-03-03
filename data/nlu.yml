@@ -309,37 +309,6 @@ nlu:
     - Cho hỏi học phí khoảng bao nhiêu 1 năm
     - 1 năm học phí khoảng bn
     - Học phí trường này là bao nhiêu?
-- intent: Hocbong
-  examples: |
-    - e chào ad ạ, ad cho e hỏi là trường mình có học bổng không ạ
-    - cho mình hỏi học bổng trường mình khoảng bao nhiêu ạ
-    - học bổng trường có bao nhiêu đợt để nhận
-    - trường có các loại học bổng nào ạ
-    - cho em hỏi làm sao để nhận học bổng trường ạ
-    - học bổng của trường có giá trị cao không ạ 
-    - bot cho hỏi về học bổng của trường
-    - học bổng trường như thế nào ạ
-- intent: Hoc_bong_khuyen_khich
-  examples: |
-    - bot cho em hỏi, học bổng khuyến khích là gì ạ
-    - học bổng khuyến khích là sao ạ
-    - học bổng khuyến khích bao nhiêu tiền thế ạ
-    - trường cho em hỏi học bổng khuyến khích bao tiền thế
-    - làm sao để nhận học bổng khuyến khích vậy 
-- intent: Hoc_bong_tai_tro
-  examples: |
-    - ad cho em hỏi học bổng tài trợ bao nhiêu tiền vậy ạ
-    - học bổng tài trợ gồm những gì thế 
-    - làm sao để nhận học bổng tài trợ thế ạ
-    - bao nhiêu lâu mới có học bổng tài trợ khi có tên trong danh sách vậy ạ
-    - bot cho hỏi học bổng tài trợ nhiều tiền không vậy
-- intent: Hoc_bong_khen_thuong
-  examples: |
-    - trường cho em hỏi một kỳ có mấy học bổng khen thưởng vậy ạ
-    - bot cho hỏi học bổng khen thưởng bao nhiêu tiền thế ạ
-    - ad cho hỏi bao lâu mới nhận được học bổng khen thưởng
-    - làm sao để nhận được học bổng khen thưởng vậy ạ
-    - bot cho hỏi học bổng khen thưởng có gì vậy
 - intent: Kytucxa
   examples: |
     - ad cho hỏi trường mình có ký túc xá không
@@ -350,25 +319,6 @@ nlu:
     - em muốn hỏi về ký túc xá
     - ký túc xá của trường thế nào ạ
     - tôi muốn biết thêm về ký túc xá của trường
-- intent: Thong_tin_ktx
-  examples: |
-    - ad cho mình hỏi thông tin ký túc xá được không
-    - bạn cho mình hỏi thông tin ký túc xá được không
-    - xin thông tin ktx được không ạ
-    - bot cho em hỏi thông tin ký túc xá với ạ
-- intent: Dieu_kien_o_ktx
-  examples: |
-    - ad cho hỏi điều kiện để ở ký túc xá với ạ
-    - điều kiện ở ktx như thế nào ạ
-    - cho em xin điều kiện ở ktx như thế nào ạ
-    - điều kiện ở ktx trường mình ra sao ạ
-- intent: Chi_phi_ktx
-  examples: |
-    - ad cho hỏi chi phí để ở ký túc xá với
-    - bạn cho hỏi ký túc xá trường mình là bao nhiêu
-    - chi phí ở ktx trường có đắt không
-    - ở ktx trường chi phí bao nhiêu là đủ
-    - cho hỏi chi phí ký túc xá trường ra sao
 - intent: Chi_tieu_tuyen_sinh
   examples: |
     - ad ơi, cho e hỏi chỉ tiêu tuyển sinh của ngành [Sư phạm Toán](Su_pham_toan) học như thế nào
@@ -1379,3 +1329,232 @@ nlu:
     - công thức tính điểm xét học bạ
     - điểm học bạ có tính điểm lớp 10 không
     - yêu cầu tính điểm học bạ
+
+- intent: tuyen_sinh_2023
+  examples: |
+    - tuyen_sinh_2023
+
+- intent: hoc_phi_hoc_bong
+  examples: |
+    - hoc_phi_hoc_bong
+
+- intent: ky_tuc_xa
+  examples: |
+    - ky_tuc_xa
+
+- intent: danh_sach_cac_khoa
+  examples: |
+    - danh_sach_cac_khoa
+
+- intent: thuan_loi_ho_tro
+  examples: |
+    - thuan_loi_ho_tro
+
+- intent: lien_he_tu_van
+  examples: |
+    - lien_he_tu_van
+
+- intent: nganh_tuyen_sinh
+  examples: |
+    - nganh_tuyen_sinh
+
+- intent: ma_truong
+  examples: |
+    - ma_truong
+
+- intent: phuong_thuc_xet_tuyen
+  examples: |
+    - phuong_thuc_xet_tuyen
+
+- intent: dai_hoc
+  examples: |
+    - dai_hoc
+
+- intent: thac_si
+  examples: |
+    - thac_si
+
+- intent: tien_si
+  examples: |
+    - tien_si
+
+- intent: dao_tao_song_nganh
+  examples: |
+    - dao_tao_song_nganh
+
+- intent: danh_sach_cac_nganh
+  examples: |
+    - danh_sach_cac_nganh
+
+- intent: muc_tieu
+  examples: |
+    - muc_tieu
+
+- intent: doi_tuong
+  examples: |
+    - doi_tuong
+
+- intent: dieu_kien_hoc_song_nganh
+  examples: |
+    - dieu_kien_hoc_song_nganh
+
+- intent: danh_sach_nganh
+  examples: |
+    - danh_sach_nganh
+
+- intent: danh_sach_nganh_tong_hop
+  examples: |
+    - danh_sach_nganh_tong_hop
+
+- intent: nganh_su_pham
+  examples: |
+    - nganh_su_pham
+
+- intent: diem_chuan
+  examples: |
+    - diem_chuan
+
+- intent: ma_nganh
+  examples: |
+    - ma_nganh
+
+- intent: chi_tieu_du_kien
+  examples: |
+    - chi_tieu_du_kien
+
+- intent: to_hop_mon_xet_tuyen
+  examples: |
+    - to_hop_mon_xet_tuyen
+
+- intent: thong_tin_nganh_tong_hop
+  examples: |
+    - thong_tin_nganh_tong_hop
+
+- intent: chuan_dau_ra
+  examples: |
+    - chuan_dau_ra
+
+- intent: co_hoi_viec_lam
+  examples: |
+    - co_hoi_viec_lam
+
+- intent: danh_sach_nganh_su_pham
+  examples: |
+    - danh_sach_nganh_su_pham
+
+- intent: thong_tin_nganh_su_pham
+  examples: |
+    - thong_tin_nganh_su_pham
+
+- intent: xet_tuyen_su_pham
+  examples: |
+    - xet_tuyen_su_pham
+
+- intent: diem_chuan_su_pham
+  examples: |
+    - diem_chuan_su_pham
+
+- intent: ma_nganh_su_pham
+  examples: |
+    - ma_nganh_su_pham
+
+- intent: chi_tieu_du_kien_su_pham
+  examples: |
+    - chi_tieu_du_kien_su_pham
+
+- intent: to_hop_xet_tuyen_su_pham
+  examples: |
+    - to_hop_xet_tuyen_su_pham
+
+- intent: chuan_dau_ra_su_pham
+  examples: |
+    - chuan_dau_ra_su_pham
+
+- intent: co_hoi_viec_lam_su_pham
+  examples: |
+    - co_hoi_viec_lam_su_pham
+
+- intent: dieu_kien_su_pham
+  examples: |
+    - dieu_kien_su_pham
+
+- intent: chi_tieu_su_pham
+  examples: |
+    - chi_tieu_su_pham
+
+- intent: ho_tro_su_pham
+  examples: |
+    - ho_tro_su_pham
+
+- intent: bang_hoc_ba
+  examples: |
+    - bang_hoc_ba
+
+- intent: bang_diem_thi_tn_thpt
+  examples: |
+    - bang_diem_thi_tn_thpt
+
+- intent: bang_diem_thi_dgnl
+  examples: |
+    - bang_diem_thi_dgnl
+
+- intent: xet_tuyen_thang
+  examples: |
+    - xet_tuyen_thang
+
+- intent: ho_so_hoc_ba
+  examples: |
+    - ho_so_hoc_ba
+
+- intent: cach_tinh_diem_xet_hoc_ba
+  examples: |
+    - cach_tinh_diem_xet_hoc_ba
+
+- intent: cach_nop_ho_so_hoc_ba
+  examples: |
+    - cach_nop_ho_so_hoc_ba
+
+- intent: thoi_han_nop_ho_so_hoc_ba
+  examples: |
+    - thoi_han_nop_ho_so_hoc_ba
+
+- intent: truc_tiep
+  examples: |
+    - truc_tiep
+
+- intent: truc_tuyen
+  examples: |
+    - truc_tuyen
+
+- intent: ho_so_tn_thpt
+  examples: |
+    - ho_so_tn_thpt
+
+- intent: cach_thuc_tn_thpt
+  examples: |
+    - cach_thuc_tn_thpt
+
+- intent: thoi_han_tn_thpt
+  examples: |
+    - thoi_han_tn_thpt
+
+- intent: ho_so_dgnl
+  examples: |
+    - ho_so_dgnl
+
+- intent: cach_thuc_dgnl
+  examples: |
+    - cach_thuc_dgnl
+
+- intent: thoi_han_dgnl
+  examples: |
+    - thoi_han_dgnl
+
+- intent: theo_quy_dinh_cua_truong
+  examples: |
+    - theo_quy_dinh_cua_truong
+
+- intent: theo_quy_dinh_cua_bo
+  examples: |
+    - theo_quy_dinh_cua_bo
+
