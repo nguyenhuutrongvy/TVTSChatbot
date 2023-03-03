@@ -1329,9 +1329,3 @@ nlu:
     - công thức tính điểm xét học bạ
     - điểm học bạ có tính điểm lớp 10 không
     - yêu cầu tính điểm học bạ
-- intent: Danh_sach_cac_khoa
-  examples: |
-    - cho em hỏi cách tính điểm học bạ của trường mình được không ạ
-- intent: Ten_khoa
-  examples: |
-    - cho em hỏi cách tính điểm học bạ của trường mình được không ạ
