@@ -1,0 +1,1337 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - chào trường
+    - xin chào
+    - chào
+    - chào bạn
+    - hello trường
+    - hi trường
+    - trường ơi ơi, cho anh hỏi
+    - bot ơi
+    - cho mình hỏi chút
+    - hello
+    - hi
+    - hey
+    - mình có vài câu hỏi
+    - có ai giúp mình không
+    - bạn ơi
+    - anh ơi
+    - chị ơi
+    - cháu ơi
+    - trường ơi
+    - alo
+    - alo alo
+    - có ai ở đây không?
+    - Cho em hỏi
+    - cho tôi hỏi
+    - tôi muốn hỏi
+    - cho em hỏi
+    - cho mình hỏi
+- intent: ask_bot_name
+  examples: |
+    - bạn tên gì
+    - bạn tên là gì
+    - tên bạn là gì
+    - bot tên gì
+    - mày tên gì
+    - tên của mày
+    - cho mình biết tên bạn với
+    - cho mình tên bạn
+    - gọi bạn như thế nào
+    - mình gọi bạn là gì
+    - tên gì
+    - chị tên gì
+    - anh tên gì
+    - em tên gì
+    - tên em là gì
+    - tên em
+    - tên bạn
+    - em tên là gì thế
+    - bạn tên gì thế
+    - tên của bạn là gì
+    - tên của chị là gì
+    - tên của anh là gì
+    - cho mình hỏi tên nhé
+    - mình muốn biết tên bạn
+    - mình muốn tiện xưng hộ hơn, cho mình biết tên nhé
+    - để tiện xưng hộ thì tên bạn là gì
+    - cho em xin tên của anh ạ
+    - cho em xin tên của chị ạ
+    - được biết tên bạn thì tốt nhỉ
+    - vui lòng cho mình biết tên nhé
+    - xin phép hỏi tên của bạn
+    - vậy thì tên bạn là gì
+    - tên bạn trong tiếng việt là gì
+    - bạn có vui lòng cho mình biết tên được không
+    - chúng ta nên biết tên nhau nhỉ?
+- intent: ask_ability
+  examples: |
+    - bạn có thể làm những gì nhỉ
+    - bạn có chức năng gì?
+    - bạn giúp gì được tôi không?
+    - bạn có thể giúp gì cho tôi?
+    - bạn biết làm gì?
+    - bạn hỗ trợ như thế nào?
+    - bạn có thể làm được những gì
+    - bạn giúp được gì nào
+    - chức năng của bạn là gì
+    - bạn có thể làm được mấy chức năng
+    - bạn giỏi nhất làm gì
+    - bạn có tư vấn giúp mình được không
+    - việc gì bạn làm được
+    - kể xem bạn làm được gì
+    - cho mình biết bạn làm được gì nhé
+    - bạn hữu dụng như thế nào
+    - bạn có ích trong những việc gì
+    - lĩnh vực gì bạn giỏi nhất
+    - mình tò mò về những việc bạn làm được
+    - chẳng biết bạn làm được gì
+    - bạn tệ nhất trong việc gì
+    - bạn biết được những lĩnh vực gì
+    - bạn giỏi hỗ trợ nhất trong lĩnh vực gì
+    - kể cho mình biết những việc bạn có thể làm được nhé
+    - nói cho mình về những việc bạn giúp được mình
+    - bạn giúp được mình gì nào
+    - bạn có thể làm gì
+    - em giúp được gì
+    - em làm được gì
+    - mày biết làm gì
+    - em biết làm gì
+    - bạn biết làm gì
+    - biết làm gì
+    - làm được gì
+    - có làm được gì
+    - có làm được trò gì
+    - giúp giúp cái gì
+    - biết gì mà nói
+    - giúp được gì
+    - mày làm được gì
+    - có biết gì
+- intent: howareyou
+  examples: |
+    - bạn khỏe không
+    - bạn thế nào
+    - bạn ổn chứ
+    - còn sống chứ
+    - bạn còn đó không
+    - bạn còn tốt không
+    - bạn tốt chứ
+- intent: goodbye
+  examples: |
+    - good bye
+    - bye
+    - bye bye
+    - tạm biệt
+    - tạm biệt bot
+- intent: thanks
+  examples: |
+    - cám ơn
+    - ok
+    - cảm ơn bot
+    - cảm ơn bạn nhiều nhé
+    - cảm ơn
+    - cảm ơn trường
+    - cảm ơn bạn
+    - cảm ơn trường nha
+    - cảm ơn nha
+    - cảm ơn bot nha
+    - thank
+    - thanks
+    - thank you
+    - thanks bot
+    - thanks trường nha
+- intent: praise
+  examples: |
+    - chuẩn
+    - hay
+    - siêu
+    - tuyệt
+    - giỏi
+    - tốt
+    - good job
+    - bot giỏi quá
+    - great
+    - awsome
+    - bot làm tốt lắm
+    - ui giỏi thế
+    - bot thông minh
+    - bạn rất thông minh
+- intent: decry
+  examples: |
+    - quá tệ
+    - ngu ngốc
+    - chả biết gì cả
+    - ngu thật
+    - dở ghê
+    - có thế mà cũng không biết
+    - kém cói
+    - sai tùm lum
+    - không phải
+    - không đúng rồi
+    - sai rồi
+    - không đúng
+    - tào lao
+    - nhầm rồi
+- intent: bot_challenge
+  examples: |
+    - bạn là người máy à
+    - bạn là người hay máy
+    - bạn là bot à
+    - tôi đang nói chuyện với người hay máy
+- intent: Xettuyenhocba
+  examples: |
+    - [hạn nộp](admission_deadline) hồ sơ xét tuyển học bạ
+    - cho tôi hỏi [hạn nộp hồ sơ](admission_deadline) xét tuyển bằng học bạ
+    - cho em hỏi [hạn nộp hồ sơ xét tuyển học bạ](admission_deadline)
+    - [hạn nộp hồ sơ](admission_deadline) xét tuyển học bạ là khi nào
+    - cho em hỏi [khi nào hết hạn](admission_deadline) nộp hồ sơ xét tuyển bằng học bạ
+    - trường [còn nhận hồ sơ](admission_deadline) xét tuyển học bạ không
+    - cho tôi hỏi trường [còn nhận hồ sơ xét tuyển](admission_deadline) bằng học bạ không
+    - hồ sơ xét tuyển học bạ [gồm những gì](records)
+    - cho tôi hỏi [hồ sơ xét tuyển học bạ gồm](records) những gì
+    - em muốn hỏi xét tuyển bằng học bạ thì [cần chuẩn bị những gì](records)
+    - tôi muốn hỏi xét tuyển học bạ thì [cần chuẩn bị những hồ sơ gì](records)
+    - tôi muốn hỏi xét tuyển học bạ thì [cần chuẩn bị những giấy tờ](records) gì
+    - [cần có giấy tờ gì](records) để xét tuyển học bạ
+    - những [giấy tờ gì cần có](records) để xét tuyển học bạ
+    - những [hồ sơ gì cần chuẩn bị](records) để xét tuyển học bạ
+    - Nếu muốn gửi xét học bạ, thì [gồm những gì](records) ạ?
+    - nộp hồ sơ học bạ [ở đâu](receive_address)
+    - [nộp hồ sơ học bạ ở đâu](receive_address) ạ
+    - cho tôi hỏi [nộp hồ sơ học bạ ở đâu](receive_address)
+    - cho em hỏi nộp hồ sơ học bạ [tại trường hay tại bưu điện](receive_address)
+    - [có thể lên trường](receive_address) nộp hồ sơ học bạ không ạ
+    - có thể nộp hồ sơ học bạ [ở trường](receive_address) không ạ
+    - có thể nộp hồ sơ học bạ [qua bưu điện](receive_address) không ạ
+    - [ra bưu điện gửi](receive_address) hồ sơ học bạ được không
+    - tôi có thể nộp hồ sơ học bạ [ở đâu](receive_address)
+    - Em muốn tìm hiểu về [hình thức xét tuyển](type_admission) của trường
+    - cho mình hỏi các [phương thức xét tuyển](type_admission) của trường
+    - cho em hỏi thêm thông tin về [phương thức xét tuyển học bạ](type_admission)
+    - Trường cho em hỏi thêm thông tin về [phương thức xét tuyển bằng học bạ THPT](type_admission)
+    - [Xét tuyển về học bạ cụ thể](type_admission) như thế nào ạ
+    - Hiện tại em muốn đăng kí học thì phải xét tuyển [theo phương thức nào](type_admission) ạ?
+    - Cho e hỏi [hình thức xét tuyển](type_admission) với ạ
+    - Cho e hỏi [cách thức xét tuyển](type_admission) với ạ
+    - Cho tôi biết các [hình thức xét tuyển](type_admission)
+    - Cho mình biết các [phương thức xét tuyển](type_admission)
+    - Tôi muốn hỏi về [phương thức xét tuyển](type_admission)
+    - Tôi muốn hỏi về [cách thức xét tuyển](type_admission)
+    - Tôi muốn hỏi về [hình thức xét tuyển](type_admission)
+    - Thông tin về [phương thức xét tuyển](type_admission)
+    - Thông tin về hỏi về [hình thức xét tuyển](type_admission)
+    - Cho mình biết về [phương thức xét tuyển](type_admission)
+    - Cho mình biết về [hình thức xét tuyển](type_admission)
+    - Cho tôi thêm thông tin về [phương thức xét tuyển](type_admission)
+    - Cho tôi thêm thông tin về [hình thức xét tuyển](type_admission)
+    - Cụ thể các [phương thức tuyển sinh](type_admission) của trường
+    - Cụ thể các [phương thức xét tuyển](type_admission)
+    - [Học bạ xét như nào](type_admission) ạ?
+    - Học bạ [xét như thế nào](type_admission) ạ?
+    - [Cách thức xét tuyển học bạ](type_admission) ạ?
+    - [Học bạ xét ntn](type_admission) ạ
+    - Cho em hỏi [thông tin xét tuyển học bạ](type_admission) ạ
+    - Trường ơi cho em hỏi là em muốn xét học bạ thì [phải làm sao](type_admission) ạ?
+    - Trường có thể tư vấn về [phương thức tuyển sinh](type_admission) kh ạ
+    - Tư vấn về [Cách thức xét tuyển](type_admission) học bạ ạ?
+    - Tư vấn [cụ thể các hình thức xét tuyển](type_admission)
+    - Xét học bạ [hình thức tnao](type_admission) ạ
+    - Cho em hỏi là trường [có bao nhiêu phương thức tuyển sinh](type_admission) ạ
+    - Em có thể biết thêm về [cách xét tuyển](type_admission) năm nay của trường không ạ?
+    - Tư vấn về học phí và [hình thức tuyển sinh](type_admission) ạ
+    - cho em hỏi là [khi nào mình có thể](time) xét tuyển bằng hình thức học bạ ạ
+    - Khi nào [b]ắt đầu nhận hồ sơ](time) xét tuyển
+    - khi nào [bắt đầu xét tuyển](time) học bạ
+    - xét tuyển học bạ [là khi nào](time)
+    - [khi nào trường nhận](time) hồ sơ xét tuyển
+    - Và [khi nào thì mình có thể nộp](time) hồ sơ ạ
+    - [Khi nào e có thể nộp](time) hồ sơ xét tuyển
+    - thông tin về [thời gian nhận hồ sơ](time)
+    - tư vấn về [thời gian xét tuyển học bạ](time)
+    - vậy giờ tôi [có thể nộp hồ sơ không](time)
+    - [khi nào hết hạn nộp hồ sơ](time) xét tuyển học bạ
+    - trường [có mấy hình thức xét tuyển](type_admission)
+- intent: Coxettuyenhocba
+  examples: |
+    - trường có xét tuyển bằng học bạ không
+    - Trường mình có xét học bạ không ạ?
+    - Vậy cho em hỏi e nộp học bạ xét vào trường mình được không ạ?
+    - Dạ vậy trường mk có xét học bạ ko vậy ạ
+    - Dạ có hình thức xét học bạ không ạ
+    - trường mình có nhận xét học bạ ko ạ?
+    - dạ em muốn xét học bạ bào trường của mình ạ
+    - Trường mình năm nay có xét tuyển học bạ không ạ?
+    - có thể cho em hỏi trường mình có xét tuyển học bạ không ạ?
+    - Ad ơi năm nay trg mình có xét điểm hb k ạ
+    - Ad ơi năm nay trường mình có xét điểm hoc bạ k ạ
+    - dạ cho em hỏi hình thức xét tuyển năm nay có xét học bạ ko ạ !
+    - cho tôi hỏi trường có xét tuyển bằng học bạ không
+    - cho em hỏi trường còn xét tuyển bằng học bạ không
+    - Dạ trường ơi cho em hỏi trường mình có xét học bạ không ạ?
+    - không biết có thể xét học bạ để theo học tại quý trường không?
+    - trường có xét tuyển bằng kết quả kỳ thi đánh giá năng lực của ĐHQG Tp. Hồ Chí Minh không
+    - cho tôi hỏi trường có xét tuyển bằng kết quả kỳ thi đánh giá năng lực của ĐHQG Tp. Hồ Chí Minh không
+    - cho em hỏi trường còn xét tuyển bằng kết quả kỳ thi đánh giá năng lực của ĐHQG HCM không
+    - kết quả kỳ thi đánh giá năng lực của ĐHQG HCM trường có xét không
+    - kết quả kỳ thi đánh giá năng lực của ĐHQG Tp. Hồ Chí Minh trường có xét không
+    - trường mình có xét học bạ k
+- intent: Xetuyenconline
+  examples: |
+    - Cho mình hỏi trường có xét tuyển online không ạ
+    - bạn cho mình hỏi trường có xét tuyển học bạ online không ạ
+    - trường có xét tuyển online không ạ
+    - trường có xét tuyển onl không ạ
+    - về việc xét tuyển học bạ online
+    - năm nay có xét tuyển online không ạ
+- intent: Hocphi
+  examples: |
+    - e chào ad ạ, ad cho e hỏi là học phí của trường mình ngành nào cũng 5 triệu một học kì phải không ạ
+    - cho mình hỏi học phí trường mình một năm khoảng bao nhiêu
+    - học phí một năm khoảng bao nhiêu
+    - học phí tính như thế nào ạ
+    - cho em hỏi học phí thế nào
+    - học phí mỗi học kỳ là bao nhiêu ạ
+    - học phí thế nào ạ
+    - cho mình hỏi về học phí ngành Luật
+    - cho em hỏi về học phí
+    - học phí các ngành thế nào
+    - học phí các ngành giống nhau không
+    - Cho e hỏi là học phí của trường mình là bao nhiêu ạ
+    - Cho tôi học học phí trường mình bn
+    - Cho mình hỏi thêm về học phí
+    - Thông tin cho tôi về học phí nhé
+    - 1 năm khoảng bao nhieu ad
+    - Học 1 năm khoảng bao nhiêu
+    - Cho mình biết về học phí một năm
+    - Vậy học phí bn 1 năm ạ
+    - Cho hỏi học phí khoảng bao nhiêu 1 năm
+    - 1 năm học phí khoảng bn
+    - Học phí trường này là bao nhiêu?
+- intent: Kytucxa
+  examples: |
+    - ad cho hỏi trường mình có ký túc xá không
+    - bạn cho hỏi trường mình có ký túc xá không
+    - trường có ktx không ạ
+    - trường mình có ký túc xá không ạ
+    - cho hỏi thông tin về ký túc xá của trường
+    - em muốn hỏi về ký túc xá
+    - ký túc xá của trường thế nào ạ
+    - tôi muốn biết thêm về ký túc xá của trường
+- intent: Chi_tieu_tuyen_sinh
+  examples: |
+    - ad ơi, cho e hỏi chỉ tiêu tuyển sinh của ngành [Sư phạm Toán](Su_pham_toan) học như thế nào
+    - ngành [Sư phạm Toán](Su_pham_toan) chỉ tiêu ntn
+    - cho e hỏi chỉ tiêu của ngành [sư phạm tin học](Su_pham_tin) như nào ạ
+    - ngành [sư phạm tin học](Su_pham_tin) chỉ tiêu là như nào ạ
+    - cho em hỏi chỉ tiêu tuyển sinh của ngành [giáo viên tiểu học](Giao_duc_tieu_hoc) là như nào ạ
+    - ngành [Giáo dục tiểu học](Giao_duc_tieu_hoc) chỉ tiêu là j vậy
+    - có thể cho tôi biết thông tin về chỉ tiêu tuyển sinh của ngành [Sư phạm Vật lý](Su_pham_vat_ly) là như nào ạ
+    - ngành [Sư phạm Vật lý](Su_pham_vat_ly) chỉ tiêu tuyển sinh ntn
+    - tôi muốn hỏi về chỉ tiêu tuyển sinh của ngành [sư phạm hóa](Su_pham_hoa_hoc) như nào
+    - ngành [Sư phạm hóa học](Su_pham_hoa_hoc) chỉ tiêu là sao
+    - ad cho em hỏi chỉ tiêu tuyển sinh của ngành [sư phạm Sinh](Su_pham_sinh_hoc) học là sao
+    - ngành [sư phạm Sinh](Su_pham_sinh_hoc) tuyển bn sinh viên?
+    - có thể cho e thông tin về chỉ tiêu tuyển sinh của ngành [sư phạm ngữ văn](Su_pham_ngu_van) như nào ạ
+    - ngành [sư phạm ngữ văn](Su_pham_ngu_van) tuyển bn sinh viên?
+    - ad cho hỏi chỉ tiêu của ngành [Sư phạm Lịch sử](Su_pham_lich_su) là gì vậy ạ
+    - ngành [sư phạm sử](Su_pham_lich_su) chỉ tiêu tuyển sinh là như nào ạ
+    - cho hỏi chỉ tiêu tuyển sinh của ngành [sư phạm tiếng anh](Su_pham_tieng_anh) ntn
+    - ngành [sư phạm Anh](Su_pham_tieng_anh) chỉ tiêu như thế nào
+    - tôi muốn hỏi về chỉ tiêu của ngành [Công nghệ Thông tin](Cong_nghe_thong_tin) (mạng máy tính, kỹ thuật phần mềm, khoa học dữ liệu) là sao
+    - ngành [công nghệ thông tin](Cong_nghe_thong_tin) (mạng máy tính, kỹ thuật phần mềm, khoa học dữ liệu) chỉ tiêu tuyển sinh là ntn ạ
+    - cho em hỏi chỉ tiêu tuyển sinh của ngành [công nghệ Thông tin](Cong_nghe_thong_tin) là ntn ạ
+    - ngành [công nghệ thông tin](Cong_nghe_thong_tin) tuyển bn sinh viên?
+    - ad cho hỏi chỉ tiêu năm nay của ngành [mạng máy tính](Cong_nghe_thong_tin) là ntn ạ
+    - ngành [mạng máy tính](Cong_nghe_thong_tin) chỉ tiêu tuyển sinh là gì vậy ạ
+    - có thể cho e thông tin về chỉ tiêu tuyển sinh của ngành [kỹ thuật phần mềm](Cong_nghe_thong_tin) ntn
+    - số lượng tuyển ngành kỹ thuật [phần mềm](Cong_nghe_thong_tin)
+    - hãy cho tôi biết chỉ tiêu của ngành [toán học (toán - tin học, toán ứng dụng, toán Lý thuyết)](Toan_hoc) như nào
+    - ngành [Toán học](Toan_hoc) (Toán - tin học, Toán ứng dụng, Toán Lý thuyết) chỉ tiêu tuyển sinh là gì vậy ạ
+    - vui lòng cho tôi thêm thông tin về chỉ tiêu tuyển sinh của ngành [toán](Toan_hoc) là như nào ạ
+    - ngành [toán học]](Toan_hoc) chỉ tiêu là ntn ạ
+    - có thể cho tôi biết thêm về chỉ tiêu tuyển sinh của ngành [toán – tin học](Toan_hoc) j nhỉ
+    - ngành [tin học](Toan_hoc) chỉ tiêu tuyển sinh như thế nào
+    - trường cho hỏi chỉ tiêu tuyển sinh của ngành [toán ứng dụng](Toan_hoc) là gì
+    - ngành [toán ứng dụng](Toan_hoc) tuyển bn sinh viên?
+    - hãy tư vấn cho tôi về chỉ tiêu tuyển sinh của ngành [toán lý thuyết](Toan_hoc) ntn
+    - số lượng tuyển ngành [toán lý thuyết](Toan_hoc)
+    - ad ơi, cho e hỏi chỉ tiêu năm nay của ngành [thống kê và khoa học dữ liệu](Thong_ke_KHDL) j nhỉ
+    - ngành [thống kê và khdl](Thong_ke_KHDL) tuyển bn sinh viên?
+    - ad cho hỏi chỉ tiêu tuyển sinh của [ngành vật lý](Vat_Ly_hoc) học ntn nhỉ
+    - ngành [vật lý](Vat_Ly_hoc) chỉ tiêu tuyển sinh là ntn ạ
+    - ad cho hỏi chỉ tiêu tuyển sinh của ngành [công nghệ kỹ thuật điện tử viễn thông](Ky_thuat_dien_tu_vien_thong) như thế nào
+    - ngành công nghệ kỹ thuật [điện tử viễn thông](Ky_thuat_dien_tu_vien_thong) chỉ tiêu tuyển sinh là gì vậy ạ
+    - hãy cho tôi biết chỉ tiêu của ngành [kỹ thuật hạt nhân](Ky_thuat_hat_nhan) ntn
+    - số lượng tuyển ngành kỹ thuật [hạt nhân](Ky_thuat_hat_nhan)
+    - hãy cho tôi biết chỉ tiêu tuyển sinh của ngành công nghệ [kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa) như nào ạ
+    - ngành công nghệ kỹ thuật [điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa) chỉ tiêu ntn
+    - vui lòng cho tôi thêm thông tin về chỉ tiêu tuyển sinh của ngành [Hóa học (Hóa phân tích, Hóa hữu cơ)](Hoa_hoc) là j vậy
+    - ngành [Hóa học (Hóa phân tích, Hóa hữu cơ)](Hoa_hoc) chỉ tiêu tuyển sinh là j ?
+    - trường cho em hỏi chỉ tiêu của ngành [hóa học](Hoa_hoc) tuyển bn sinh viên?
+    - số lượng tuyển ngành [Hóa học](Hoa_hoc)
+    - tư vấn về chỉ tiêu tuyển sinh của ngành [Hóa phân tích](Hoa_hoc) là j vậy
+    - ngành [hóa](Hoa_hoc) phân tích chỉ tiêu tuyển sinh sao nhỉ
+    - ad cho em hỏi chỉ tiêu tuyển sinh của ngành [hóa hữu cơ](Hoa_hoc) ứng dụng là như nào ạ
+    - ngành [Hóa hữu cơ](Hoa_hoc) ứng dụng tuyển bn sinh viên?
+    - vui lòng cho tôi thêm thông tin về chỉ tiêu của ngành [khoa học môi trường (Kỹ thuật môi trường, Quản lý môi trường)](Khoa_hoc_moi_truong) j nhỉ
+    - ngành [Khoa học Môi trường](Khoa_hoc_moi_truong) (Kỹ thuật môi trường, Quản lý môi trường) chỉ tiêu tuyển sinh là gì vậy ạ
+    - tư vấn về chỉ tiêu của ngành [kỹ thuật môi trường](Khoa_hoc_moi_truong) là j vậy
+    - số lượng tuyển ngành [ khoa học môi trường](Khoa_hoc_moi_truong)
+    - vui lòng cho tôi thêm thông tin về chỉ tiêu tuyển sinh của ngành [quản lý môi trường](Khoa_hoc_moi_truong) như thế nào
+    - ngành [quản lý môi trường](Khoa_hoc_moi_truong) tuyển bn sinh viên?
+    - ad ơi, cho e hỏi chỉ tiêu tuyển sinh của ngành [Khoa học Môi trường](Khoa_hoc_moi_truong) ntn
+    - ngành [khoa học môi trường](Khoa_hoc_moi_truong) tuyển bn sinh viên?
+    - có thể cho tôi biết thông tin về chỉ tiêu tuyển sinh của ngành [hóa dược](Hoa_duoc) tuyển bao nhiêu
+    - số lượng tuyển ngành [dược](Hoa_duoc)
+    - vui lòng cho tôi biết về chỉ tiêu tuyển sinh của ngành [công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong) là j ?
+    - ngành [công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong) tuyển bao nhiêu
+    - trường cho em hỏi chỉ tiêu của ngành [sinh học (Sinh học ứng dụng)](Sinh_hoc) sao nhỉ
+    - ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc) năm nay tuyển bao nhiêu
+    - ad cho hỏi chỉ tiêu tuyển sinh năm nay của ngành [sinh học](Sinh_hoc) ntn
+    - ngành [sinh học](Sinh_hoc) năm nay tuyển bao nhiêu
+    - ad ơi, cho e hỏi chỉ tiêu tuyển sinh của ngành [sinh học ứng dụng](Sinh_hoc) là gì
+    - ngành [sinh học ứng dụng](Sinh_hoc) chỉ tiêu là gì vậy ạ
+    - vui lòng cho tôi biết về chỉ tiêu của ngành [công nghệ sinh học](Cong_nghe_sinh_hoc) ntn
+    - ngành [công nghệ Sinh học](Cong_nghe_sinh_hoc) chỉ tiêu như thế nào
+    - có thể tư vấn về chỉ tiêu tuyển sinh của ngành [nông học](Nong_hoc) là ntn ạ
+    - ngành [Nông học](Nong_hoc) tuyển bao nhiêu
+    - có thể cho tôi biết thông tin về chỉ tiêu tuyển sinh của ngành [công nghệ sau thu hoạch](Cong_nghe_sau_thu_hoach) là sao
+    - ngành [cn sau thu hoạch](Cong_nghe_sau_thu_hoach) năm nay tuyển bao nhiêu
+    - trường cho hỏi chỉ tiêu của ngành [công nghệ thực phẩm](Cong_nghe_thuc_pham) là j ?
+    - ngành [công nghệ thực phẩm](Cong_nghe_thuc_pham) chỉ tiêu như nào
+    - hãy tư vấn cho tôi về chỉ tiêu của ngành [quản trị kinh doanh](Quan_tri_kinh_doanh) là ntn ạ
+    - ngành [quản trị](Quan_tri_kinh_doanh) chỉ tiêu tuyển sinh là gì
+    - cho e hỏi chỉ tiêu năm nay của ngành [kế toán](Ke_toan) như nào ạ
+    - ngành [Kế toán](Ke_toan) tuyển bao nhiêu
+    - cho e hỏi chỉ tiêu tuyển sinh năm nay của ngành [Tài chính – Ngân hàng](Tai_chinh_ngan_hang) như nào
+    - ngành [tài chính ngân hàng](Tai_chinh_ngan_hang) chỉ tiêu tuyển sinh như nào ạ
+    - có thể cho tôi biết thông tin về chỉ tiêu của ngành [Luật](Luat) là j ?
+    - ngành [luật](Luat) năm nay tuyển bao nhiêu
+    - tôi muốn biết thêm về chỉ tiêu tuyển sinh của ngành [xã hội học](Xa_hoi_hoc) sao nhỉ
+    - ngành [Xã hội học](Xa_hoi_hoc) năm nay tuyển bao nhiêu
+    - cho biết thông tin về chỉ tiêu tuyển sinh của ngành [công tác xã hội](Cong_tac_xa_hoi) j nhỉ
+    - số lượng tuyển ngành [Công tác xh](Cong_tac_xa_hoi)
+    - cho hỏi chỉ tiêu của ngành [dân số và phát triển](Dan_so_va_phat_trien) như nào
+    - ngành [Dân số và Phát triển](Dan_so_va_phat_trien) chỉ tiêu như nào ạ
+    - ad cho em hỏi chỉ tiêu của ngành [Văn hoá học](Van_hoa_hoc) là gì vậy ạ
+    - ngành [văn hoá học](Van_hoa_hoc) tuyển bao nhiêu
+    - vui lòng cho tôi biết về chỉ tiêu tuyển sinh của ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc) ntn
+    - ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc) năm nay tuyển bao nhiêu
+    - ad cho hỏi chỉ tiêu của ngành [Văn học](Van_hoc) là j vậy
+    - ngành [văn học](Van_hoc) tuyển bao nhiêu
+    - em muốn được tư vấn về chỉ tiêu của ngành [ngữ văn tổng hợp](Van_hoc) là j ?
+    - ngành [Ngữ văn](Van_hoc) tuyển bao nhiêu
+    - trường cho em hỏi chỉ tiêu tuyển sinh của ngành [ngữ văn báo chí](Van_hoc) là gì vậy ạ
+    - số lượng tuyển ngành [ngữ văn báo chí](Van_hoc)
+    - tôi muốn biết thêm về chỉ tiêu của ngành [Lịch sử](Lich_su) là như nào ạ
+    - số lượng tuyển ngành [lịch sử](Lich_su)
+    - có thể cho e thông tin về chỉ tiêu của ngành [văn hóa du lịch](Van_hoa_du_lich) như nào ạ
+    - ngành [Văn hóa du lịch](Van_hoa_du_lich) năm nay tuyển bao nhiêu
+    - ad cho hỏi chỉ tiêu của ngành [Trung Quốc học](Trung_quoc_hoc) ntn
+    - ngành [trung quốc học](Trung_quoc_hoc) chỉ tiêulà như nào ạ
+    - cho biết thông tin về chỉ tiêu của ngành [Việt Nam học](Viet_nam_hoc) sao nhỉ
+    - ngành [việt nam học](Viet_nam_hoc) chỉ tiêu ntn nhỉ
+    - trường cho hỏi chỉ tiêu của ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc) ntn nhỉ
+    - ngành [đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc) chỉ tiêu là như nào ạ
+    - có thể tư vấn về chỉ tiêu của ngành [Đông phương học](Dong_phuong_hoc) ntn
+    - số lượng tuyển ngành [đông phương học](Dong_phuong_hoc)
+    - có thể tư vấn về chỉ tiêu tuyển sinh của ngành [hàn quốc học](Dong_phuong_hoc) ntn nhỉ
+    - ngành [Hàn Quốc](Dong_phuong_hoc) học năm nay tuyển bao nhiêu
+    - trường cho em hỏi chỉ tiêu tuyển sinh của ngành [Nhật Bản học](Dong_phuong_hoc) là gì
+    - ngành [nhật bản](Dong_phuong_hoc) học chỉ tiêu tuyển sinh như thế nào
+    - có thể cho tôi biết thêm về chỉ tiêu tuyển sinh của ngành [quốc tế học](Quoc_te_hoc) là gì
+    - số lượng tuyển ngành [Quốc tế học](Quoc_te_hoc)
+    - cho em hỏi chỉ tiêu của ngành [quản trị dịch vụ du lịch và lữ hành](Quan_tri_du_lich) như nào ạ
+    - ngành quản trị dịch vụ [du lịch và lữ hành](Quan_tri_du_lich) năm nay tuyển bao nhiêu
+    - vui lòng cho tôi thêm thông tin về chỉ tiêu của ngành [ngôn ngữ Anh](Ngon_ngu_anh) là ntn ạ
+    - ngành [ngôn ngữ anh](Ngon_ngu_anh)  chỉ tiêu là như nào ạ
+- intent: Ma_nganh
+  examples: |
+    - có thể cho tôi biết thêm về mã ngành của ngành [Sư phạm Toán](Su_pham_toan)
+    - ngành [Sư phạm Toán](Su_pham_toan) có mã ngành là gì
+    - trường cho hỏi mã ngành của ngành [sư phạm Tin](Su_pham_tin)
+    - ngành [sư phạm Tin](Su_pham_tin) có mã ngành là ntn ạ
+    - tư vấn về mã ngành của ngành [Giáo dục tiểu học](Giao_duc_tieu_hoc)(Giao_duc_tieu_hoc)
+    - ngành [giáo viên tiểu học](Giao_duc_tieu_hoc)có mã ngành là gì
+    - cho tôi hỏi mã ngành của ngành [Sư phạm Vật lý](Su_pham_vat_ly)
+    - ngành [sư phạm lý](Su_pham_vat_ly) có mã ngành như nào ạ
+    - có thể cho tôi biết thêm về mã ngành của ngành [sư phạm Hóa](Su_pham_hoa_hoc)
+    - ngành [sư phạm hóa](Su_pham_hoa_hoc) có mã ngành là j ?
+    - em muốn được tư vấn về mã ngành của ngành [sư phạm Sinh](Su_pham_sinh_hoc) học
+    - ngành [sư phạm Sinh](Su_pham_sinh_hoc) có mã ngành là gì vậy ạ
+    - cho tôi hỏi mã ngành của ngành [sư phạm văn](Su_pham_ngu_van)
+    - ngành [sư phạm ngữ văn](Su_pham_ngu_van) có mã ngành là gì vậy ạ
+    - có thể tư vấn về mã ngành của ngành [sư phạm sử](Su_pham_lich_su)
+    - ngành [sư phạm lịch sử](Su_pham_lich_su) có mã ngành ntn
+    - tư vấn về mã ngành của ngành [sư phạm Anh](Su_pham_tieng_anh)
+    - ngành [sư phạm tiếng Anh](Su_pham_tieng_anh) có mã ngành là j vậy
+    - vui lòng cho tôi thêm thông tin về mã ngành của ngành [Công nghệ Thông tin](Cong_nghe_thong_tin)
+    - ngành [Công nghệ Thông tin](Cong_nghe_thong_tin) có mã ngành là sao
+    - có thể tư vấn về mã ngành của ngành [công nghệ thông tin](Cong_nghe_thong_tin)
+    - ngành [công nghệ tt](Cong_nghe_thong_tin) có mã ngành ntn nhỉ
+    - ad cho hỏi mã ngành của ngành [mạng máy tính](Cong_nghe_thong_tin)
+    - ngành [mạng mt](Cong_nghe_thong_tin) có mã ngành là gì vậy ạ
+    - hãy cho tôi biết mã ngành của ngành [kỹ thuật phần mềm](Cong_nghe_thong_tin)
+    - ngành [phần mềm]](Cong_nghe_thong_tin) có mã ngành là như nào ạ
+    - em muốn được tư vấn về mã ngành của ngành [Toán học](Toan_hoc) (Toán - tin học, Toán ứng dụng, Toán Lý thuyết)
+    - ngành [Toán học](Toan_hoc) (Toán - tin học, Toán ứng dụng, Toán Lý thuyết) có mã ngành như thế nào
+    - ad cho hỏi mã ngành của ngành [Toán](Toan_hoc)
+    - ngành [toán](Toan_hoc) có mã ngành là j ?
+    - cho hỏi mã ngành của ngành [Toán–Tin](Toan_hoc)
+    - ngành [toán – tin](Toan_hoc) có mã ngành là như nào ạ
+    - cho biết thông tin về mã ngành của ngành [toán ứng dụng](Toan_hoc)
+    - ngành [toán ứng dụng](Toan_hoc) có mã ngành như thế nào
+    - cho tôi hỏi mã ngành của ngành [Toán lý thuyết](Toan_hoc)
+    - ngành [toán lý thuyết](Toan_hoc) có mã ngành ntn nhỉ
+    - cho biết thông tin về mã ngành của ngành [thống kê và khdl](Thong_ke_KHDL)
+    - ngành [Thống kê và khoa học dữ liệu](Thong_ke_KHDL) có mã ngành như nào ạ
+    - cho hỏi mã ngành của [ngành Vật lý](Vat_Ly_hoc)
+    - ngành [vật lý](Vat_Ly_hoc) có mã ngành là gì vậy ạ
+    - tôi muốn biết thêm về mã ngành của ngành công nghệ kỹ thuật điện tử - [viễn thông](Ky_thuat_dien_tu_vien_thong)
+    - ngành Công nghệ kỹ thuật [điện tử viễn thông](Ky_thuat_dien_tu_vien_thong) có mã ngành sao nhỉ
+    - có thể cho tôi biết thông tin về mã ngành của ngành [kỹ thuật hạt nhân](Ky_thuat_hat_nhan)
+    - ngành [kỹ thuật hạt nhân](Ky_thuat_hat_nhan) có mã ngành như nào
+    - có thể cho tôi biết thêm về mã ngành của ngành công nghệ kỹ thuật [điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa)
+    - ngành công nghệ [kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa) có mã ngành ntn
+    - hãy cho tôi biết mã ngành của ngành [Hóa học (Hóa phân tích, Hóa hữu cơ)](Hoa_hoc)
+    - ngành [Hóa học](Hoa_hoc) (Hóa phân tích, Hóa hữu cơ) có mã ngành ntn nhỉ
+    - có thể tư vấn về mã ngành của ngành [Hóa](Hoa_hoc)
+    - ngành [hóa học](Hoa_hoc) có mã ngành là gì vậy ạ
+    - tôi muốn hỏi về mã ngành của ngành [hóa phân tích](Hoa_hoc)
+    - ngành [Hóa phân tích](Hoa_hoc) có mã ngành sao nhỉ
+    - có thể cho tôi biết thông tin về mã ngành của ngành [Hóa hữu cơ ứng dụng](Hoa_hoc)
+    - ngành [hóa hữu cơ](Hoa_hoc) ứng dụng có mã ngành như nào ạ
+    - ad ơi, cho e hỏi mã ngành của ngành [Khoa học Môi trường (Kỹ thuật môi trường, Quản lý môi trường)](Khoa_hoc_moi_truong)
+    - ngành khoa học[Môi trường (Kỹ thuật môi trường, Quản lý môi trường)](Khoa_hoc_moi_truong) có mã ngành là sao
+    - ad cho em hỏi mã ngành của ngành [kỹ thuật môi trường](Khoa_hoc_moi_truong)
+    - ngành [ khoa học môi trường](Khoa_hoc_moi_truong) có mã ngành là gì
+    - vui lòng cho tôi thêm thông tin về mã ngành của ngành [Quản lý môi trường](Khoa_hoc_moi_truong)
+    - ngành [quản lý môi trường](Khoa_hoc_moi_truong) có mã ngành là ntn ạ
+    - cho e hỏi mã ngành của ngành [khoa học Môi trường](Khoa_hoc_moi_truong)
+    - ngành [Khoa học môi trường](Khoa_hoc_moi_truong) có mã ngành như nào ạ
+    - tôi muốn biết thêm về mã ngành của ngành [dược](Hoa_duoc)
+    - ngành [Hóa dược](Hoa_duoc) có mã ngành là như nào ạ
+    - cho tôi hỏi mã ngành của ngành [kỹ thuật môi trường](Cong_nghe_moi_truong)
+    - ngành [Công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong) có mã ngành như thế nào
+    - có thể cho tôi biết thông tin về mã ngành của ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc)
+    - ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc) có mã ngành là sao
+    - cho em hỏi mã ngành của ngành [Sinh](Sinh_hoc)
+    - ngành [Sinh học](Sinh_hoc) có mã ngành là như nào ạ
+    - có thể cho tôi biết thêm về mã ngành của ngành [Sinh học ứng dụng](Sinh_hoc)
+    - ngành [sinh học ứng dụng](Sinh_hoc) có mã ngành như thế nào
+    - em muốn được tư vấn về mã ngành của ngành [Công nghệ Sinh học](Cong_nghe_sinh_hoc)
+    - ngành [cn sinh học](Cong_nghe_sinh_hoc) có mã ngành là j vậy
+    - cho hỏi mã ngành của ngành [nông học](Nong_hoc)
+    - ngành [Nông học](Nong_hoc) có mã ngành là j ?
+    - ad ơi, cho e hỏi mã ngành của ngành [cn sau thu hoạch](Cong_nghe_sau_thu_hoach)
+    - ngành [Công nghệ sau thu hoạch](Cong_nghe_sau_thu_hoach) có mã ngành là ntn ạ
+    - ad cho hỏi mã ngành của ngành [Công nghệ thực phẩm](Cong_nghe_thuc_pham)
+    - ngành [Cn thực phẩm](Cong_nghe_thuc_pham) có mã ngành như nào ạ
+    - có thể tư vấn về mã ngành của ngành [quản trị kinh doanh](Quan_tri_kinh_doanh)
+    - ngành [quản trị](Quan_tri_kinh_doanh) có mã ngành như nào ạ
+    - hãy tư vấn cho tôi về mã ngành của ngành [Kế toán](Ke_toan)
+    - ngành [Kế toán](Ke_toan) có mã ngành là gì vậy ạ
+    - tôi muốn biết thêm về mã ngành của ngành [Tài chính – Ngân hàng](Tai_chinh_ngan_hang)
+    - ngành [tài chính ngân hàng](Tai_chinh_ngan_hang) có mã ngành ntn nhỉ
+    - em muốn được tư vấn về mã ngành của ngành [Luật](Luat)
+    - ngành [Luật](Luat) có mã ngành sao nhỉ
+    - ad cho em hỏi mã ngành của ngành [Xã hội học](Xa_hoi_hoc)
+    - ngành [xã hội học](Xa_hoi_hoc) có mã ngành là j ?
+    - cho biết thông tin về mã ngành của ngành [Công tác xã hội](Cong_tac_xa_hoi)
+    - ngành [công tác xh](Cong_tac_xa_hoi) có mã ngành là như nào ạ
+    - tôi muốn hỏi về mã ngành của ngành [Dân số và Phát triển](Dan_so_va_phat_trien)
+    - ngành [ds phát triển](Dan_so_va_phat_trien) có mã ngành là gì vậy ạ
+    - ad ơi, cho e hỏi mã ngành của ngành [Vh học](Van_hoa_hoc)
+    - ngành [vh học](Van_hoa_hoc) có mã ngành là ntn ạ
+    - tôi muốn biết thêm về mã ngành của ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc)
+    - ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc) có mã ngành là j ?
+    - ad ơi, cho e hỏi mã ngành của ngành [Văn học](Van_hoc)
+    - ngành [văn học](Van_hoc) có mã ngành là như nào ạ
+    - ad cho em hỏi mã ngành của ngành [Ngữ văn tổng hợp](Van_hoc)
+    - ngành [ngữ văn](Van_hoc) có mã ngành là j ?
+    - hãy cho tôi biết mã ngành của ngành [Ngữ văn báo chí](Van_hoc)
+    - ngành ngữ văn [báo chí](Van_hoc) có mã ngành ntn
+    - cho tôi hỏi mã ngành của ngành [Lịch sử](Lich_su)
+    - ngành [sử](Lich_su) có mã ngành là sao
+    - ad cho hỏi mã ngành của ngành [Văn hóa dl](Van_hoa_du_lich)
+    - ngành [vh du lịch](Van_hoa_du_lich) có mã ngành là j ?
+    - vui lòng cho tôi biết về mã ngành của ngành [TQuốc học](Trung_quoc_hoc)
+    - ngành [trung quốc](Trung_quoc_hoc) có mã ngành là gì
+    - tôi muốn hỏi về mã ngành của ngành [VN học](Viet_nam_hoc)
+    - ngành [v nam học](Viet_nam_hoc) có mã ngành là như nào ạ
+    - có thể cho e thông tin về mã ngành của ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc)
+    - ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc) có mã ngành j nhỉ
+    - có thể cho e thông tin về mã ngành của ngành [Đông phương học](Dong_phuong_hoc)
+    - ngành [đông phương học](Dong_phuong_hoc) có mã ngành là như nào ạ
+    - tôi muốn hỏi về mã ngành của ngành [Hàn Quốc học](Dong_phuong_hoc)
+    - ngành [hàn quốc](Dong_phuong_hoc) học có mã ngành ntn
+    - ad ơi, cho e hỏi mã ngành của ngành [Nhật Bản học](Dong_phuong_hoc)
+    - ngành [nhật bản](Dong_phuong_hoc) có mã ngành như nào
+    - cho hỏi mã ngành của ngành [QT học](Quoc_te_hoc)
+    - ngành [quốc tế học](Quoc_te_hoc) có mã ngành là như nào ạ
+    - ad cho hỏi mã ngành của ngành [du lịch](Quan_tri_du_lich) và lữ hành
+    - ngành [Quản trị dịch vụ du lịch](Quan_tri_du_lich) và lữ hành có mã ngành là gì vậy ạ
+    - hãy cho tôi biết mã ngành của ngành [ngôn ngữ Anh](Ngon_ngu_anh)
+    - ngành [Anh văn](Ngon_ngu_anh) có mã ngành là sao
+- intent: Diem_xet_tuyen
+  examples: |
+    - tôi muốn biết thêm về điểm xét tuyển của ngành [Sư phạm Toán](Su_pham_toan) học
+    - ngành [Sư phạm Toán](Su_pham_toan) học có điểm xét tuyển học bạ sao nhỉ
+    - có thể cho e thông tin về điểm xét tuyển học bạ của ngành [sư phạm Tin](Su_pham_tin)
+    - ngành [sư phạm tin học](Su_pham_tin) có điểm xét tuyển THPT ntn
+    - cho em hỏi điểm xét tuyển của ngành [tiểu học](Giao_duc_tieu_hoc)
+    - ngành [tiểu học](Giao_duc_tieu_hoc) có điểm xét tuyển học bạ như thế nào
+    - em muốn được tư vấn về điểm xét tuyển trung học pt của ngành [sư phạm Lý](Su_pham_vat_ly)
+    - ngành [Sư phạm vật Lý](Su_pham_vat_ly) có điểm xét tuyển thpt ntn nhỉ
+    - ad cho em hỏi điểm xét tuyển học bạ của ngành [Sư phạm Hóa học](Su_pham_hoa_hoc)
+    - ngành [Sư phạm Hóa](Su_pham_hoa_hoc) có điểm xét tuyển học bạ j nhỉ
+    - ad cho hỏi điểm xét tuyển thpt của ngành [sư phạm Sinh](Su_pham_sinh_hoc)
+    - ngành [sư phạm Sinh](Su_pham_sinh_hoc) học có điểm xét tuyển học bạ j nhỉ
+    - cho e hỏi điểm xét tuyển của ngành [sư phạm Ngữ văn](Su_pham_ngu_van)
+    - ngành [sư phạm Văn](Su_pham_ngu_van) có điểm xét tuyển học bạ ntn nhỉ
+    - cho em hỏi điểm xét tuyển của ngành sư phạm [Sử](Su_pham_lich_su)
+    - ngành [sư phạm lịch Sử](Su_pham_lich_su) có điểm xét tuyển học bạ là gì vậy ạ
+    - cho e hỏi điểm xét tuyển của ngành [sư phạm Anh](Su_pham_tieng_anh)
+    - ngành [sư phạm Tiếng Anh](Su_pham_tieng_anh) có điểm xét tuyển học bạ là j vậy
+    - có thể tư vấn về điểm xét tuyển thpt của ngành [Công nghệ Thông tin](Cong_nghe_thong_tin) (mạng máy tính, kỹ thuật phần mềm, khoa học dữ liệu)
+    - ngành [Công nghệ Thông tin](Cong_nghe_thong_tin) (mạng máy tính, kỹ thuật phần mềm, khoa học dữ liệu) có điểm xét tuyển học bạ là gì
+    - cho biết thông tin về điểm xét tuyển của ngành [cntt](Cong_nghe_thong_tin)
+    - ngành [Cntt](Cong_nghe_thong_tin) có điểm xét tuyển học bạ sao nhỉ
+    - cho em hỏi điểm xét tuyển của ngành [Mạng máy tính](Cong_nghe_thong_tin)
+    - ngành [Mạng mt](Cong_nghe_thong_tin) có điểm xét tuyển học bạ j nhỉ
+    - hãy cho tôi biết điểm xét tuyển trung học phổ thông của ngành [công nghệ phần mềm]](Cong_nghe_thong_tin)
+    - ngành [phần mềm]](Cong_nghe_thong_tin) có điểm xét tuyển học bạ là j ?
+    - tư vấn về điểm xét tuyển học bạ của ngành [Toán học (Toán - tin học, Toán ứng dụng, Toán Lý thuyết)](Toan_hoc)
+    - ngành Toán học [(Toán - tin học, Toán ứng dụng, Toán Lý thuyết)](Toan_hoc) có điểm xét tuyển học bạ như nào
+    - vui lòng cho tôi biết về điểm xét tuyển của ngành [Toán học](Toan_hoc)
+    - ngành [Toán](Toan_hoc) có điểm xét tuyển học bạ là gì vậy ạ
+    - trường cho hỏi điểm xét tuyển của ngành [toán tin học](Toan_hoc)
+    - ngành [Toán –Tin học](Toan_hoc) có điểm xét tuyển thpt là ntn ạ
+    - tư vấn về điểm xét tuyển học bạ của ngành [Toán ứng dụng](Toan_hoc)
+    - ngành [Toán ứng dụng](Toan_hoc) có điểm xét tuyển học bạ là sao
+    - cho tôi hỏi điểm xét tuyển của ngành[Toán lý thuyết](Toan_hoc)
+    - ngành [Toán lý thuyết](Toan_hoc) có điểm xét tuyển trung học phổ thông sao nhỉ
+    - cho biết thông tin về điểm xét tuyển của ngành Thk và khdl
+    - ngành Tkê và kh dữ liệu có điểm xét tuyển học bạ như nào
+    - em muốn được tư vấn về điểm xét tuyển của ngành [Lý](Vat_Ly_hoc)
+    - [ngành Vl](Vat_Ly_hoc) có điểm xét tuyển như thế nào
+    - ad ơi, cho e hỏi điểm xét tuyển của ngành Công nghệ [K]ỹ thuật điện tử và viễn thông](Ky_thuat_dien_tu_vien_thong)
+    - ngành Công nghệ Kỹ thuật [điện tử-viễn thông](Ky_thuat_dien_tu_vien_thong) có điểm xét tuyển học bạ là như nào ạ
+    - có thể cho tôi biết thêm về điểm xét tuyển của ngành [kỹ thuật hạt nhân](Ky_thuat_hat_nhan)
+    - ngành [kỹ thuật hạt nhân](Ky_thuat_hat_nhan) có điểm xét tuyển học bạ ntn
+    - có thể cho tôi biết thêm về điểm xét tuyển học bạ của ngành Công nghệ kỹ thuật [điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa)
+    - ngành [công nghệ kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa) có điểm xét tuyển học bạ là j vậy
+    - ad ơi, cho e hỏi điểm xét tuyển của ngành [Hóa học (Hóa phân tích, Hóa hữu cơ)](Hoa_hoc)
+    - ngành [Hóa học](Hoa_hoc) (Hóa phân tích, Hóa hữu cơ) có điểm xét tuyển học bạ ntn
+    - cho hỏi điểm xét tuyển của ngành [Hóa](Hoa_hoc)
+    - ngành [hóa](Hoa_hoc) có điểm xét tuyển học bạ là sao
+    - cho hỏi điểm xét tuyển của ngành [Hóa phân tích](Hoa_hoc)
+    - ngành [Hóa phân tích](Hoa_hoc) có điểm xét tuyển thpt như nào
+    - ad cho em hỏi điểm xét tuyển của ngành [Hóa hữu cơ](Hoa_hoc) ứng dụng
+    - ngành [Hóa hữu cơ ứng dụng](Hoa_hoc) có điểm xét tuyển là ntn ạ
+    - cho em hỏi điểm xét tuyển của ngành [Khoa học Môi trường (Kỹ thuật môi trường, Quản lý môi trường)](Khoa_hoc_moi_truong)
+    - ngành [Khoa học Môi trường](Khoa_hoc_moi_truong) có điểm xét tuyển là gì vậy ạ
+    - em muốn được tư vấn về điểm xét tuyểncủa ngành [Kỹ thuật môi trường](Khoa_hoc_moi_truong)
+    - ngành [môi trường(Khoa_hoc_moi_truong) có điểm xét tuyển học bạ là j ?
+    - ad cho em hỏi điểm xét tuyển của ngành [Quản lý môi trường](Khoa_hoc_moi_truong)
+    - ngành [qly môi trường](Khoa_hoc_moi_truong) có điểm xét tuyển thpt là gì
+    - vui lòng cho tôi biết về điểm xét tuyển học bạ của ngành [Khoa học Môi trường](Khoa_hoc_moi_truong)
+    - ngành [kh Môi trường](Khoa_hoc_moi_truong) có điểm xét tuyển là bn ạ
+    - ad ơi, cho e hỏi điểm xét tuyển của ngành [dược](Hoa_duoc)
+    - ngành [hóa dược](Hoa_duoc) có điểm xét tuyển học bạ như nào ạ
+    - có thể tư vấn về điểm xét tuyển của ngành [Công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong)
+    - ngành [Công nghệ kt môi trường](Cong_nghe_moi_truong) có điểm xét tuyển học bạ như thế nào
+    - cho biết thông tin về điểm xét tuyển của ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc)
+    - ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc) có điểm xét tuyển là j vậy
+    - vui lòng cho tôi biết về điểm xét tuyển thpt của ngành [Sinh học](Sinh_hoc)
+    - ngành [Sinh học](Sinh_hoc) có điểm xét tuyển như nào ạ
+    - cho tôi hỏi điểm xét tuyển của ngành [Sinh học ứng dụng](Sinh_hoc)
+    - ngành [Sinh học ứng dụng](Sinh_hoc) có điểm xét tuyển học bạ như thế nào
+    - cho hỏi điểm xét tuyển học bạ của ngành [Công nghệ Sinh học](Cong_nghe_sinh_hoc)
+    - ngành [cn Sinh học](Cong_nghe_sinh_hoc) có điểm xét tuyển học bạ j nhỉ
+    - trường cho hỏi điểm xét tuyển của ngành [Nông học](Nong_hoc)
+    - ngành [Nông học](Nong_hoc) có điểm xét tuyển học bạ là gì vậy ạ
+    - có thể tư vấn về điểm xét tuyển của ngành [Cn Sau thu hoạch](Cong_nghe_sau_thu_hoach)
+    - ngành [cnsth](Cong_nghe_sau_thu_hoach) có điểm xét tuyển học bạ là như nào ạ
+    - tôi muốn hỏi về điểm xét tuyển học bạ của ngành [Công nghệ tp](Cong_nghe_thuc_pham)
+    - ngành Cn [thực phẩm](Cong_nghe_thuc_pham) có điểm xét tuyển sao nhỉ
+    - cho hỏi điểm xét tuyển học bạ của ngành [quản trị kinh doanh](Quan_tri_kinh_doanh)
+    - ngành [quản trị](Quan_tri_kinh_doanh) có điểm xét tuyển ntn
+    - cho em hỏi điểm thi thpt của ngành [Kế toán](Ke_toan)
+    - ngành [Kế toán](Ke_toan) có điểm thi thpt như nào
+    - có thể tư vấn về điểm thi thpt của ngành [Tài chính –ngân hàng](Tai_chinh_ngan_hang)
+    - ngành [tài chính ngân hàng](Tai_chinh_ngan_hang) có điểm thi thpt như nào
+    - trường cho hỏi điểm xét tuyển học bạ của ngành [Luật](Luat)
+    - ngành [Luật](Luat) có điểm thi thpt là gì
+    - có thể cho tôi biết thêm về điểm thi thpt của ngành [Xã hội học](Xa_hoi_hoc)
+    - ngành [Xã hội học](Xa_hoi_hoc) có điểm xét tuyển là j vậy
+    - trường cho em hỏi điểm xét tuyển của ngành Công tác xh
+    - ngành ct xã hội có điểm xét tuyển học bạ ntn nhỉ
+    - có thể cho tôi biết thêm về điểm xét tuyển của ngành [Dân số và Phát triển](Dan_so_va_phat_trien)
+    - ngành [Dân số và Phát triển](Dan_so_va_phat_trien) có điểm xét tuyển học bạ là j vậy
+    - tôi muốn biết thêm về điểm xét tuyển của ngành [văn hoá học](Van_hoa_hoc)
+    - ngành [Văn hoá học](Van_hoa_hoc) có điểm xét tuyển sao nhỉ
+    - ad cho hỏi điểm xét tuyển thi thpt của ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc)
+    - ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc) có điểm xét tuyển học bạ sao nhỉ
+    - cho tôi hỏi xét tuyển điểm thi thpt của ngành [Văn](Van_hoc)
+    - ngành [văn học](Van_hoc) có điểm thi thpt là j vậy
+    - hãy cho tôi biết điểm xét tuyển học bạ của ngành [Ngữ văn tổng hợp](Van_hoc)
+    - ngành [Ngữ văn](Van_hoc) có điểm điểm thi thpt ntn nhỉ
+    - vui lòng cho tôi thêm thông tin về điểm xét tuyển học bạ của ngành [Ngữ văn báo chí](Van_hoc)
+    - ngành [Ngữ văn báo chí](Van_hoc) có điểm xét tuyển học bạ j nhỉ
+    - có thể cho tôi biết thông tin về xét tuyển điểm thi thpt của ngành [sử](Lich_su)
+    - ngành [lịch Sử](Lich_su) có điểm xét tuyển học bạ là sao
+    - có thể cho e thông tin về điểm xét tuyển học bạ của ngành [Văn hóa du lịch](Van_hoa_du_lich)
+    - ngành [Văn hóa dl](Van_hoa_du_lich) có điểm xét tuyển học bạ như thế nào
+    - có thể cho e thông tin về xét tuyển điểm thi thpt của ngành [Trung Quốc học](Trung_quoc_hoc)
+    - ngành [tq học](Trung_quoc_hoc) có điểm xét tuyển học bạ là ntn ạ
+    - em muốn được tư vấn về điểm xét tuyển học bạ của ngành VN học
+    - ngành vn học có xét tuyển điểm thi thpt là j vậy
+    - em muốn được tư vấn về điểm xét tuyển học bạ của ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc)
+    - ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc) có điểm xét tuyển học bạ như nào
+    - cho e hỏi điểm xét tuyển học bạ của ngành [Đông phương học](Dong_phuong_hoc)
+    - ngành [Đông phương học](Dong_phuong_hoc) có điểm xét tuyển học bạ là gì
+    - tư vấn về điểm xét tuyển học bạ của ngành [hàn quốc học](Dong_phuong_hoc)
+    - ngành [Hq học](Dong_phuong_hoc) có điểm xét tuyển học bạ ntn nhỉ
+    - trường cho hỏi điểm xét tuyển học bạ của ngành [nb học](Dong_phuong_hoc)
+    - ngành [Nhật Bản học](Dong_phuong_hoc) có điểm xét tuyển học bạ là j vậy
+    - ad ơi, cho e hỏi điểm xét tuyển học bạ của ngành [Quốc tế học](Quoc_te_hoc)
+    - ngành [Quốc tế học](Quoc_te_hoc) có điểm xét tuyển học bạ như nào ạ
+    - cho e hỏi điểm xét tuyển học bạ của ngành [Quản trị dịch vụ du lịch và lữ hành](Quan_tri_du_lich)
+    - ngành [dịch vụ du lịch](Quan_tri_du_lich)có điểm xét tuyển học bạ là ntn ạ
+    - cho tôi hỏi điểm xét tuyển học bạ của ngành [nn Anh](Ngon_ngu_anh)
+    - ngành [Ngôn ngữ Anh](Ngon_ngu_anh) có điểm xét tuyển học bạ như nào ạ
+- intent: Cong_viec_ra_truong
+  examples: |
+    - em muốn được tư vấn về việc làm sau khi ra trường của ngành [Sư phạm Toán](Su_pham_toan) học
+    - ngành [Sư phạm Toán](Su_pham_toan) học có việc làm sau khi ra trường ntn
+    - cho e hỏi công việc sau khi ra trường của ngành [sư phạm tin học](Su_pham_tin)
+    - ngành [sư phạm tin học](Su_pham_tin) có công việc sau khi ra trường là gì vậy ạ
+    - hãy cho tôi biết việc làm sau khi ra trường của ngành [Giáo dục tiểu học](Giao_duc_tieu_hoc)
+    - học ngành [Giáo dục tiểu học](Giao_duc_tieu_hoc)có thể làm gì
+    - tôi muốn biết thêm về việc làm sau khi ra trường của ngành [Sư phạm Vật lý](Su_pham_vat_ly)
+    - học ngành [Sư phạm Vật lý](Su_pham_vat_ly) ra trường có thể làm việc ở đâu
+    - hãy tư vấn cho tôi về việc làm sau khi ra trường của ngành [Sư phạm hóa học](Su_pham_hoa_hoc)
+    - ngành [Sư phạm hóa học](Su_pham_hoa_hoc) có việc làm sau khi ra trường như nào
+    - hãy tư vấn cho tôi về công việc sau khi ra trường của ngành [sư phạm Sinh](Su_pham_sinh_hoc) học
+    - ngành [sư phạm Sinh](Su_pham_sinh_hoc) học ra trường có thể làm việc ở đâu
+    - hãy cho tôi biết công việc sau khi ra trường của ngành [Sư phạm Ngữ văn](Su_pham_ngu_van)
+    - học ngành [Sư phạm Ngữ văn](Su_pham_ngu_van) có công việc sau khi ra trường ntn
+    - cho biết thông tin về công việc sau khi ra trường của ngành [Sư phạm Lịch sử](Su_pham_lich_su)
+    - ngành [Sư phạm Lịch sử](Su_pham_lich_su) có công việc sau khi ra trường là sao
+    - có thể tư vấn về việc làm sau khi ra trường của ngành [Sư phạm Tiếng Anh](Su_pham_tieng_anh)
+    - ngành[Sư phạm Tiếng Anh](Su_pham_tieng_anh) có việc làm sau khi ra trường là như nào ạ
+    - cho hỏi việc làm sau khi ra trường của ngành [Công nghệ Thông tin](Cong_nghe_thong_tin) (mạng máy tính, kỹ thuật phần mềm, khoa học dữ liệu)
+    - học ngành [Công nghệ Thông tin](Cong_nghe_thong_tin) (mạng máy tính, kỹ thuật phần mềm, khoa học dữ liệu) có thể làm gì ạ
+    - cho tôi hỏi việc làm sau khi ra trường của ngành [Công nghệ tt](Cong_nghe_thong_tin)
+    - ngành [cntt](Cong_nghe_thong_tin) có việc làm sau khi ra trường ntn nhỉ
+    - vui lòng cho tôi thêm thông tin về công việc sau khi ra trường của ngành [Mạng máy tính](Cong_nghe_thong_tin)
+    - ngành [Mạng máy tính](Cong_nghe_thong_tin) có công việc sau khi ra trường là như nào ạ
+    - trường cho hỏi việc làm sau khi ra trường của ngành [Kỹ thuật phần mềm](Cong_nghe_thong_tin)
+    - học ngành [Kỹ thuật phần mềm](Cong_nghe_thong_tin) có việc làm sau khi ra trường là j vậy
+    - tư vấn về công việc sau khi ra trường của ngành [Toán học (Toán - tin học, Toán ứng dụng, Toán Lý thuyết)](Toan_hoc)
+    - ngành [Toán học (Toán - tin học]](Toan_hoc), Toán ứng dụng, Toán Lý thuyết) có công việc sau khi ra trường như thế nào
+    - ad ơi, cho e hỏi công việc sau khi ra trường của ngành [Toán học](Toan_hoc)
+    - ngành [Toán học](Toan_hoc) có công việc sau khi ra trường là ntn ạ
+    - ad ơi, cho e hỏi việc làm sau khi ra trường của ngành [Toán – Tin học](Toan_hoc)
+    - ngành [toán tin](Toan_hoc) ra trường có thể làm việc ở đâu
+    - hãy cho tôi biết công việc sau khi ra trường của ngành [Toán ứng dụng](Toan_hoc)
+    - ngành [Toán ứng dụng](Toan_hoc) có công việc sau khi ra trường là gì vậy ạ
+    - hãy tư vấn cho tôi về công việc sau khi ra trường của ngành [Toán lý thuyết](Toan_hoc)
+    - ngành [Toán lý thuyết](Toan_hoc) ra trường có thể làm việc ở đâu
+    - hãy tư vấn cho tôi về việc làm sau khi ra trường của ngành [Thống kê và khoa học dữ liệu](Thong_ke_KHDL)
+    - ngành [Thống kê và khoa học dữ liệu](Thong_ke_KHDL) có việc làm sau khi ra trường như nào ạ
+    - trường cho hỏi công việc sau khi ra trường của ngành [Vật lý học](Vat_Ly_hoc)
+    - học [ngành Vật lý](Vat_Ly_hoc) học có công việc sau khi ra trường là gì vậy ạ
+    - có thể cho tôi biết thêm về công việc sau khi ra trường của ngành Công nghệ Kỹ thuật [điện tử - viễn thông](Ky_thuat_dien_tu_vien_thong)
+    - ngành Công nghệ Kỹ thuật điện tử -[] viễn thông](Ky_thuat_dien_tu_vien_thong) có công việc sau khi ra trường là sao
+    - cho biết thông tin về công việc sau khi ra trường của ngành [Kỹ thuật hạt nhân](Ky_thuat_hat_nhan)
+    - ngành [Kỹ thuật hạt nhân](Ky_thuat_hat_nhan) ra trường có thể làm việc ở đâu
+    - cho hỏi công việc sau khi ra trường của ngành Công nghệ kỹ thuật [điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa)
+    - ngành [Công nghệ kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa) có công việc sau khi ra trường là j vậy
+    - cho hỏi công việc sau khi ra trường của ngành [Hóa học (Hóa phân tích, Hóa hữu cơ)](Hoa_hoc)
+    - ngành [Hóa học](Hoa_hoc) (Hóa phân tích, Hóa hữu cơ) có công việc sau khi ra trường là gì
+    - cho em hỏi việc làm sau khi ra trường của ngành [Hóa](Hoa_hoc) học
+    - ngành [Hóa học](Hoa_hoc) có việc làm sau khi ra trường là j vậy
+    - trường cho hỏi việc làm sau khi ra trường của ngành [Hóa phân tích](Hoa_hoc)
+    - ngành [Hóa phân tích](Hoa_hoc) ra trường có thể làm việc ở đâu
+    - trường cho em hỏi công việc sau khi ra trường của ngành [Hóa hữu cơ](Hoa_hoc) ứng dụng
+    - ngành [Hóa hữu cơ](Hoa_hoc) ứng dụng có công việc sau khi ra trường là sao
+    - cho tôi hỏi việc làm sau khi ra trường của ngành [Khoa học Môi trường (Kỹ thuật môi trường, Quản lý môi trường)](Khoa_hoc_moi_truong)
+    - ngành [Khoa học Môi trường](Khoa_hoc_moi_truong) có việc làm sau khi ra trường là như nào ạ
+    - có thể cho e thông tin về việc làm sau khi ra trường của ngành [Kỹ thuật môi trường](Khoa_hoc_moi_truong)
+    - ngành [ kh môi trường](Khoa_hoc_moi_truong) ra trường có thể làm việc ở đâu
+    - cho hỏi công việc sau khi ra trường của ngành [Quản lý môi trường](Khoa_hoc_moi_truong)
+    - ngành [Quản lý môi trường](Khoa_hoc_moi_truong) có công việc sau khi ra trường là j vậy
+    - cho biết thông tin về công việc sau khi ra trường của ngành [Khoa học Môi trường](Khoa_hoc_moi_truong)
+    - ngành [Khoa học Môi trường](Khoa_hoc_moi_truong) có công việc sau khi ra trường là sao
+    - trường cho em hỏi việc làm sau khi ra trường của ngành [Hóa dược](Hoa_duoc)
+    - ngành [dược](Hoa_duoc) có việc làm sau khi ra trường như thế nào
+    - cho biết thông tin về công việc sau khi ra trường của ngành [Công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong)
+    - ngành[Công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong) ra trường có thể làm việc ở đâu
+    - ad ơi, cho e hỏi việc làm sau khi ra trường của ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc)
+    - ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc) có việc làm sau khi ra trường là gì
+    - trường cho hỏi công việc sau khi ra trường của ngành [Sinh học](Sinh_hoc)
+    - ngành [Sinh học](Sinh_hoc) có công việc sau khi ra trường là gì
+    - ad cho hỏi việc làm sau khi ra trường của ngành [Sinh học ứng dụng](Sinh_hoc)
+    - ngành [Sinh học](Sinh_hoc) có việc làm sau khi ra trường là j ?
+    - cho biết thông tin về công việc sau khi ra trường của ngành [Công nghệ Sinh học](Cong_nghe_sinh_hoc)
+    - ngành [Công nghệ Sinh học](Cong_nghe_sinh_hoc) ra trường có thể làm việc ở đâu
+    - ad cho hỏi công việc sau khi ra trường của ngành [Nông học](Nong_hoc)
+    - ngành [Nông học](Nong_hoc) có thể làm gì
+    - vui lòng cho tôi thêm thông tin về công việc sau khi ra trường của ngành [Công nghệ Sau thu hoạch](Cong_nghe_sau_thu_hoach)
+    - ngành [Công nghệ Sau thu hoạch](Cong_nghe_sau_thu_hoach) có công việc sau khi ra trường như nào
+    - hãy cho tôi biết công việc sau khi ra trường của ngành [Công nghệ thực phẩm](Cong_nghe_thuc_pham)
+    - học ngành [cn thực phẩm](Cong_nghe_thuc_pham) ra trường có thể làm gì ?
+    - hãy cho tôi biết công việc sau khi ra trường của ngành [Quản trị Kinh doanh](Quan_tri_kinh_doanh)
+    - ngành [Quản trị Kinh doanh](Quan_tri_kinh_doanh) có công việc sau khi ra trường là j vậy
+    - cho biết thông tin về công việc sau khi ra trường của ngành [Kế toán](Ke_toan)
+    - ngành [Kế toán](Ke_toan) có thể làm gì
+    - cho biết thông tin về việc làm sau khi ra trường của ngành [Tài chính – Ngân hàng](Tai_chinh_ngan_hang)
+    - ngành [Tài chính Ngân hàng](Tai_chinh_ngan_hang) ra trường có thể làm việc ở đâu
+    - cho e hỏi công việc sau khi ra trường của ngành [Luật](Luat)
+    - ngành [Luật](Luat) có công việc sau khi ra trường là gì vậy ạ
+    - có thể tư vấn về công việc sau khi ra trường của ngành [Xã hội học](Xa_hoi_hoc)
+    - ngành [Xã hội học](Xa_hoi_hoc) có công việc sau khi ra trường sao nhỉ
+    - hãy cho tôi biết công việc sau khi ra trường của ngành [ct xã hội](Cong_tac_xa_hoi)
+    - ngành [ctxh](Cong_tac_xa_hoi) có công việc sau khi ra trường như nào ạ
+    - trường cho hỏi công việc sau khi ra trường của ngành [Dân số và Phát triển](Dan_so_va_phat_trien)
+    - ngành [Dân số và Phát triển](Dan_so_va_phat_trien) có công việc sau khi ra trường như nào
+    - cho biết thông tin về công việc sau khi ra trường của ngành [Văn hoá học](Van_hoa_hoc)
+    - ngành [Văn hoá học](Van_hoa_hoc) có công việc sau khi ra trường là sao
+    - em muốn được tư vấn về việc làm sau khi ra trường của ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc)
+    - ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc) có việc làm sau khi ra trường là gì vậy ạ
+    - hãy tư vấn cho tôi về công việc sau khi ra trường của ngành [Văn học](Van_hoc)
+    - ngành [Văn](Van_hoc) ra trường có thể làm việc ở đâu
+    - hãy tư vấn cho tôi về công việc sau khi ra trường của ngành [Ngữ văn tổng hợp](Van_hoc)
+    - ngành [Ngữ văn tổng hợp](Van_hoc) có thể làm gì
+    - cho tôi hỏi việc làm sau khi ra trường của ngành [Ngữ văn báo chí](Van_hoc)
+    - học ngành [Ngữ văn báo chí](Van_hoc) có thể làm gì
+    - ad cho em hỏi việc làm sau khi ra trường của ngành [Lịch sử](Lich_su)
+    - ngành Lịch sử có việc làm sau khi ra trường là ntn ạ
+    - vui lòng cho tôi thêm thông tin về việc làm sau khi ra trường của ngành [Văn hóa du lịch](Van_hoa_du_lich)
+    - ngành [Văn hóa du lịch](Van_hoa_du_lich) có việc làm sau khi ra trường là gì
+    - có thể cho e thông tin về công việc sau khi ra trường của ngành [Trung Quốc học](Trung_quoc_hoc)
+    - học ngành [Trung Quốc học](Trung_quoc_hoc) ra trường có thể làm gì
+    - cho e hỏi công việc sau khi ra trường của ngành [VN học](Viet_nam_hoc)
+    - học ngành [Việt Nam học](Viet_nam_hoc) có thể làm gì
+    - cho hỏi công việc sau khi ra trường của ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc)
+    - ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc) có thể làm gì
+    - ad ơi, cho e hỏi việc làm sau khi ra trường của ngành [Đông phương học](Dong_phuong_hoc)
+    - ngành [Đông phương học](Dong_phuong_hoc) ra trường có thể làm việc ở đâu
+    - vui lòng cho tôi thêm thông tin về công việc sau khi ra trường của ngành [Hàn Quốc học](Dong_phuong_hoc)
+    - học ngành [Hàn Quốc học](Dong_phuong_hoc) có thể làm gì
+    - vui lòng cho tôi biết về việc làm sau khi ra trường của ngành [Nhật Bản học](Dong_phuong_hoc)
+    - ngành [Nhật Bản học](Dong_phuong_hoc) có việc làm sau khi ra trường như thế nào
+    - tôi muốn biết thêm về việc làm sau khi ra trường của ngành [Quốc tế học](Quoc_te_hoc)
+    - ngành [Quốc tế học](Quoc_te_hoc) có việc làm sau khi ra trường là ntn ạ
+    - cho em hỏi công việc sau khi ra trường của ngành [Quản trị dịch vụ du lịch và lữ hành](Quan_tri_du_lich)
+    - ngành [du lịch](Quan_tri_du_lich) và lữ hành có công việc sau khi ra trường như nào ạ
+    - tôi muốn hỏi về công việc sau khi ra trường của ngành [Ngôn ngữ Anh](Ngon_ngu_anh)
+    - ngành [Ngôn ngữ Anh](Ngon_ngu_anh) có thể làm gì
+- intent: To_hop_xet_tuyen
+  examples: |
+    - có thể cho tôi biết thông tin về tổ hợp xét tuyển của ngành [Sp Toán](Su_pham_toan)
+    - ngành [Sp Toán](Su_pham_toan) có tổ hợp xét tuyển như nào
+    - trường cho em hỏi tổ hợp xét tuyển của ngành [Sp Tin](Su_pham_tin)
+    - ngành [Sư phạm Tin học](Su_pham_tin) có tổ hợp xét tuyển là sao
+    - ad ơi, cho e hỏi tổ hợp xét tuyển của ngành [[giáo viên tiểu học](Giao_duc_tieu_hoc)](Giao_duc_tieu_hoc)
+    - ngành [[Giáo dục tiểu học](Giao_duc_tieu_hoc)](Giao_duc_tieu_hoc) khối nào ạ
+    - ad cho em hỏi tổ hợp xét tuyển của ngành [Sp Vật lý](Su_pham_vat_ly)
+    - ngành [Sư phạm Vật lý](Su_pham_vat_ly) có tổ hợp xét tuyển là j ?
+    - vui lòng cho tôi thêm thông tin về tổ hợp xét tuyển của ngành [Sp Hóa học](Su_pham_hoa_hoc)
+    - ngành [Sư phạm Hóa học](Su_pham_hoa_hoc) có tổ hợp xét tuyển là j vậy
+    - tư vấn về tổ hợp môn xét tuyển của ngành [Sp Sinh học](Su_pham_sinh_hoc)
+    - ngành [Sư phạm Sinh học](Su_pham_sinh_hoc) có tổ hợp môn xét tuyển là gì vậy ạ
+    - cho em hỏi tổ hợp môn xét tuyển của ngành [Sư phạm Ngữ văn](Su_pham_ngu_van)
+    - ngành [Sp Ngữ văn](Su_pham_ngu_van) khối nào ạ
+    - hãy tư vấn cho tôi về tổ hợp môn xét tuyển của ngành [Sư phạm sử](Su_pham_lich_su)
+    - ngành [Sư phạm lịch sử](Su_pham_lich_su) có tổ hợp môn xét tuyển như thế nào
+    - cho biết thông tin về tổ hợp môn xét tuyển của ngành [sp Tiếng Anh](Su_pham_tieng_anh)
+    - ngành [sư phạm Tiếng Anh](Su_pham_tieng_anh) có xét D01 k ạ
+    - cho em hỏi tổ hợp môn xét tuyển của ngành [cntt](Cong_nghe_thong_tin)
+    - ngành [công nghệ thông tin](Cong_nghe_thong_tin) khối nào ạ
+    - tôi muốn biết thêm về các môn xét tuyển của ngành [Công nghệ Thông tin](Cong_nghe_thong_tin)
+    - ngành [Công nghệ Thông tin](Cong_nghe_thong_tin) có các môn xét tuyển như nào ạ
+    - cho e hỏi các môn xét tuyển của ngành [Mạng máy tính](Cong_nghe_thong_tin)
+    - ngành [Mạng máy tính](Cong_nghe_thong_tin) có các môn xét tuyển sao nhỉ
+    - hãy cho tôi biết các môn xét tuyển của ngành [Khoa học dữ liệu](Cong_nghe_thong_tin)
+    - ngành [Khoa học dữ liệu](Cong_nghe_thong_tin) ] khối nào ạ
+    - em muốn được tư vấn về các môn xét tuyển của ngành [phần mềm](Cong_nghe_thong_tin)
+    - ngành [phần mềm](Cong_nghe_thong_tin) có các môn xét tuyển ntn nhỉ
+    - cho biết thông tin về các môn xét tuyển của ngành [toán](Toan_hoc)
+    - ngành [toán](Toan_hoc) có xét A00 k ạ
+    - trường cho em hỏi tổ hợp xét tuyển của ngành [Toán học](Toan_hoc)
+    - ngành [Toán học](Toan_hoc) có tổ hợp xét tuyển như nào
+    - vui lòng cho tôi biết về các khối xét tuyển của ngành [Toán Tin học](Toan_hoc)
+    - ngành [Toán Tin học](Toan_hoc) có tổ hợp xét tuyển ntn nhỉ
+    - có thể tư vấn về các khối xét tuyển của ngành [Toán ứng dụng](Toan_hoc)
+    - ngành [Toán ứng dụng](Toan_hoc) có tổ hợp xét tuyển là gì vậy ạ
+    - cho e hỏi các khối xét tuyển của ngành [Toán lý thuyết](Toan_hoc)
+    - ngành [Toán lý thuyết](Toan_hoc) thi khối nào ạ
+    - tôi muốn biết thêm về tổ hợp xét tuyển của ngành [Thống kê và khoa học dữ liệu](Thong_ke_KHDL)
+    - ngành [Thống kê và khoa học dữ liệu](Thong_ke_KHDL) có tổ hợp xét tuyển j nhỉ
+    - ad cho hỏi tổ hợp xét tuyển của ngành [Vật lý học](Vat_Ly_hoc)
+    - ngành [Vật lý học](Vat_Ly_hoc) có tổ hợp xét tuyển j nhỉ
+    - vui lòng cho tôi thêm thông tin về tổ hợp xét tuyển của ngành [Kỹ thuật điện tử - viễn thông](Ky_thuat_dien_tu_vien_thong)
+    - ngành [Kỹ thuật điện tử - viễn thông](Ky_thuat_dien_tu_vien_thong) có các khối xét tuyển ntn
+    - hãy tư vấn cho tôi về tổ hợp xét tuyển của ngành [Kỹ thuật hạt nhân](Ky_thuat_hat_nhan)
+    - ngành [Kỹ thuật hạt nhân](Ky_thuat_hat_nhan) có xét D90 k ạ
+    - tôi muốn biết thêm về các khối xét tuyển của ngành [kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa)
+    - ngành [kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa) có tổ hợp xét tuyển là ntn ạ
+    - có thể tư vấn về tổ hợp xét tuyển của ngành [Hóa](Hoa_hoc)
+    - ngành [Hóa](Hoa_hoc) thi khối nào ạ
+    - trường cho em hỏi tổ hợp xét tuyển của ngành [Hóa học](Hoa_hoc)
+    - ngành [Hóa học](Hoa_hoc) có các khối xét tuyển là ntn ạ
+    - trường cho hỏi tổ hợp xét tuyển của ngành [Hóa phân tích](Hoa_hoc)
+    - ngành [Hóa phân tích](Hoa_hoc) có xét D90 k ạ
+    - hãy cho tôi biết các khối xét tuyển của ngành [ Hóa hữu cơ ứng dụng](Hoa_hoc)
+    - ngành [ Hóa hữu cơ ứng dụng](Hoa_hoc) có tổ hợp xét tuyển ntn nhỉ
+    - ad ơi, cho e hỏi tổ hợp xét tuyển của ngành [ kh môi trường](Khoa_hoc_moi_truong)
+    - ngành [ khoa học môi trường](Khoa_hoc_moi_truong) có xét B07 k ạ
+    - cho tôi hỏi các khối xét tuyển của ngành [Kỹ thuật môi trường](Khoa_hoc_moi_truong)
+    - ngành [Kỹ thuật môi trường](Khoa_hoc_moi_truong) thi khối nào ạ
+    - cho tôi hỏi tổ hợp xét tuyển của ngành [Quản lý môi trường](Khoa_hoc_moi_truong)
+    - ngành [Quản lý môi trường](Khoa_hoc_moi_truong) thi khối nào ạ
+    - vui lòng cho tôi thêm thông tin về tổ hợp xét tuyển của ngành [Khoa học Môi trường](Khoa_hoc_moi_truong)
+    - ngành [Khoa học Môi trường](Khoa_hoc_moi_truong) có tổ hợp xét tuyển như nào
+    - cho tôi hỏi tổ hợp xét tuyển của ngành [Hóa dược](Hoa_duoc)
+    - ngành [dược](Hoa_duoc) có tổ hợp xét tuyển là ntn ạ
+    - cho biết thông tin về tổ hợp xét tuyển của ngành [Công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong)
+    - ngành [Công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong) có tổ hợp xét tuyển như nào
+    - vui lòng cho tôi biết về tổ hợp xét tuyển của ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc)
+    - ngành [Sinh học (Sinh học ứng dụng)](Sinh_hoc) thi khối nào ạ
+    - trường cho hỏi tổ hợp xét tuyển của ngành [Sinh học](Sinh_hoc)
+    - ngành [Sinh học](Sinh_hoc) có tổ hợp xét tuyển ntn nhỉ
+    - vui lòng cho tôi thêm thông tin về tổ hợp xét tuyển của ngành [Sinh học ứng dụng](Sinh_hoc)
+    - ngành [Sinh học ứng dụng](Sinh_hoc) có tổ hợp xét tuyển như thế nào
+    - trường cho hỏi tổ hợp xét tuyển của ngành [Công nghệ Sinh học](Cong_nghe_sinh_hoc)
+    - ngành [Công nghệ Sinh học](Cong_nghe_sinh_hoc) thi khối nào ạ
+    - cho e hỏi tổ hợp xét tuyển của ngành [Nông học](Nong_hoc)
+    - ngành [Nông học](Nong_hoc) có tổ hợp xét tuyển ntn nhỉ
+    - tư vấn về tổ hợp xét tuyển của ngành [Công nghệ Sau thu hoạch](Cong_nghe_sau_thu_hoach)
+    - ngành [Công nghệ Sau thu hoạch](Cong_nghe_sau_thu_hoach) có tổ hợp xét tuyển j nhỉ
+    - hãy cho tôi biết tổ hợp xét tuyển của ngành [Công nghệ thực phẩm](Cong_nghe_thuc_pham)
+    - ngành [Công nghệ thực phẩm](Cong_nghe_thuc_pham) thi khối nào ạ
+    - tôi muốn hỏi về tổ hợp xét tuyển của ngành [Quản trị Kinh doanh](Quan_tri_kinh_doanh)
+    - ngành [Quản trị Kinh doanh](Quan_tri_kinh_doanh) có tổ hợp xét tuyển như thế nào
+    - trường cho em hỏi tổ hợp xét tuyển của ngành [Kế toán](Ke_toan)
+    - ngành [Kế toán](Ke_toan) có tổ hợp xét tuyển là j ?
+    - tư vấn về tổ hợp xét tuyển của ngành [Tài chính – Ngân hàng](Tai_chinh_ngan_hang)
+    - ngành [Tài chính – Ngân hàng](Tai_chinh_ngan_hang) thi khối nào ạ
+    - em muốn được tư vấn về tổ hợp xét tuyển của ngành [Luật](Luat)
+    - ngành [Luật](Luat) có tổ hợp xét tuyển như nào
+    - hãy cho tôi biết tổ hợp xét tuyển của ngành [Xã hội học](Xa_hoi_hoc)
+    - ngành [Xã hội học](Xa_hoi_hoc) thi khối nào ạ
+    - cho em hỏi tổ hợp xét tuyển của ngành [Công tác xã hội](Cong_tac_xa_hoi)
+    - ngành [Công tác xã hội](Cong_tac_xa_hoi) có tổ hợp xét tuyển là ntn ạ
+    - tôi muốn biết thêm về tổ hợp xét tuyển của ngành [Dân số và Phát triển](Dan_so_va_phat_trien)
+    - ngành [Dân số và Phát triển](Dan_so_va_phat_trien) thi khối nào ạ
+    - cho tôi hỏi tổ hợp xét tuyển của ngành [Văn hoá học](Van_hoa_hoc)
+    - ngành [Văn hoá học](Van_hoa_hoc) có tổ hợp xét tuyển ntn
+    - vui lòng cho tôi thêm thông tin về tổ hợp xét tuyển của ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc)
+    - ngành [Văn học (Ngữ văn tổng hợp, Ngữ văn báo chí)](Van_hoc) khối nào ạ
+    - có thể cho tôi biết thêm về tổ hợp xét tuyển của ngành [Văn học](Van_hoc)
+    - ngành [Văn học](Van_hoc) có tổ hợp xét tuyển là j vậy
+    - ad cho hỏi tổ hợp xét tuyển của ngành [Ngữ văn](Van_hoc)
+    - ngành [Ngữ văn](Van_hoc) có tổ hợp xét tuyển là như nào ạ
+    - tư vấn về tổ hợp xét tuyển của ngành [Ngữ văn báo chí](Van_hoc)
+    - ngành [Ngữ văn báo chí](Van_hoc) khối nào ạ
+    - ad ơi, cho e hỏi tổ hợp xét tuyển của ngành [Lịch sử](Lich_su)
+    - ngành [Lịch sử](Lich_su) có tổ hợp xét tuyển như nào ạ
+    - vui lòng cho tôi biết về tổ hợp xét tuyển của ngành [Văn hóa du lịch](Van_hoa_du_lich)
+    - ngành [Văn hóa du lịch](Van_hoa_du_lich) khối nào ạ
+    - hãy tư vấn cho tôi về tổ hợp xét tuyển của ngành [Trung Quốc học](Trung_quoc_hoc)
+    - ngành [Trung Quốc học](Trung_quoc_hoc) có tổ hợp xét tuyển là ntn ạ
+    - trường cho em hỏi tổ hợp xét tuyển của ngành [Việt Nam học](Viet_nam_hoc)
+    - ngành [Vn học](Viet_nam_hoc) khối nào ạ
+    - tôi muốn biết thêm về tổ hợp xét tuyển của ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc)
+    - ngành [Đông phương học (Hàn Quốc học, Nhật Bản học)](Dong_phuong_hoc) có tổ hợp xét tuyển như nào ạ
+    - trường cho hỏi tổ hợp xét tuyển của ngành [Đông phương học](Dong_phuong_hoc)
+    - ngành [Đông phương học](Dong_phuong_hoc) có tổ hợp xét tuyển là như nào ạ
+    - cho hỏi tổ hợp xét tuyển của ngành [Hàn Quốc học](Dong_phuong_hoc)
+    - ngành [Hàn Quốc học](Dong_phuong_hoc) khối nào ạ
+    - có thể cho tôi biết thông tin về tổ hợp xét tuyển của ngành [Nhật Bản học](Dong_phuong_hoc)
+    - ngành [Nhật Bản học](Dong_phuong_hoc) khối nào ạ
+    - ad ơi, cho e hỏi tổ hợp xét tuyển của ngành [Quốc tế học](Quoc_te_hoc)
+    - ngành [Quốc tế học](Quoc_te_hoc) khối nào ạ
+    - trường cho hỏi tổ hợp xét tuyển của ngành [quản trị du lịch và lữ hành](Quan_tri_du_lich)
+    - ngành [du lịch và lữ hành](Quan_tri_du_lich) có tổ hợp xét tuyển là j ?
+    - ad ơi, cho e hỏi tổ hợp xét tuyển của ngành [Ngôn ngữ Anh](Ngon_ngu_anh)
+    - ngành [Ngôn ngữ Anh](Ngon_ngu_anh) có tổ hợp xét tuyển là j ?
+- intent: Ti_le_co_viec_lam
+  examples: |
+    - ad ơi, cho e hỏi khả năng việc làm của ngành [sư phạm toán](Su_pham_toan)
+    - ngành [SP TOÁN](Su_pham_toan) có nhiều cơ hội xin việc k
+    - tôi muốn biết thêm về khả năng việc làm của ngành [sp tin](Su_pham_tin)
+    - ngành [sư phạm TIN học](Su_pham_tin) có dễ xin việc k
+    - em muốn được tư vấn về khả năng việc làm của ngành [Giáo dục tiểu học](Giao_duc_tieu_hoc)]
+    - ngành [Giáo dục tiểu học](Giao_duc_tieu_hoc) có dễ xin việc k
+    - vui lòng cho tôi thêm thông tin về khả năng việc làm của ngành [sư phạm vật lý](Su_pham_vat_ly)
+    - ngành [SP VẬT LÝ](Su_pham_vat_ly) có dễ kiếm việc làm k
+    - có thể cho e thông tin về khả năng việc làm của ngành [sư phạm hóa học](Su_pham_hoa_hoc)
+    - ngành [SP HÓA HỌC](Su_pham_hoa_hoc) khả năng việc làm như thế nào
+    - tôi muốn biết thêm về tỉ lệ có việc làm của ngành [sư phạm sinh học](Su_pham_sinh_hoc)
+    - ngành [SP SINH HỌC](Su_pham_sinh_hoc) có nhiều cơ hội xin việc k
+    - tôi muốn biết thêm về tỉ lệ có việc làm của ngành [sư phạm ngữ văn](Su_pham_ngu_van)
+    - ngành [SP NGỮ VĂN](Su_pham_ngu_van) tỉ lệ có việc làm như nào ạ
+    - ad ơi, cho e hỏi tỉ lệ có việc làm của ngành [sư phạm lịch sử](Su_pham_lich_su)
+    - ngành [SƯ PHẠM SỬ](Su_pham_lich_su) tỉ lệ có việc làm là ntn ạ
+    - hãy tư vấn cho tôi về cơ hội việc làm của ngành [sư phạm tiếng anh](Su_pham_tieng_anh)
+    - ngành [SP TIẾNG ANH](Su_pham_tieng_anh) cơ hội việc làm như thế nào
+    - trường cho hỏi cơ hội việc làm của ngành [cntt](Cong_nghe_thong_tin)
+    - ngành [CNTT](Cong_nghe_thong_tin) cơ hội việc làm ntn
+    - hãy cho tôi biết cơ hội việc làm của ngành [công nghệ thông tin](Cong_nghe_thong_tin)
+    - ngành [CÔNG NGHỆ THÔNG TIN](Cong_nghe_thong_tin) cơ hội việc làm là sao
+    - có thể cho tôi biết thêm về cơ hội việc làm của ngành [mạng máy tính](Cong_nghe_thong_tin)
+    - ngành [MẠNG MÁY TÍNH](Cong_nghe_thong_tin) có dễ kiếm việc làm k
+    - ad cho hỏi khả năng việc làm của ngành [khoa học dữ liệu](Cong_nghe_thong_tin)
+    - ngành [KHOA HỌC DỮ LIỆU](Cong_nghe_thong_tin) khả năng việc làm sao nhỉ
+    - ad cho hỏi cơ hội việc làm của ngành [phần mềm](Cong_nghe_thong_tin)
+    - ngành [PHẦN MỀM](Cong_nghe_thong_tin) cơ hội việc làm như nào
+    - ad ơi, cho e hỏi tỉ lệ có việc làm của ngành [toán](Toan_hoc)
+    - ngành [TOÁN](Toan_hoc) tỉ lệ có việc làm là như nào ạ
+    - tư vấn về cơ hội việc làm của ngành [toán học](Toan_hoc)
+    - ngành [TOÁN HỌC](Toan_hoc) cơ hội việc làm là sao
+    - cho biết thông tin về khả năng việc làm của ngành [toán tin học](Toan_hoc)
+    - ngành [TOÁN TIN HỌC](Toan_hoc) khả năng việc làm là j vậy
+    - ad cho em hỏi cơ hội việc làm của ngành [toán ứng dụng](Toan_hoc)
+    - ngành [TOÁN ỨNG DỤNG](Toan_hoc) cơ hội việc làm là như nào ạ
+    - ad ơi, cho e hỏi cơ hội việc làm của ngành [toán lý thuyết](Toan_hoc)
+    - ngành [TOÁN LÝ THUYẾT](Toan_hoc) có dễ kiếm việc làm k
+    - có thể tư vấn về cơ hội việc làm của ngành [thống kê và khoa học dữ liệu](Thong_ke_KHDL)
+    - ngành [THỐNG KÊ VÀ KHOA HỌC DỮ LIỆU](Thong_ke_KHDL) có dễ kiếm việc làm k
+    - có thể cho tôi biết thông tin về cơ hội việc làm của ngành [vật lý học](Vat_Ly_hoc)
+    - ngành [VẬT LÝ HỌC](Vat_Ly_hoc) cơ hội việc làm là như nào ạ
+    - có thể cho tôi biết thêm về cơ hội việc làm của ngành [kỹ thuật điện tử - viễn thông](Ky_thuat_dien_tu_vien_thong)
+    - ngành [KỸ THUẬT ĐIỆN TỬ - VIỄN THÔNG](Ky_thuat_dien_tu_vien_thong) cơ hội việc làm là như nào ạ
+    - cho hỏi khả năng việc làm của ngành [kỹ thuật hạt nhân](Ky_thuat_hat_nhan)
+    - ngành [KỸ THUẬT HẠT NHÂN](Ky_thuat_hat_nhan) khả năng việc làm là ntn ạ
+    - vui lòng cho tôi thêm thông tin về tỉ lệ có việc làm của ngành [kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa)
+    - ngành [KỸ THUẬT ĐIỀU KHIỂN VÀ TỰ ĐỘNG HÓA](Ky_thuat_dieu_khien_tu_dong_hoa) tỉ lệ có việc làm là như nào ạ
+    - vui lòng cho tôi thêm thông tin về tỉ lệ có việc làm của ngành [hóa](Hoa_hoc)
+    - ngành [HÓA](Hoa_hoc) có nhiều cơ hội xin việc k
+    - em muốn được tư vấn về cơ hội việc làm của ngành [hóa học](Hoa_hoc)
+    - ngành [HÓA HỌC](Hoa_hoc) cơ hội việc làm ntn
+    - cho e hỏi tỉ lệ có việc làm của ngành [hóa phân tích](Hoa_hoc)
+    - ngành [HÓA PHÂN TÍCH](Hoa_hoc) có dễ xin việc không ạ
+    - cho biết thông tin về cơ hội việc làm của ngành [ hóa hữu cơ ứng dụng](Hoa_hoc)
+    - ngành [ HÓA HỮU CƠ ỨNG DỤNG](Hoa_hoc) có dễ kiếm việc làm k
+    - có thể tư vấn về khả năng việc làm của ngành [khoa học môi trường](Khoa_hoc_moi_truong)
+    - ngành [ khoa học môi trường](Khoa_hoc_moi_truong) khả năng việc làm như nào
+    - em muốn được tư vấn về khả năng việc làm của ngành [kỹ thuật môi trường](Khoa_hoc_moi_truong)
+    - ngành [KỸ THUẬT MÔI TRƯỜNG](Khoa_hoc_moi_truong) khả năng việc làm là j ?
+    - em muốn được tư vấn về tỉ lệ có việc làm của ngành [quản lý môi trường](Khoa_hoc_moi_truong)
+    - ngành [QUẢN LÝ MÔI TRƯỜNG](Khoa_hoc_moi_truong) có dễ kiếm việc làm k
+    - tư vấn về tỉ lệ có việc làm của ngành [khoa học môi trường](Khoa_hoc_moi_truong)
+    - ngành [KHOA HỌC MÔI TRƯỜNG](Khoa_hoc_moi_truong) tỉ lệ có việc làm là sao
+    - em muốn được tư vấn về khả năng việc làm của ngành [hóa dược](Hoa_duoc)
+    - ngành [dược](Hoa_duoc) khả năng việc làm như thế nào
+    - có thể cho e thông tin về khả năng việc làm của ngành [công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong)
+    - ngành [CÔNG NGHỆ KỸ THUẬT MÔI TRƯỜNG](Cong_nghe_moi_truong) khả năng việc làm ntn
+    - cho biết thông tin về cơ hội việc làm của ngành [sinh học (sinh học ứng dụng)](Sinh_hoc)
+    - ngành [SINH HỌC (SINH HỌC ỨNG DỤNG)](Sinh_hoc) có nhiều cơ hội xin việc k
+    - có thể cho tôi biết thông tin về khả năng việc làm của ngành [sinh học](Sinh_hoc)
+    - ngành [SINH HỌC](Sinh_hoc) có nhiều cơ hội xin việc k
+    - tôi muốn biết thêm về cơ hội việc làm của ngành [sinh học ứng dụng](Sinh_hoc)
+    - ngành [SINH HỌC ỨNG DỤNG](Sinh_hoc) cơ hội việc làm là ntn ạ
+    - tôi muốn biết thêm về tỉ lệ có việc làm của ngành [công nghệ sinh học](Cong_nghe_sinh_hoc)
+    - ngành [CÔNG NGHỆ SINH HỌC](Cong_nghe_sinh_hoc) có dễ kiếm việc làm k
+    - trường cho em hỏi khả năng việc làm của ngành [nông học](Nong_hoc)
+    - ngành [NÔNG HỌC](Nong_hoc) có dễ xin việc k
+    - vui lòng cho tôi biết về khả năng việc làm của ngành [công nghệ sau thu hoạch](Cong_nghe_sau_thu_hoach)
+    - ngành [CÔNG NGHỆ SAU THU HOẠCH](Cong_nghe_sau_thu_hoach) khả năng việc làm như nào ạ
+    - hãy cho tôi biết cơ hội việc làm của ngành [công nghệ thực phẩm](Cong_nghe_thuc_pham)
+    - ngành [CÔNG NGHỆ THỰC PHẨM](Cong_nghe_thuc_pham) cơ hội việc làm ntn nhỉ
+    - ad ơi, cho e hỏi khả năng việc làm của ngành [quản trị kinh doanh](Quan_tri_kinh_doanh)
+    - ngành [QUẢN TRỊ KINH DOANH](Quan_tri_kinh_doanh) có dễ xin việc không
+    - cho biết thông tin về tỉ lệ có việc làm của ngành [kế toán](Ke_toan)
+    - ngành [KẾ TOÁN](Ke_toan) có nhiều cơ hội xin việc không
+    - cho hỏi cơ hội việc làm của ngành [tài chính – ngân hàng](Tai_chinh_ngan_hang)
+    - ngành [TÀI CHÍNH – NGÂN HÀNG](Tai_chinh_ngan_hang) có nhiều cơ hội xin việc không ?
+    - cho hỏi cơ hội việc làm của ngành [luật](Luat)
+    - ngành [LUẬT](Luat) có dễ kiếm việc làm k
+    - em muốn được tư vấn về cơ hội việc làm của ngành [xã hội học](Xa_hoi_hoc)
+    - ngành [XÃ HỘI HỌC](Xa_hoi_hoc) cơ hội việc làm ntn nhỉ
+    - có thể tư vấn về cơ hội việc làm của ngành [công tác xã hội](Cong_tac_xa_hoi)
+    - ngành [CÔNG TÁC XÃ HỘI](Cong_tac_xa_hoi) cơ hội việc làm như thế nào
+    - tôi muốn hỏi về cơ hội việc làm của ngành [dân số và phát triển](Dan_so_va_phat_trien)
+    - ngành [DÂN SỐ VÀ PHÁT TRIỂN](Dan_so_va_phat_trien) có nhiều cơ hội xin việc k
+    - có thể cho e thông tin về khả năng việc làm của ngành [văn hoá học](Van_hoa_hoc)
+    - ngành [VĂN HOÁ HỌC](Van_hoa_hoc) khả năng việc làm là gì vậy ạ
+    - ad ơi, cho e hỏi cơ hội việc làm của ngành [văn học (ngữ văn tổng hợp, ngữ văn báo chí)](Van_hoc)
+    - ngành [VĂN HỌC (NGỮ VĂN TỔNG HỢP, NGỮ VĂN BÁO CHÍ)](Van_hoc) cơ hội việc làm như thế nào
+    - hãy tư vấn cho tôi về khả năng việc làm của ngành [văn học](Van_hoc)
+    - ngành [VĂN HỌC](Van_hoc) khả năng việc làm là sao
+    - trường cho em hỏi khả năng việc làm của ngành [ngữ văn](Van_hoc)
+    - ngành [NGỮ VĂN](Van_hoc) có dễ xin việc k
+    - em muốn được tư vấn về khả năng việc làm của ngành [ngữ văn báo chí](Van_hoc)
+    - ngành [NGỮ VĂN BÁO CHÍ](Van_hoc) khả năng việc làm như nào ạ
+    - hãy tư vấn cho tôi về khả năng việc làm của ngành [lịch sử](Lich_su)
+    - ngành [LỊCH SỬ](Lich_su) khả năng việc làm ntn
+    - hãy cho tôi biết khả năng việc làm của ngành [văn hóa du lịch](Van_hoa_du_lich)
+    - ngành [VĂN HÓA DU LỊCH](Van_hoa_du_lich) khả năng việc làm ntn nhỉ
+    - tôi muốn hỏi về khả năng việc làm của ngành [trung quốc học](Trung_quoc_hoc)
+    - ngành [TRUNG QUỐC HỌC](Trung_quoc_hoc) có dễ xin việc k
+    - tôi muốn hỏi về cơ hội việc làm của ngành [việt nam học](Viet_nam_hoc)
+    - ngành [VIỆT NAM HỌC](Viet_nam_hoc) có dễ xin việc không
+    - hãy tư vấn cho tôi về cơ hội việc làm của ngành [đông phương học (hàn quốc học, nhật bản học)](Dong_phuong_hoc)
+    - ngành [ĐÔNG PHƯƠNG HỌC (HÀN QUỐC HỌC, NHẬT BẢN HỌC)](Dong_phuong_hoc) cơ hội việc làm là như nào ạ
+    - hãy cho tôi biết tỉ lệ có việc làm của ngành [đông phương học](Dong_phuong_hoc)
+    - ngành [ĐÔNG PHƯƠNG HỌC](Dong_phuong_hoc) có dễ xin việc k
+    - cho biết thông tin về cơ hội việc làm của ngành [hàn quốc học](Dong_phuong_hoc)
+    - ngành [HÀN QUỐC HỌC](Dong_phuong_hoc) cơ hội việc làm như nào
+    - hãy cho tôi biết khả năng việc làm của ngành [nhật bản học](Dong_phuong_hoc)
+    - ngành [NHẬT BẢN HỌC](Dong_phuong_hoc) có nhiều cơ hội xin việc k
+    - tư vấn về khả năng việc làm của ngành [quốc tế học](Quoc_te_hoc)
+    - ngành [QUỐC TẾ HỌC](Quoc_te_hoc) khả năng việc làm sao nhỉ
+    - ad ơi, cho e hỏi tỉ lệ có việc làm của ngành [quản trị du lịch và lữ hành](Quan_tri_du_lich)
+    - ngành [DU LỊCH VÀ LỮ HÀNH](Quan_tri_du_lich) có nhiều cơ hội xin việc k
+    - ad ơi, cho e hỏi tỉ lệ có việc làm của ngành [ngôn ngữ anh](Ngon_ngu_anh)
+    - ngành [NGÔN NGỮ ANH](Ngon_ngu_anh) tỉ lệ có việc làm ntn nhỉ
+- intent: Thong_tin_nganh
+  examples: |
+    - trường cho em hỏi ngành [Sư phạm Toán học](Su_pham_toan)
+    - ngành [Sư phạm Toán học](Su_pham_toan) học cái gì
+    - cho em hỏi ngành [sư phạm tin học](Su_pham_tin)
+    - ngành [sư phạm tin học](Su_pham_tin) được học cái gì
+    - em muốn được tư vấn về ngành [Giáo dục tiểu học](Giao_duc_tieu_hoc)
+    - ngành [giáo viên tiểu học](Giao_duc_tieu_hoc) dạy về cái gì
+    - cho biết thông tin về ngành [Sư phạm Vật lý](Su_pham_vat_ly)
+    - ngành [Sư phạm Vật lý](Su_pham_vat_ly) học cái gì
+    - cho hỏi ngành [Sư phạm hóa học](Su_pham_hoa_hoc)
+    - ngành [Sư phạm hóa học](Su_pham_hoa_hoc) được học cái gì
+    - vui lòng cho tôi biết về ngành [sư phạm sinh học](Su_pham_sinh_hoc)
+    - ngành [SƯ PHẠM SINH HỌC](Su_pham_sinh_hoc) được học cái gì
+    - vui lòng cho tôi biết về ngành [sư phạm ngữ văn](Su_pham_ngu_van)
+    - ngành [SƯ PHẠM NGỮ VĂN](Su_pham_ngu_van) học cái gì
+    - tôi muốn biết thêm về ngành [sư phạm lịch sử](Su_pham_lich_su)
+    - ngành [SƯ PHẠM LỊCH SỬ](Su_pham_lich_su) được học cái gì
+    - vui lòng cho tôi thêm thông tin về ngành [sư phạm tiếng anh](Su_pham_tieng_anh)
+    - ngành [SƯ PHẠM TIẾNG ANH](Su_pham_tieng_anh) học cái gì
+    - cho e hỏi ngành [công nghệ thông tin (mạng máy tính, kỹ thuật phần mềm, khoa học dữ liệu)](Cong_nghe_thong_tin)
+    - ngành [CÔNG NGHỆ THÔNG TIN (MẠNG MÁY TÍNH, KỸ THUẬT PHẦN MỀM, KHOA HỌC DỮ LIỆU)](Cong_nghe_thong_tin) học những gì
+    - ad cho em hỏi ngành [công nghệ thông tin](Cong_nghe_thong_tin)
+    - ngành [CÔNG NGHỆ THÔNG TIN](Cong_nghe_thong_tin) dạy về cái gì
+    - vui lòng cho tôi biết về ngành [mạng máy tính](Cong_nghe_thong_tin)
+    - ngành [MẠNG MÁY TÍNH](Cong_nghe_thong_tin) được học cái gì
+    - hãy tư vấn cho tôi về ngành [khoa học dữ liệu](Cong_nghe_thong_tin)
+    - ngành [KHOA HỌC DỮ LIỆU](Cong_nghe_thong_tin) học cái gì
+    - trường cho hỏi ngành [kỹ thuật phần mềm](Cong_nghe_thong_tin)
+    - ngành [KỸ THUẬT PHẦN MỀM](Cong_nghe_thong_tin) được học cái gì
+    - tư vấn về ngành [toán học (toán - tin học, toán ứng dụng, toán lý thuyết)](Toan_hoc)
+    - ngành [TOÁN HỌC (TOÁN - TIN HỌC, TOÁN ỨNG DỤNG, TOÁN LÝ THUYẾT)](Toan_hoc) dạy về cái gì
+    - có thể tư vấn về ngành [toán học](Toan_hoc)
+    - ngành [TOÁN HỌC](Toan_hoc) học cái gì
+    - có thể cho tôi biết thông tin về ngành [toán tin học](Toan_hoc)
+    - ngành [TOÁN TIN HỌC](Toan_hoc) được học cái gì
+    - vui lòng cho tôi biết về ngành [toán ứng dụng](Toan_hoc)
+    - ngành [TOÁN ỨNG DỤNG](Toan_hoc) được học cái gì
+    - vui lòng cho tôi biết về ngành [toán lý thuyết](Toan_hoc)
+    - ngành [TOÁN LÝ THUYẾT](Toan_hoc) học những gì
+    - có thể cho e thông tin về ngành [thống kê và khoa học dữ liệu](Thong_ke_KHDL)
+    - ngành [THỐNG KÊ VÀ KHOA HỌC DỮ LIỆU](Thong_ke_KHDL) dạy về cái gì
+    - em muốn được tư vấn về ngành [vật lý học](Vat_Ly_hoc)
+    - ngành [VẬT LÝ HỌC](Vat_Ly_hoc) học những gì
+    - cho hỏi ngành [công nghệ kỹ thuật điện tử viễn thông](Ky_thuat_dien_tu_vien_thong)
+    - ngành [CÔNG NGHỆ KỸ THUẬT ĐIỆN TỬ VIỄN THÔNG](Ky_thuat_dien_tu_vien_thong) được học cái gì
+    - cho tôi hỏi ngành [kỹ thuật hạt nhân](Ky_thuat_hat_nhan)
+    - ngành [KỸ THUẬT HẠT NHÂN](Ky_thuat_hat_nhan) học những gì
+    - tôi muốn biết thêm về ngành [công nghệ kỹ thuật điều khiển và tự động hóa](Ky_thuat_dieu_khien_tu_dong_hoa)
+    - ngành [CÔNG NGHỆ KỸ THUẬT ĐIỀU KHIỂN VÀ TỰ ĐỘNG HÓA](Ky_thuat_dieu_khien_tu_dong_hoa) là j ?
+    - ad cho hỏi ngành [hóa học (hóa phân tích, hóa hữu cơ)](Hoa_hoc)
+    - ngành [HÓA](Hoa_hoc) (HÓA PHÂN TÍCH, HÓA HỮU CƠ) được học cái gì
+    - có thể cho tôi biết thông tin về ngành [hóa học](Hoa_hoc)
+    - ngành [HÓA HỌC](Hoa_hoc) được học cái gì
+    - ad ơi, cho e hỏi ngành [hóa phân tích](Hoa_hoc)
+    - ngành [HÓA PHÂN TÍCH](Hoa_hoc) học cái gì
+    - tôi muốn biết thêm về ngành [ hóa hữu cơ ứng dụng](Hoa_hoc)
+    - ngành [ HÓA HỮU CƠ ỨNG DỤNG](Hoa_hoc) học những gì
+    - em muốn được tư vấn về ngành [khoa học môi trường (kỹ thuật môi trường, quản lý môi trường)](Khoa_hoc_moi_truong)
+    - ngành [KHOA HỌC MÔI TRƯỜNG (KỸ THUẬT MÔI TRƯỜNG, QUẢN LÝ MÔI TRƯỜNG)](Khoa_hoc_moi_truong) học cái gì
+    - có thể cho tôi biết thêm về ngành [kỹ thuật môi trường](Khoa_hoc_moi_truong)
+    - ngành [KỸ THUẬT MÔI TRƯỜNG](Khoa_hoc_moi_truong) học những gì
+    - hãy tư vấn cho tôi về ngành [quản lý môi trường](Khoa_hoc_moi_truong)
+    - ngành [QUẢN LÝ MÔI TRƯỜNG](Khoa_hoc_moi_truong) được học cái gì
+    - trường cho hỏi ngành [khoa học môi trường](Khoa_hoc_moi_truong)
+    - ngành [KHOA HỌC MÔI TRƯỜNG](Khoa_hoc_moi_truong) được học cái gì
+    - tôi muốn biết thêm về ngành [hóa dược](Hoa_duoc)
+    - ngành [DƯỢC](Hoa_duoc) được học cái gì
+    - ad cho em hỏi ngành [công nghệ kỹ thuật môi trường](Cong_nghe_moi_truong)
+    - ngành [CÔNG NGHỆ KỸ THUẬT MÔI TRƯỜNG](Cong_nghe_moi_truong) dạy về cái gì
+    - vui lòng cho tôi biết về ngành [sinh học (sinh học ứng dụng)](Sinh_hoc)
+    - ngành [SINH HỌC (SINH HỌC ỨNG DỤNG)](Sinh_hoc) dạy về cái gì
+    - có thể cho tôi biết thông tin về ngành [sinh học](Sinh_hoc)
+    - ngành [SINH HỌC](Sinh_hoc)được học cái gì
+    - ad cho hỏi ngành [sinh học ứng dụng](Sinh_hoc)
+    - ngành [SINH HỌC ỨNG DỤNG](Sinh_hoc) học cái gì
+    - em muốn được tư vấn về ngành [công nghệ sinh học](Cong_nghe_sinh_hoc)
+    - ngành [CÔNG NGHỆ SINH HỌC](Cong_nghe_sinh_hoc) dạy về cái gì
+    - ngành [NÔNG HỌC](Nong_hoc) được học cái gì
+    - hãy tư vấn cho tôi về ngành [công nghệ sau thu hoạch](Cong_nghe_sau_thu_hoach)
+    - ngành [CÔNG NGHỆ SAU THU HOẠCH](Cong_nghe_sau_thu_hoach) sao nhỉ
+    - ad ơi, cho e hỏi ngành [công nghệ thực phẩm](Cong_nghe_thuc_pham)
+    - ngành [CÔNG NGHỆ THỰC PHẨM](Cong_nghe_thuc_pham) ntn nhỉ
+    - ad ơi, cho e hỏi ngành [quản trị kinh doanh](Quan_tri_kinh_doanh)
+    - ngành [QUẢN TRỊ KINH DOANH](Quan_tri_kinh_doanh) được học cái gì
+    - trường cho em hỏi ngành [kế toán](Ke_toan)
+    - ngành [KẾ TOÁN](Ke_toan) được học cái gì
+    - cho tôi hỏi ngành [tài chính ngân hàng](Tai_chinh_ngan_hang)
+    - ngành [TÀI CHÍNH NGÂN HÀNG](Tai_chinh_ngan_hang) học cái gì
+    - ad cho hỏi ngành [luật](Luat)
+    - ngành [LUẬT](Luat) học cái gì
+    - hãy cho tôi biết ngành [xã hội học](Xa_hoi_hoc)
+    - ngành [XÃ HỘI HỌC](Xa_hoi_hoc) dạy về cái gì
+    - tôi muốn hỏi về ngành [công tác xã hội](Cong_tac_xa_hoi)
+    - ngành [CÔNG TÁC XÃ HỘI](Cong_tac_xa_hoi) được học cái gì
+    - có thể tư vấn về ngành [dân số và phát triển](Dan_so_va_phat_trien)
+    - ngành [DÂN SỐ VÀ PHÁT TRIỂN](Dan_so_va_phat_trien) được học cái gì
+    - có thể cho tôi biết thông tin về ngành [văn hoá học](Van_hoa_hoc)
+    - ngành [VHH](Van_hoa_hoc) học cái gì
+    - hãy cho tôi biết ngành [văn học (ngữ văn tổng hợp, ngữ văn báo chí)](Van_hoc)
+    - ngành [VĂN HỌC (NGỮ VĂN TỔNG HỢP, NGỮ VĂN BÁO CHÍ)](Van_hoc) sao nhỉ
+    - có thể cho tôi biết thêm về ngành [văn học](Van_hoc)
+    - ngành [VĂN HỌC](Van_hoc) học những gì
+    - vui lòng cho tôi thêm thông tin về ngành [ngữ văn tổng hợp](Van_hoc)
+    - ngành [NGỮ VĂN TỔNG HỢP](Van_hoc) được học cái gì
+    - vui lòng cho tôi biết về ngành [ngữ văn báo chí](Van_hoc)
+    - ngành [NGỮ VĂN BÁO CHÍ](Van_hoc) học cái gì
+    - vui lòng cho tôi biết về ngành [lịch sử](Lich_su)
+    - ngành [LS](Lich_su) học những gì
+    - trường cho hỏi ngành [văn hóa du lịch](Van_hoa_du_lich)
+    - ngành [VĂN HÓA DU LỊCH](Van_hoa_du_lich) học những gì
+    - cho tôi hỏi ngành [trung quốc học](Trung_quoc_hoc)
+    - ngành [TQH](Trung_quoc_hoc) được học cái gì
+    - hãy cho tôi biết ngành [việt nam học](Viet_nam_hoc)
+    - ngành [VIỆT NAM HỌC](Viet_nam_hoc) được học cái gì
+    - cho em hỏi ngành [đông phương học (hàn quốc học, nhật bản học)](Dong_phuong_hoc)
+    - ngành [ĐÔNG PHƯƠNG HỌC (HÀN QUỐC HỌC, NHẬT BẢN HỌC)](Dong_phuong_hoc) là gì vậy ạ
+    - tôi muốn biết thêm về ngành [đông phương học](Dong_phuong_hoc)
+    - ngành [ĐÔNG PHƯƠNG HỌC](Dong_phuong_hoc) học những gì
+    - cho em hỏi ngành [hàn quốc học](Dong_phuong_hoc)
+    - ngành [HÀN QUỐC HỌC](Dong_phuong_hoc) là ntn ạ
+    - ad cho em hỏi ngành [nhật bản học](Dong_phuong_hoc)
+    - ngành [NB HỌC](Dong_phuong_hoc) học những gì
+    - tư vấn về ngành [quốc tế học](Quoc_te_hoc)
+    - ngành [QT HỌC](Quoc_te_hoc) học những gì
+    - hãy cho tôi biết ngành [quản trị dịch vụ du lịch và lữ hành](Quan_tri_du_lich)
+    - ngành [QUẢN TRỊ DỊCH VỤ DU LỊCH VÀ LỮ HÀNH](Quan_tri_du_lich) học những gì
+    - ad cho hỏi ngành [ngôn ngữ anh](Ngon_ngu_anh)
+    - ngành [NGÔN NGỮ ANH](Ngon_ngu_anh) học những gì
+- intent: Cac_nganh_dao_tao
+  examples: |
+    - cho tôi biết về các ngành trường đào tạo
+    - tôi muốn hỏi về ngành đào tạo của trường
+    - danh sách các ngành đào tạo hiện tại
+    - trường mình có những ngành nào ạ
+    - trường mình mở những ngành nào nhỉ
+    - các ngành mà trường tuyển sinh là gì
+    - ad cho em hỏi trường mình có bao nhiều ngành
+    - tư vấn thêm về các ngành của trường
+    - các ngành trường có
+    - các ngành trường tuyển sinh năm nay
+    - trường mở bao nhiêu ngành
+    - trường mình có ngành Công nghệ thực phẩm không ạ
+    - mình có ngành tài chính - ngân hàng ko ạ
+    - mình có ngành hàn quốc học ko
+    - mình có ngành công nghệ kỹ thuật môi trường k
+    - trường có ngành kỹ thuật hạt nhân phải ko
+    - ngành nhật bản học trường mình có k
+    - vậy trường mình có ngành nào
+    - vậy cho e hỏi trường mình có ngành nào
+    - trường có đào tạo quản trị khách sạn k ạ
+    - trường có đào tạo ngành Luật hình sự không
+    - Cho biết thông tin về ngành nghề của trường đại học đà lạt
+- intent: Cac_khoa_cua_truong
+  examples: |
+    - trường có bao nhiêu khoa ạ
+    - cho em em về các khoa trong trường
+    - e muốn hỏi về danh sách các khoa
+    - trường gồm bao nhiêu khoa nhỉ
+    - có tất cả bao nhiêu khoa
+    - các khoa của trường
+    - trường có những khoa nào ạ
+- intent: Unexpected
+  examples: |
+    - ngành nào [dễ kiếm việc](de_kiem_viec) ạ
+    - học gì [dễ kiếm việc](de_kiem_viec) ạ
+    - em muốn hỏi học ngành nào có [nhiều cơ hội việc làm](de_kiem_viec) nhất
+    - tư vấn cho em về ngành [dễ xin việc](de_kiem_viec)
+    - ra trường [dễ kiếm việc](de_kiem_viec) là ngành nào
+    - học gì ra trường [dễ xin việc](de_kiem_viec)
+    - cho em biết ngành nào [dễ xin việc nhất](de_kiem_viec)
+    - tư vấn e học gì [xin việc dễ nhất](de_kiem_viec)
+    - cho em hỏi học gì ra trường [có việc làm liền](de_kiem_viec)
+    - học ngành gì ra trường [có việc làm ngay](de_kiem_viec) nhỉ
+    - ngành nào ra trường [có việc làm ngay](de_kiem_viec)
+    - học ngành cntt có dễ không
+    - học ngành quốc tế học có cần giỏi ngoại ngữ không
+    - học ngành nhật bản học có cần biết tiếng Nhật không
+    - muốn học hàn quốc học không biết tiếng Hàn được không
+    - học Trung quốc học có cần biết tiếng trung quốc không
+    - học ngành trung quốc học có được học tiếng trung quốc không
+    - học ngành hàn quốc học có được học tiếng Hàn ko
+    - nhật bản học có được học thêm tiếng Nhật k
+    - học ngành toán dễ hơn ngành cntt không
+    - học khoa học môi trường hay công nghệ môi trường dễ hơn
+    - học ngành nào dễ
+    - học ngành nào khó hơn
+    - ngành cntt dễ kiếm việc hơn ngành khoa học dữ liệu không
+    - dạ xin chào thầy / cô. Cho em hỏi năm nay trường có tổ chức đại học hệ vừa học vừa làm không ạ
+    - xét tuyển hệ vừa học, vừa làm
+    - xét tuyển thạc sĩ
+    - thi đầu vào thạc sỹ
+    - thi đầu vào tiến sĩ
+    - tuyền sinh đầu vào tiến sỹ
+    - trình độ đào tạo thạc sỹ
+    - trình độ đào tạo tiến sỹ
+    - hệ vừa học vừa làm
+    - các chuyên ngành của ngành [CNTT](Cong_nghe_thong_tin)
+    - công nghệ thông tin có học xây dựng ứng dụng thông minh ko
+    - đại học đà lạt đạt chuẩn kiểm định CDIO là gì
+- intent: Dieu_kien_xet_tuyen_nganh_su_pham
+  examples: |
+    - dk để đậu vào ngành Giáo dục tiểu học
+    - điều kiện xét tuyển ngành sư phạm là gì ạ
+    - điều kiện xét tuyển sư phạm tin học
+    - Nếu em muốn theo sư phạm anh thì cần phải có những đk j ạ
+    - điều kiện học ngành Sư phạm Toán
+    - nếu muốn học sư phạm Lý thì cần điều kiện gì
+    - nếu muốn học sư phạm hóa học thì có dk gì không
+    - đk học sư phạm ngữ văn
+    - muốn học sư phạm sinh học thì có điều kiện gì
+    - muốn xét tuyển sư phạm anh thì có điều kiện gì ko
+    - điều kiện đề đậu sư phạm sử là gì
+- intent: Dieu_kien_xet_tuyen_cac_nganh
+  examples: |
+    - điều kiện để xét tuyển học bạ
+    - muốn xét học bạ thì em phải thỏa điều kiện gì
+    - để xét điểm học bạ cần có điều kiện gì
+    - các yêu cầu đối với điểm học bạ
+    - các yêu cầu đối với xét tuyển bằng học bạ
+    - điểm học bạ có yêu cầu gì k ạ
+    - điểm học bạ lớn hơn bao nhiêu thì được
+    - muốn xét tuyển học bạ điểm trung bình bao nhiêu thì được
+    - yêu cầu với điểm xét tuyển
+    - đk xét điểm học bạ
+    - xét điểm học bạ cần dk gì ko
+    - em muốn xét học bạ điểm lớp 11 và 12, điểm như vậy có đủ điều kiện không
+- intent: Cach_tinh_diem_xet_tuyen_hoc_ba
+  examples: |
+    - cho em hỏi cách tính điểm học bạ của trường mình được không ạ
+    - em muốn sét học bạ tính điểm thế nào
+    - điểm học bạ của em như vậy có đủ điều kiện không
+    - điểm học bạ có tính điểm lớp 11 k
+    - xét tuyển học bạ tính điểm học bạ lớp 11 hay 12
+    - điểm học bạ tính thế nào
+    - công thức tính điểm xét học bạ
+    - điểm học bạ có tính điểm lớp 10 không
+    - yêu cầu tính điểm học bạ
+- intent: Danh_sach_cac_khoa
+  examples: |
+    - cho em hỏi cách tính điểm học bạ của trường mình được không ạ
+- intent: Ten_khoa
+  examples: |
+    - cho em hỏi cách tính điểm học bạ của trường mình được không ạ
