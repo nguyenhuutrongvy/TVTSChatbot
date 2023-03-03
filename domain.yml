@@ -163,13 +163,6 @@ responses:
   utter_hocphi:
   - text: Học phí trung bình khoảng 6 - 8 triệu một học kỳ bạn nhé. Một năm khoảng 12-13 triệu.
   utter_kytucxa:
-    quick_replies:
-       - title: Thông tin chung
-         payload: <POSTBACK_PAGELOAD>
-       - title: Điều kiện ở KTX
-         payload: <POSTBACK_PAGELOAD>      
-       - title: Chi phí
-         payload: <POSTBACK_PAGELOAD>      
   - text: trường có ký túc xá bạn nhé, cách trường khoảng 1.5km.
   utter_iamabot:
   - text: Tôi là người máy trợ lý được tạo bởi ĐHĐL
@@ -187,8 +180,6 @@ responses:
   - text: a) Xét tuyển dựa vào kết quả học tập lớp 12 hoặc kết quả lớp 11 cộng với học kỳ 1 lớp 12; lấy tổng điểm 3 môn trong tổ hợp môn đăng ký xét tuyển.b) Nếu thí sinh sử dụng kết quả học tập lớp 12 để ĐKXT thì lấy tổng điểm 3 môn tổng kết năm lớp 12 trong tổ hợp môn mà thí sinh sử dụng để ĐKXT theo các điều kiện ở trên; c) Nếu thí sinh sử dụng kết quả học tập lớp 11 cộng với học kỳ 1 lớp 12 thì phải đạt các điều kiện ở trên và cách tính tổng điểm ĐKXT như sau Thí sinh A chọn tổ hợp môn ĐKXT là A00 Toán, Vật lý, Hóa học thì Điểm môn Toán = (Điểm tổng kết môn Toán năm lớp 11 + Điểm tổng kết môn Toán HKI lớp 12)/2; Điểm môn Vật lý = (Điểm tổng kết môn Vật lý năm lớp 11 + Điểm tổng kết môn Vật lý HKI lớp 12)/2; Điểm môn Hóa học = (Điểm tổng kết môn Hóa học năm lớp 11 + Điểm tổng kết môn Hóa học HKI lớp 12)/2; Tổng điểm ĐKXT = Điểm môn Toán + Điểm môn Vật lý + Điểm môn Hóa học d) Nếu trong tổ hợp môn ĐKXT có môn KHTN thì điểm của môn KHTN là điểm trung bình cộng của 3 môn Vật lý, Hoá học và Sinh học; Nếu trong tổ hợp môn ĐKXT có môn KHXH thì điểm của môn KHXH là điểm trung bình cộng của 3 môn Lịch sử, Địa lý và Giáo dục công dân
   utter_fallback:
   - text: Tôi xin lỗi, tôi chưa hiểu ý muốn của bạn. Bạn có thể hỏi câu đơn giản, rõ ràng hơn được không? Cảm ơn bạn.
-  utter_Ten_khoa:
-  - text: Trường có X khoa.
 actions:
 - utter_greet
 - utter_happy

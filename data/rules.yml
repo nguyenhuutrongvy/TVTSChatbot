@@ -131,8 +131,3 @@ rules:
   steps:
   - intent: Cac_khoa_cua_truong
   - action: action_Cac_khoa_cua_truong
-
-- rule: Ten_khoa
-  steps:
-  - intent: Ten_khoa
-  - action: utter_Ten_khoa
