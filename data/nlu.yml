@@ -1550,4 +1550,236 @@ nlu:
 - intent: buu_dien
   examples: |
     - Em đang ở xa, không thể lên trường trực tiếp được, vậy Em có thể gửi hồ sơ thông qua bưu điện được không ạ?
+<<<<<<< HEAD
     - Có thể gửi hồ sơ qua bưu điện k?
+=======
+    - Có thể gửi hồ sơ qua bưu điện k?
+
+- intent: tuyen_sinh_2023
+  examples: |
+    - tuyen_sinh_2023
+
+- intent: hoc_phi_hoc_bong
+  examples: |
+    - hoc_phi_hoc_bong
+
+- intent: ky_tuc_xa
+  examples: |
+    - ky_tuc_xa
+
+- intent: danh_sach_cac_khoa
+  examples: |
+    - danh_sach_cac_khoa
+
+- intent: thuan_loi_ho_tro
+  examples: |
+    - thuan_loi_ho_tro
+
+- intent: lien_he_tu_van
+  examples: |
+    - lien_he_tu_van
+
+- intent: nganh_tuyen_sinh
+  examples: |
+    - nganh_tuyen_sinh
+
+- intent: ma_truong
+  examples: |
+    - ma_truong
+
+- intent: phuong_thuc_xet_tuyen
+  examples: |
+    - phuong_thuc_xet_tuyen
+
+- intent: dai_hoc
+  examples: |
+    - dai_hoc
+
+- intent: thac_si
+  examples: |
+    - thac_si
+
+- intent: tien_si
+  examples: |
+    - tien_si
+
+- intent: dao_tao_song_nganh
+  examples: |
+    - dao_tao_song_nganh
+
+- intent: danh_sach_cac_nganh
+  examples: |
+    - danh_sach_cac_nganh
+
+- intent: muc_tieu
+  examples: |
+    - muc_tieu
+
+- intent: doi_tuong
+  examples: |
+    - doi_tuong
+
+- intent: dieu_kien_hoc_song_nganh
+  examples: |
+    - dieu_kien_hoc_song_nganh
+
+- intent: danh_sach_nganh
+  examples: |
+    - danh_sach_nganh
+
+- intent: danh_sach_nganh_tong_hop
+  examples: |
+    - danh_sach_nganh_tong_hop
+
+- intent: nganh_su_pham
+  examples: |
+    - nganh_su_pham
+
+- intent: diem_chuan
+  examples: |
+    - diem_chuan
+
+- intent: ma_nganh
+  examples: |
+    - ma_nganh
+
+- intent: chi_tieu_du_kien
+  examples: |
+    - chi_tieu_du_kien
+
+- intent: to_hop_mon_xet_tuyen
+  examples: |
+    - to_hop_mon_xet_tuyen
+
+- intent: thong_tin_nganh_tong_hop
+  examples: |
+    - thong_tin_nganh_tong_hop
+
+- intent: chuan_dau_ra
+  examples: |
+    - chuan_dau_ra
+
+- intent: co_hoi_viec_lam
+  examples: |
+    - co_hoi_viec_lam
+
+- intent: danh_sach_nganh_su_pham
+  examples: |
+    - danh_sach_nganh_su_pham
+
+- intent: thong_tin_nganh_su_pham
+  examples: |
+    - thong_tin_nganh_su_pham
+
+- intent: xet_tuyen_su_pham
+  examples: |
+    - xet_tuyen_su_pham
+
+- intent: diem_chuan_su_pham
+  examples: |
+    - diem_chuan_su_pham
+
+- intent: ma_nganh_su_pham
+  examples: |
+    - ma_nganh_su_pham
+
+- intent: chi_tieu_du_kien_su_pham
+  examples: |
+    - chi_tieu_du_kien_su_pham
+
+- intent: to_hop_xet_tuyen_su_pham
+  examples: |
+    - to_hop_xet_tuyen_su_pham
+
+- intent: chuan_dau_ra_su_pham
+  examples: |
+    - chuan_dau_ra_su_pham
+
+- intent: co_hoi_viec_lam_su_pham
+  examples: |
+    - co_hoi_viec_lam_su_pham
+
+- intent: dieu_kien_su_pham
+  examples: |
+    - dieu_kien_su_pham
+
+- intent: chi_tieu_su_pham
+  examples: |
+    - chi_tieu_su_pham
+
+- intent: ho_tro_su_pham
+  examples: |
+    - ho_tro_su_pham
+
+- intent: bang_hoc_ba
+  examples: |
+    - bang_hoc_ba
+
+- intent: bang_diem_thi_tn_thpt
+  examples: |
+    - bang_diem_thi_tn_thpt
+
+- intent: bang_diem_thi_dgnl
+  examples: |
+    - bang_diem_thi_dgnl
+
+- intent: xet_tuyen_thang
+  examples: |
+    - xet_tuyen_thang
+
+- intent: ho_so_hoc_ba
+  examples: |
+    - ho_so_hoc_ba
+
+- intent: cach_tinh_diem_xet_hoc_ba
+  examples: |
+    - cach_tinh_diem_xet_hoc_ba
+
+- intent: cach_nop_ho_so_hoc_ba
+  examples: |
+    - cach_nop_ho_so_hoc_ba
+
+- intent: thoi_han_nop_ho_so_hoc_ba
+  examples: |
+    - thoi_han_nop_ho_so_hoc_ba
+
+- intent: truc_tiep
+  examples: |
+    - truc_tiep
+
+- intent: truc_tuyen
+  examples: |
+    - truc_tuyen
+
+- intent: ho_so_tn_thpt
+  examples: |
+    - ho_so_tn_thpt
+
+- intent: cach_thuc_tn_thpt
+  examples: |
+    - cach_thuc_tn_thpt
+
+- intent: thoi_han_tn_thpt
+  examples: |
+    - thoi_han_tn_thpt
+
+- intent: ho_so_dgnl
+  examples: |
+    - ho_so_dgnl
+
+- intent: cach_thuc_dgnl
+  examples: |
+    - cach_thuc_dgnl
+
+- intent: thoi_han_dgnl
+  examples: |
+    - thoi_han_dgnl
+
+- intent: theo_quy_dinh_cua_truong
+  examples: |
+    - theo_quy_dinh_cua_truong
+
+- intent: theo_quy_dinh_cua_bo
+  examples: |
+    - theo_quy_dinh_cua_bo
+>>>>>>> vy
