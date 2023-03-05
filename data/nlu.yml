@@ -285,6 +285,12 @@ nlu:
     - trường có xét tuyển onl không ạ
     - về việc xét tuyển học bạ online
     - năm nay có xét tuyển online không ạ
+- intent: Hoc_phi_hoc_bong
+  examples: |
+    - Cho mình hỏi về học phí học bổng với ạ
+    - bạn cho mình hỏi về học bổng học phí với ạ
+    - bot cho hỏi về học phí học bổng với ạ
+    - ad cho em hỏi về học phí học bổng ạ
 - intent: Hocphi
   examples: |
     - e chào ad ạ, ad cho e hỏi là học phí của trường mình ngành nào cũng 5 triệu một học kì phải không ạ

@@ -130,9 +130,9 @@ responses:
        - title: Hồ sơ xét tuyển
          payload: <POSTBACK_PAGELOAD>      
        - title: Học phí - Học bổng
-         payload: /hoc_phi_hoc_bong      
+         payload: /Hoc_phi_hoc_bong      
        - title: Ký túc xá
-         payload: /kytucxa    
+         payload: /Kytucxa    
   utter_goodbye:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: Tạm biệt. Cảm ơn vì đã hỏi tôi. Tôi luôn sẵn sàng phục vụ.
@@ -185,32 +185,38 @@ responses:
   utter_hoc_bong_khuyen_khich:
   - text: Trường sẽ tài trợ học bổng theo mỗi kì, giá trị học bổng sẽ phụ thuộc vào học lực của sinh viên kì đó, mỗi lớp sẽ lấy 7% tổng sinh viên có điểm cao nhất để trao học bổng.
     quick_replies:
-       - title: Khuyến khích
-         payload: /Hoc_bong_khuyen_khich
-       - title: Tài trợ
-         payload: /Hoc_bong_tai_tro
-       - title: Khen thưởng
-         payload: /Hoc_bong_khen_thuong
+       - title: Thuận lợi - Hỗ trợ
+         payload: /thuan_loi_ho_tro
+       - title: Danh sách các khoa
+         payload: /danh_sach_khoa
+       - title: Ký túc xá
+         payload: /Ky_tuc_xa
+       - title: Học phí
+         payload: /Hocphi
   utter_hoc_bong_tai_tro:
   - text: Trường sẽ có học bổng tài trợ theo từng đợt với các kinh phí khác nhau phụ thuộc vào nhà tài trợ.
     quick_replies:
-       - title: Khuyến khích
-         payload: /Hoc_bong_khuyen_khich
-       - title: Tài trợ
-         payload: /Hoc_bong_tai_tro
-       - title: Khen thưởng
-         payload: /Hoc_bong_khen_thuong
+       - title: Thuận lợi - Hỗ trợ
+         payload: /thuan_loi_ho_tro
+       - title: Danh sách các khoa
+         payload: /danh_sach_khoa
+       - title: Ký túc xá
+         payload: /Ky_tuc_xa
+       - title: Học phí
+         payload: /Hocphi
   utter_hoc_bong_khen_thuong:
   - text: Trường sẽ tài trợ học bổng theo mỗi kì, giá trị học bổng sẽ phụ thuộc vào học lực của sinh viên kì đó, mỗi lớp sẽ lấy 7% tổng sinh viên có điểm cao nhất để trao học bổng.
     quick_replies:
-       - title: Khuyến khích
-         payload: /Hoc_bong_khuyen_khich
-       - title: Tài trợ
-         payload: /Hoc_bong_tai_tro
-       - title: Khen thưởng
-         payload: /Hoc_bong_khen_thuong
+       - title: Thuận lợi - Hỗ trợ
+         payload: /thuan_loi_ho_tro
+       - title: Danh sách các khoa
+         payload: /danh_sach_khoa
+       - title: Ký túc xá
+         payload: /Ky_tuc_xa
+       - title: Học phí
+         payload: /Hocphi
   utter_kytucxa:
-  - text: trường có ký túc xá bạn nhé, cách trường khoảng 1.5km.
+  - text: Trường có ký túc xá bạn nhé, cách trường khoảng 1.5km.
     quick_replies:
        - title: Thông tin KTX
          payload: /Thong_tin_ktx
@@ -221,30 +227,36 @@ responses:
   utter_thong_tin_ktx:
   - text: Ký túc xá chia làm 4 khu; khu nam, khu nữ, khu giáo viên, khu cho người nước ngoài. Cách trường khoảng 1.5km ạ.
     quick_replies:
-       - title: Thông tin KTX
-         payload: /Thong_tin_ktx
-       - title: Điều kiện ở KTX
-         payload: /Dieu_kien_o_ktx
-       - title: Chi phí KTX
-         payload: /Chi_phi_ktx
+       - title: Thuận lợi - Hỗ trợ
+         payload: /thuan_loi_ho_tro
+       - title: Danh sách các khoa
+         payload: /danh_sach_khoa
+       - title: Học bổng
+         payload: /Hocbong
+       - title: Học phí
+         payload: /Hocphi
   utter_dieu_kien_o_ktx:
   - text: Mỗi phòng sẽ cho 6 người ở; có giường, có bếp và nhà vệ sinh trong, có ban công phơi quần áo, nhà để xe đầy đủ ạ.
     quick_replies:
-       - title: Thông tin KTX
-         payload: /Thong_tin_ktx
-       - title: Điều kiện ở KTX
-         payload: /Dieu_kien_o_ktx
-       - title: Chi phí KTX
-         payload: /Chi_phi_ktx
+       - title: Thuận lợi - Hỗ trợ
+         payload: /thuan_loi_ho_tro
+       - title: Danh sách các khoa
+         payload: /danh_sach_khoa
+       - title: Học bổng
+         payload: /Hocbong
+       - title: Học phí
+         payload: /Hocphi
   utter_chi_phi_ktx:
   - text: Mỗi sinh viên tiền phòng là 100.000/tháng, chưa tính tiền điện và nước, thường sinh viên sẽ được đóng luôn cho cả 1 học kỳ ạ.
     quick_replies:
-       - title: Thông tin KTX
-         payload: /Thong_tin_ktx
-       - title: Điều kiện ở KTX
-         payload: /Dieu_kien_o_ktx
-       - title: Chi phí KTX
-         payload: /Chi_phi_ktx
+       - title: Thuận lợi - Hỗ trợ
+         payload: /thuan_loi_ho_tro
+       - title: Danh sách các khoa
+         payload: /danh_sach_khoa
+       - title: Học bổng
+         payload: /Hocbong
+       - title: Học phí
+         payload: /Hocphi
   utter_iamabot:
   - text: Tôi là người máy trợ lý được tạo bởi ĐHĐL
   utter_no_entity:
