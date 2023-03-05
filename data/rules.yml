@@ -350,12 +350,9 @@ rules:
 - rule: qd bo
   steps: 
   - intent: qd_bo
-<<<<<<< HEAD
-  - action: utter_qd_bo
-=======
   - action: utter_qd_bo
 
-  - rule: tuyen_sinh_2023
+- rule: tuyen_sinh_2023
   steps:
   - intent: tuyen_sinh_2023
   - action: utter_tuyen_sinh_2023
@@ -639,4 +636,3 @@ rules:
   steps:
   - intent: theo_quy_dinh_cua_bo
   - action: utter_theo_quy_dinh_cua_bo
->>>>>>> vy

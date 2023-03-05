@@ -1550,9 +1550,6 @@ nlu:
 - intent: buu_dien
   examples: |
     - Em đang ở xa, không thể lên trường trực tiếp được, vậy Em có thể gửi hồ sơ thông qua bưu điện được không ạ?
-<<<<<<< HEAD
-    - Có thể gửi hồ sơ qua bưu điện k?
-=======
     - Có thể gửi hồ sơ qua bưu điện k?
 
 - intent: tuyen_sinh_2023
@@ -1782,4 +1779,3 @@ nlu:
 - intent: theo_quy_dinh_cua_bo
   examples: |
     - theo_quy_dinh_cua_bo
->>>>>>> vy
