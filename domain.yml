@@ -4,115 +4,209 @@ config:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 intents:
-- greet:
-    use_entities: true
-- goodbye:
-    use_entities: true
-- ask_ability:
-    use_entities: true
-- ask_bot_name:
-    use_entities: true
-- thanks:
-    use_entities: true
-- howareyou:
-    use_entities: true
-- praise:
-    use_entities: true
-- decry:
-    use_entities: true
-- bot_challenge:
-    use_entities: true
-- Xettuyenhocba:
-    use_entities: true
-- Coxettuyenhocba:
-    use_entities: true
-- Xetuyenconline:
-    use_entities: true
-- Hocphi:
-    use_entities: true
-- Kytucxa:
-    use_entities: true
-- hocphi:
-    use_entities: true
-- kytucxa:
-    use_entities: true
-- Chi_tieu_tuyen_sinh:
-    use_entities: true
-- Ma_nganh:
-    use_entities: true
-- Diem_xet_tuyen:
-    use_entities: true
-- Cong_viec_ra_truong:
-    use_entities: true
-- Thong_tin_nganh:
-    use_entities: true
-- Ti_le_co_viec_lam:
-    use_entities: true
-- To_hop_xet_tuyen:
-    use_entities: true
-- Cach_tinh_diem_xet_tuyen_hoc_ba:
-    use_entities: true
-- Dieu_kien_xet_tuyen_nganh_su_pham:
-    use_entities: true
-- Dieu_kien_xet_tuyen_cac_nganh:
-    use_entities: true
-- Unexpected:
-    use_entities: true
-- Cac_khoa_cua_truong:
-    use_entities: true
-- Cac_nganh_dao_tao:
-    use_entities: true
+  - thuan_loi_ho_tro:
+      use_entities: true
+  - hoc_song_nganh:
+      use_entities: true
+  - hoc_tich_luy_hoc_phan_thac_si:
+      use_entities: true
+  - muc_tieu_song_nganh:
+      use_entities: true
+  - doi_tuong_song_nganh:
+      use_entities: true
+  - uu_diem_song_nganh:
+      use_entities: true
+  - dieu_kien_song_nganh:
+      use_entities: true
+  - danh_sach_nganh_song_nganh:
+      use_entities: true
+  - danh_muc_nganh_thac_si:
+      use_entities: true
+  - gioi_thieu_thac_si:
+      use_entities: true
+  - uu_diem_thac_si:
+      use_entities: true
+  - khoa_toan_tin:
+      use_entities: true
+  - khoa_su_pham:
+      use_entities: true
+  - khoa_VatLyKyThuatHatNhan:
+      use_entities: true
+  - khoa_ToanHoc:
+      use_entities: true
+  - khoa_CNTT:
+      use_entities: true
+  - khoa_HoahocVaMoitruong:
+      use_entities: true
+  - khoa_SinhHoc:
+      use_entities: true
+  - khoa_KinhteQuantrikinhdoanh:
+      use_entities: true
+  - khoa_NongLam:
+      use_entities: true
+  - khoa_LuatHoc:
+      use_entities: true
+  - khoa_DuLich:
+      use_entities: true
+  - khoa_QuocTeHoc:
+      use_entities: true
+  - khoa_NguVanvaLichSu:
+      use_entities: true
+  - khoa_NgoaiNgu:
+      use_entities: true
+  - ma_truong:
+      use_entities: true
+  - phuong_thuc_xet_tuyen:
+      use_entities: true
+  - hoc_ba:
+      use_entities: true
+  - thptqg:
+      use_entities: true
+  - dgnl:
+      use_entities: true
+  - xet_thang:
+      use_entities: true
+  - ho_so_hoc_ba:
+      use_entities: true
+  - tinh_diem_hoc_ba:
+      use_entities: true
+  - cach_nop_hoc_ba:
+      use_entities: true
+  - thoi_han_hoc_ba:
+      use_entities: true
+  - ho_so_thpt:
+      use_entities: true
+  - cach_thuc_thpt:
+      use_entities: true
+  - thoi_han_thpt:
+      use_entities: true
+  - ho_so_dgnl:
+      use_entities: true
+  - cach_thuc_dgnl:
+      use_entities: true
+  - thoi_han_dgnl:
+      use_entities: true
+  - qd_truong:
+      use_entities: true
+  - qd_bo:
+      use_entities: true
+  - truc_tiep:
+      use_entities: true
+  - buu_dien:
+      use_entities: true
+  - greet:
+      use_entities: true
+  - goodbye:
+      use_entities: true
+  - ask_ability:
+      use_entities: true
+  - ask_bot_name:
+      use_entities: true
+  - thanks:
+      use_entities: true
+  - howareyou:
+      use_entities: true
+  - praise:
+      use_entities: true
+  - decry:
+      use_entities: true
+  - bot_challenge:
+      use_entities: true
+  - Xettuyenhocba:
+      use_entities: true
+  - Coxettuyenhocba:
+      use_entities: true
+  - Xetuyenconline:
+      use_entities: true
+  - Hocphi:
+      use_entities: true
+  - Kytucxa:
+      use_entities: true
+  - hocphi:
+      use_entities: true
+  - kytucxa:
+      use_entities: true
+  - Chi_tieu_tuyen_sinh:
+      use_entities: true
+  - Ma_nganh:
+      use_entities: true
+  - Diem_xet_tuyen:
+      use_entities: true
+  - Cong_viec_ra_truong:
+      use_entities: true
+  - Thong_tin_nganh:
+      use_entities: true
+  - Ti_le_co_viec_lam:
+      use_entities: true
+  - To_hop_xet_tuyen:
+      use_entities: true
+  - Cach_tinh_diem_xet_tuyen_hoc_ba:
+      use_entities: true
+  - Dieu_kien_xet_tuyen_nganh_su_pham:
+      use_entities: true
+  - Dieu_kien_xet_tuyen_cac_nganh:
+      use_entities: true
+  - Unexpected:
+      use_entities: true
+  - Cac_khoa_cua_truong:
+      use_entities: true
+  - Cac_nganh_dao_tao:
+      use_entities: true
+
 entities:
-- admission_deadline
-- records
-- receive_address
-- type_admission
-- time
-- Su_pham_toan
-- Su_pham_tin
-- Giao_duc_tieu_hoc
-- Su_pham_vat_ly
-- Su_pham_hoa_hoc
-- Su_pham_sinh_hoc
-- Su_pham_ngu_van
-- Su_pham_lich_su
-- Su_pham_tieng_anh
-- Cong_nghe_thong_tin
-- Toan_hoc
-- Thong_ke_KHDL
-- Vat_Ly_hoc
-- Ky_thuat_dien_tu_vien_thong
-- Ky_thuat_hat_nhan
-- Ky_thuat_dieu_khien_tu_dong_hoa
-- Hoa_hoc
-- Khoa_hoc_moi_truong
-- Hoa_duoc
-- Cong_nghe_moi_truong
-- Sinh_hoc
-- Cong_nghe_sinh_hoc
-- Nong_hoc
-- Cong_nghe_sau_thu_hoach
-- Cong_nghe_thuc_pham
-- Quan_tri_kinh_doanh
-- Ke_toan
-- Tai_chinh_ngan_hang
-- Luat
-- Xa_hoi_hoc
-- Cong_tac_xa_hoi
-- Dan_so_va_phat_trien
-- Van_hoa_hoc
-- Van_hoc
-- Lich_su
-- Van_hoa_du_lich
-- Trung_quoc_hoc
-- Viet_nam_hoc
-- Dong_phuong_hoc
-- Quoc_te_hoc
-- Quan_tri_du_lich
-- Ngon_ngu_anh
-- de_kiem_viec
+  - admission_deadline
+  - records
+  - receive_address
+  - type_admission
+  - time
+  - Su_pham_toan
+  - Su_pham_tin
+  - Giao_duc_tieu_hoc
+  - Su_pham_vat_ly
+  - Su_pham_hoa_hoc
+  - Su_pham_sinh_hoc
+  - Su_pham_ngu_van
+  - Su_pham_lich_su
+  - Su_pham_tieng_anh
+  - Cong_nghe_thong_tin
+  - Toan_hoc
+  - Thong_ke_KHDL
+  - Vat_Ly_hoc
+  - Ky_thuat_dien_tu_vien_thong
+  - Ky_thuat_hat_nhan
+  - Ky_thuat_dieu_khien_tu_dong_hoa
+  - Hoa_hoc
+  - Khoa_hoc_moi_truong
+  - Hoa_duoc
+  - Cong_nghe_moi_truong
+  - Sinh_hoc
+  - Cong_nghe_sinh_hoc
+  - Nong_hoc
+  - Cong_nghe_sau_thu_hoach
+  - Cong_nghe_thuc_pham
+  - Quan_tri_kinh_doanh
+  - Ke_toan
+  - Tai_chinh_ngan_hang
+  - Luat
+  - Xa_hoi_hoc
+  - Cong_tac_xa_hoi
+  - Dan_so_va_phat_trien
+  - Van_hoa_hoc
+  - Van_hoc
+  - Lich_su
+  - Van_hoa_du_lich
+  - Trung_quoc_hoc
+  - Viet_nam_hoc
+  - Dong_phuong_hoc
+  - Quoc_te_hoc
+  - Quan_tri_du_lich
+  - Ngon_ngu_anh
+  - de_kiem_viec
+
 slots: {}
+
 responses:
   utter_greet:
   - text: |-
@@ -124,11 +218,14 @@ responses:
       - Thông tin việc làm các ngành
       - Mã ngành của các ngành tuyển sinh
       - Tổ hợp xét tuyển
+      - Thuận lợi và hỗ trợ
     quick_replies:
        - title: Điểm chuẩn
          payload: <POSTBACK_PAGELOAD>
        - title: Hồ sơ xét tuyển
-         payload: <POSTBACK_PAGELOAD>      
+         payload: <POSTBACK_PAGELOAD>
+       - title: Thuận lợi và hỗ trợ
+         payload: /thuan_loi_ho_tro
   utter_goodbye:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: Tạm biệt. Cảm ơn vì đã hỏi tôi. Tôi luôn sẵn sàng phục vụ.
@@ -180,40 +277,295 @@ responses:
   - text: a) Xét tuyển dựa vào kết quả học tập lớp 12 hoặc kết quả lớp 11 cộng với học kỳ 1 lớp 12; lấy tổng điểm 3 môn trong tổ hợp môn đăng ký xét tuyển.b) Nếu thí sinh sử dụng kết quả học tập lớp 12 để ĐKXT thì lấy tổng điểm 3 môn tổng kết năm lớp 12 trong tổ hợp môn mà thí sinh sử dụng để ĐKXT theo các điều kiện ở trên; c) Nếu thí sinh sử dụng kết quả học tập lớp 11 cộng với học kỳ 1 lớp 12 thì phải đạt các điều kiện ở trên và cách tính tổng điểm ĐKXT như sau Thí sinh A chọn tổ hợp môn ĐKXT là A00 Toán, Vật lý, Hóa học thì Điểm môn Toán = (Điểm tổng kết môn Toán năm lớp 11 + Điểm tổng kết môn Toán HKI lớp 12)/2; Điểm môn Vật lý = (Điểm tổng kết môn Vật lý năm lớp 11 + Điểm tổng kết môn Vật lý HKI lớp 12)/2; Điểm môn Hóa học = (Điểm tổng kết môn Hóa học năm lớp 11 + Điểm tổng kết môn Hóa học HKI lớp 12)/2; Tổng điểm ĐKXT = Điểm môn Toán + Điểm môn Vật lý + Điểm môn Hóa học d) Nếu trong tổ hợp môn ĐKXT có môn KHTN thì điểm của môn KHTN là điểm trung bình cộng của 3 môn Vật lý, Hoá học và Sinh học; Nếu trong tổ hợp môn ĐKXT có môn KHXH thì điểm của môn KHXH là điểm trung bình cộng của 3 môn Lịch sử, Địa lý và Giáo dục công dân
   utter_fallback:
   - text: Tôi xin lỗi, tôi chưa hiểu ý muốn của bạn. Bạn có thể hỏi câu đơn giản, rõ ràng hơn được không? Cảm ơn bạn.
+  utter_thuan_loi_va_ho_tro:
+  - text: Những thuân lợi và hỗ trợ khi các bạn học ở trường đại học Đà Lạt.
+    quick_replies:
+       - title: Học song ngành
+         payload: /hoc_song_nganh
+       - title: Học tích lũy thạc sĩ
+         payload: /hoc_tich_luy_hoc_phan_thac_si
+  utter_hoc_song_nganh:
+  - text: Những thông tin về học song ngành của trường Đại học Đà Lạt.
+    quick_replies:
+        - title: Mục tiêu
+          payload: /muc_tieu_song_nganh
+        - title: Đối tượng
+          payload: doi_tuong_song_nganh
+        - title: Ưu điểm
+          payload: /uu_diem_song_nganh
+        - title: Điều kiện
+          payload: /dieu_kien_song_nganh
+        - title: Danh sách ngành
+          payload: /danh_sach_nganh_song_nganh
+  utter_hoc_thac_si:
+    - text: Bạn vui lòng chọn.
+      quick_replies:
+        - title: Danh mục ngành
+          payload: /danh_muc_nganh_thac_si
+        - title: Giới thiệu
+          payload: /gioi_thieu_nganh_thac_si
+        - title: Ưu điểm
+          payload: /uu_diem_thac_si
+  utter_muc_tieu_hoc_song_nganh:
+  - text: |-
+      Sinh viên có cơ hội tiếp cận kiến thức của ngành thứ 2 mà mình yêu thích và phù hợp với năng lực bản thân;
+      Dễ dàng chuyển đổi nghề nghiệp và tìm kiếm việc làm;
+      Có cơ hội học tập và nâng cao trình độ ở những bậc học cao hơn (thạc sĩ, tiến sĩ);
+      Nhận 2 bằng Đại học hệ chính quy.
+    quick_replies:
+        - title: Học song ngành
+          payload: /hoc_song_nganh
+  utter_doi_tuong_hoc_song_nganh:
+  - text: Tất cả sinh viên Trường Đại học Đà Lạt thỏa mãn các điều kiện theo quy định đều có quyền đăng ký học một chương trình đào tạo khác để lấy thêm văn bằng thứ hai trong quá trình học tập.
+    quick_replies:
+        - title: Học song ngành
+          payload: /hoc_song_nganh
+  utter_uu_diem_hoc_song_nganh:
+  - text: Nhằm nâng cao sự thích ứng của sinh viên với nhu cầu của doanh nghiệp, đòi hỏi của xã hội cũng như tạo điều kiện cho sinh viên có cơ hội tiếp cận thêm ngành học mình yêu thích và nhận được hai văn bằng chính quy để dễ dàng tìm kiếm việc làm sau khi tốt nghiệp, Trường Đại học Đà Lạt đào tạo cùng lúc hai chương trình đối với sinh viên đang học tại Trường.
+    quick_replies:
+        - title: Học song ngành
+          payload: /hoc_song_nganh
+  utter_dieu_kien_hoc_song_nganh:
+  - text: Sau khi hoàn tất học kì thứ I, nếu sinh viên đạt điểm trung bình học kì từ 2.0 theo thang điểm 4 (của chương trình thứ I) trở lên có thể đăng ký học thêm một bằng Đại học thứ 2 theo hình thức song ngành.
+    quick_replies:
+        - title: Học song ngành
+          payload: /hoc_song_nganh
+  utter_danh_sach_nganh_hoc_song_nganh:
+  - text: Danh sách đào tạo song ngành của trường Đại học Đà Lạt http://thuvien.dlu.edu.vn/vi/tin-tuc-c1d95/dao-tao-song-nganh-3030
+    quick_replies:
+        - title: Học song ngành
+          payload: /hoc_song_nganh
+  utter_danh_muc_nganh_thac_si:
+  - text: Danh mục ngành được đăng ký học trước các học phần trình độ thạc sĩ https://dlu.edu.vn/cac-nganh-dao-tao-trinh-do-thac-si/
+    quick_replies:
+        - title: Học tích lũy thạc sĩ
+          payload: /hoc_tich_luy_hoc_phan_thac_si
+  utter_gioi_thieu_nganh_thac_si:
+  - text: Giới thiệu tổng quan https://dlu.edu.vn/wp-content/uploads/2022/08/Quy-che-dao-tao-thac-si-Truong-Dai-hoc-Da-Lat.pdf
+    quick_replies:
+        - title: Học tích lũy thạc sĩ
+          payload: /hoc_tich_luy_hoc_phan_thac_si
+  utter_uu_diem_nganh_thac_si:
+  - text: Sinh viên đang theo học các chương trình đào tạo trình độ đại học ngành phù hợp hết năm thứ 2, có điểm trung bình tích lũy xếp loại khá trở lên được đăng ký học trước một số học phần của chương trình đào tạo trình độ thạc sĩ của Trường, nhằm tiếp cận kiến thức chuyên sâu và có điều kiện rút ngắn thời gian đào tạo trình độ thạc sĩ sau khi tốt nghiệp đại học.
+    quick_replies:
+        - title: Học tích lũy thạc sĩ
+          payload: /hoc_tich_luy_hoc_phan_thac_si
+  utter_khoa_toan_tin:
+  - text: Đây là thông tin khoa Toán tin Email khoatoantin@dlu.edu.vn ; Website  http://ktt.dlu.edu.vn ; Fanpage https://www.facebook.com/groups/mcs.dlu/ 
+  utter_khoa_su_pham:
+  - text: Đây là thông tin khoa sư phạm Email khoasupham@dlu.edu.vn ; Website http://sp.dlu.edu.vn ; Fanpage https://www.facebook.com/KhoaSuphamDaihocDalat/ ; sđt 0263 3826 911
+  utter_khoa_VatLyKyThuatHatNhan:
+  - text: Đây là thông tin khoa Vật Lý Kỹ Thuật Hạt Nhân Email khoavatly@dlu.edu.vn ; Website http://vl.dlu.edu.vn ; Fanpage https://www.facebook.com/khoavatlydalat/ ; sđt 0263 3822 246
+  utter_khoa_CNTT:
+  - text: Đây là thông tin khoa Công Nghệ Thông Tin Email it@dlu.edu.vn ; Website http://cntt.dlu.edu.vn ; Fanpage https://www.facebook.com/InformationTechnologyDLU/ ; sđt 0263 3552 540
+  utter_khoa_HoahocVaMoitruong:
+  - text: Đây là thông tin khoa Hóa Học và Môi Trường Email khoahhmt@dlu.edu.vn ; Website http://khhmt.dlu.edu.vn ; Fanpage https://www.facebook.com/khoahoahocvamoitruongdlu/ ; sđt 0263 3834 046 
+  utter_khoa_SinhHoc:
+  - text: Đây là thông tin khoa Sinh Học Email  khoasinhhoc@dlu.edu.vn ; Website http://ksh.dlu.edu.vn ; Fanpage https://www.facebook.com/khoasinhoc/?locale=vi_VN ; sđt 0263 3834 050
+  utter_khoa_KinhteQuantrikinhdoanh:
+  - text: Đây là thông tin khoa Kinh Te Quan Tri Kinh Doanh Email khoakinhte_qtkd@dlu.edu.vn ; Website http://kktqt.dlu.edu.vn ; Fanpage https://www.facebook.com/ktqtkd.dlu/?locale=vi_VN ; sđt 0263 3831 105
+  utter_khoa_NongLam:
+  - text: Đây là thông tin khoa Nông Lâm Email khoanonglam@dlu.edu.vn ; Website http://knl.dlu.edu.vn ; Fanpage https://www.facebook.com/Nonglam.DLU/?locale=vi_VN ; sđt 0263 3834 051
+  utter_khoa_LuatHoc:
+  - text: Đây là thông tin khoa Luât Học  Email khoaluathoc@dlu.edu.vn ; Website http://klh.dlu.edu.vn ; Fanpage https://www.facebook.com/tuoitrekhoaluatdlu/; sđt 0263 3554 457
+  utter_khoa_DuLich:
+  - text: Đây là thông tin khoa Du Lịch  Email khoaquantridulich@dlu.edu.vn ; Website http://kqtdl.dlu.edu.vn ; Fanpage https://www.facebook.com/khoaqtdulichdalat/ ; sđt 0263 3552 165
+  utter_khoa_QuocTeHoc:
+  - text: Đây là thông tin khoa Quốc Tế Học Email khoaquoctehoc@dlu.edu.vn ; Website http://kqth.dlu.edu.vn ; Fanpage https://www.facebook.com/Qth.dlu/?locale=vi_VN
+  utter_khoa_NguVanvaLichSu:
+  - text: Đây là thông tin khoa Ngữ Văn và Lich Sử Email khoanguvan_vanhoahoc@dlu.edu.vn ; Website http://nvvh.dlu.edu.vn ; Fanpage https://www.facebook.com/nvdhdl/?locale=vi_VN ; sđt 0263 3826 913
+  utter_khoa_XahoihocvaCongtacxahoi:
+  - text: Đây là thông tin khoa Xã Hội và Công Tác Xã Hội Email khoaxhh_ctxh@dlu.edu.vn ; Website http://kctxh.dlu.edu.vn ; Fanpage https://www.facebook.com/XHHCTXHDLU/ ; sđt 0263 3834 469
+  utter_khoa_NgoaiNgu:
+  - text: Đây là thông tin khoa Ngoại Ngữ Email khoangoaingu@dlu.edu.vn ; Website http://nn.dlu.edu.vn ; Fanpage https://www.facebook.com/groups/231966513525512/
+  utter_ma_truong:
+  - text: Mã của trường Đại học Đà Lạt là TDL bạn nhé
+  utter_phuong_thuc_xet_tuyen:
+  - text: |-
+      Năm 2023, trường Đại học Đà Lạt sẽ xét tuyển bằng 4 hình thức bao gồm:
+      - Xét tuyển bằng học bạ
+      - Xét tuyển bằng điểm thi THPTQG
+      - Xét tuyển bằng điểm thi đánh giá năng lực (ĐGNL)
+      - Xét tuyển thẳng
+      Bạn muốn tham gia xét tuyển bằng hình thức nào ạ?
+    quick_replies:
+      - title: Học bạ
+        payload: /hoc_ba
+      - title: Điểm thi THPTQG
+        payload: /thptqg
+      - title: Điểm thi ĐGNL
+        payload: /dgnl
+      - title: Xét tuyển thẳng
+        payload: /xet_thang
+  utter_xet_hocba:
+  - text: |-
+      Bạn muốn biết thêm thông tin gì về xét học bạ ạ?
+    quick_replies:
+      - title: Hồ sơ
+        payload: /ho_so_hoc_ba
+      - title: Các tính điểm xét
+        payload: /tinh_diem_hoc_ba
+      - title: Cách nộp hồ sơ
+        payload: /cach_nop_hoc_ba
+      - title: Thời hạn nộp hồ sơ
+        payload: /thoi_han_hoc_ba
+  utter_xet_thpt:
+  - text: |-
+      Bạn muốn biết thêm thông tin gì về xét điểm thi THPTQG ạ?
+    quick_replies:
+      - title: Hồ sơ
+        payload: /ho_so_thpt
+      - title: Cách thức
+        payload: /cach_thuc_thpt
+      - title: Thời hạn
+        payload: /thoi_han_thpt
+  utter_xet_dgnl:
+  - text: |-
+      Bạn muốn biết thêm thông tin gì về xét điểm thi đánh giá năng lực ạ?
+    quick_replies:
+      - title: Hồ sơ
+        payload: /ho_so_dgnl
+      - title: Cách thức
+        payload: /cach_thuc_dgnl
+      - title : Thời hạn
+        payload: /thoi_han_dgnl
+  utter_xet_thang:
+  - text: |-
+      Trường Đại học Đà Lạt sẽ xét tuyển thẳng nếu bạn đủ các tiêu chí của trường hoặc của bộ theo quy định. Bạn muốn xét theo tiêu chí nào ạ?
+    quick_replies:
+      - title: Quy định của trường
+        payload: /qd_truong
+      - title: Quy định của bộ
+        payload: /qd_bo
+  utter_ho_so_hoc_ba:
+  - text: |-
+      Hồ sơ xét tuyển học bạ gồm:
+      - Phiếu đăng ký xét tuyển (theo mẫu của Trường Đại học Đà Lạt, thí sinh truy cập website: www.dlu.edu.vn; mục Tuyển sinh 2023); thí sinh lưu ý cần sử dụng đúng mẫu phiếu đăng ký xét tuyển của Trường Đại học Đà Lạt ứng với phương thức đăng ký; mỗi thí sinh đăng ký xét tuyển không quá 3 nguyện vọng
+      - Bản sao Học bạ THPT hoặc giấy chứng nhận kết quả kỳ thi đánh giá năng lực có công chứng; một phong bì ghi chính xác họ và tên, địa chỉ, số điện thoại liên lạc của thí sinh để Trường thông báo kết quả nếu thí sinh trúng tuyển.
+      - Lệ phí đăng ký xét tuyển: 25.000 đồng/1 nguyện vọng (nộp qua bưu điện hoặc trực tiếp tại Trường). 
+  utter_tinh_diem_hoc_ba:
+  - text: |-
+      Đối với phương thức sử dụng học bạ THPT, xét tuyển dựa vào kết quả học tập lớp 12 hoặc kết quả lớp 11 cộng với học kỳ 1 lớp 12, lấy tổng điểm của 3 môn trong tổ hợp môn đăng ký xét tuyển.
+      Trong đó, các ngành đào tạo giáo viên, thí sinh có học lực lớp 12 đạt loại giỏi hoặc điểm xét tốt nghiệp THPT đạt từ 8.0 trở lên; các ngành khác, tổng điểm 3 môn trong tổ hợp môn đăng ký xét tuyển lớn hơn hoặc bằng 18 điểm và không có môn nào trong tổ hợp môn đăng ký xét tuyển có điểm trung bình dưới 5.0.
+  utter_cach_nop_hoc_ba:
+  - text: Bạn có thể nộp trực tiếp hoặc nộp thông qua bưu điện nhé. Bạn muốn nộp hồ sơ qua đâu? Mình có thể chỉ rõ cho bạn
+    quick_replies:
+      - title: Trực tiếp
+        payload: /truc_tiep
+      - title: Bưu điện
+        payload: /buu_dien
+  utter_truc_tiep:
+  - text: Bạn đến địa chỉ số 01 Phù Đổng Thiên Vương, TP Đà Lạt và nộp hồ sơ tại tòa nhà A1 nhé.
+  utter_buu_dien:
+  - text: |- 
+      Bạn gửi hồ sơ qua địa chỉ 1 Phù Đổng Thiên Vương, TP Đà Lạt với người nhận là  Bộ phận tuyển sinh – Phòng Quản lý Đào tạo, Trường Đại học Đà Lạt nhé
+  utter_thoi_han_hoc_ba:
+  - text: |-
+      Trường Đại học Đà Lạt dự kiến sẽ nhận hồ sơ từ ngày 01/06/2023 bạn nhé
+  utter_ho_so_thpt:
+  - text: |-
+      Bạn điền đầy đủ thông tin trên cổng thông tin tuyển sinh của Bộ Giáo dục và Đào tạo nhé
+  utter_cach_thuc_thpt:
+  - text: |- 
+      Bạn đăng kí xét tuyển trực tuyến trên cổng thông tin tuyển sinh của bộ Giáo dục nhe
+  utter_thoi_han_thpt:
+  - text: |-
+      Hiện tại thì chưa có thời gian quy định đăng kí bạn nhé. Bộ Giáo dục và Đào Tạo sẽ thông báo thời gian đăng kí sau. Bạn nhớ đăng kí đúng thời hạn do Bộ quy định nhé.
+  utter_ho_so_dgnl:
+  - text: |-
+      Bạn điền đầy đủ thông tin trên hệ thống đăng kí dự kì thi đánh giá năng lực nơi bạn bạn thi nhé
+  utter_cach_thuc_dgnl:
+  - text: |- 
+      Bạn đăng kí xét tuyển trực tuyến trên cổng đăng kí dự kì thi đánh giá năng lực nơi bạn bạn thi nhé
+  utter_thoi_han_dgnl:
+  - text: |-
+      Thời gian đăng kí xét tuyển sẽ do cơ sở tổ chức thi quy định. Do đó bạn nhớ theo dõi nhé.
+  utter_qd_truong:
+  - text: |- 
+      Theo quy định, Đại học Đà Lạt sẽ xét tuyển thẳng nếu bạn tốt nghiệp THPT 3 năm học sinh giỏi liên tiếp hoặc đạt giải nhất, nhì, ba các kỳ thi học sinh giỏi cấp tỉnh trở lên vào các ngành phù hợp với chuyên môn bạn đã đạt giải nhé
+  utter_qd_bo:
+  - text: |-
+      Nếu bạn là một trong những đối tượng của điều 7 phần 2 của Quy chế tuyển sinh của Bộ, bạn sẽ được tuyển thẳng vào trường nhé. Chi tiết về quy chế bạn có thể tham khảo văn bản sau:
+      https://moet.gov.vn/content/vanban/Lists/VBPQ/Attachments/1239/Quy%20che%20tuyen%20sinh.pdf 
+
 actions:
-- utter_greet
-- utter_happy
-- utter_goodbye
-- utter_sorry
-- utter_thanks
-- utter_howareyou
-- utter_ask_bot_name
-- utter_admission_deadline
-- utter_records
-- utter_type_admission
-- utter_time
-- utter_receive_address
-- utter_Coxethb
-- utter_Coxetonline
-- utter_hocphi
-- utter_kytucxa
-- utter_did_that_help
-- utter_iamabot
-- utter_noworries
-- utter_show_ability
-- utter_Dieu_kien_xet_tuyen_nganh_su_pham
-- utter_Dieu_kien_xet_tuyen_cac_nganh
-- utter_Cach_tinh_diem_xet_tuyen_hoc_ba
-- utter_Unexpected
-- action_Chi_tieu_tuyen_sinh
-- action_Ma_nganh
-- action_Diem_xet_tuyen
-- action_Cong_viec_ra_truong
-- action_Thong_tin_nganh
-- action_Ti_le_co_viec_lam
-- action_To_hop_xet_tuyen
-- action_Cac_nganh_dao_tao
-- action_Cac_khoa_cua_truong
-- utter_fallback
+  - utter_greet
+  - utter_happy
+  - utter_goodbye
+  - utter_sorry
+  - utter_thanks
+  - utter_howareyou
+  - utter_ask_bot_name
+  - utter_admission_deadline
+  - utter_records
+  - utter_type_admission
+  - utter_time
+  - utter_receive_address
+  - utter_Coxethb
+  - utter_Coxetonline
+  - utter_hocphi
+  - utter_kytucxa
+  - utter_did_that_help
+  - utter_iamabot
+  - utter_show_ability
+  - utter_Dieu_kien_xet_tuyen_nganh_su_pham
+  - utter_Dieu_kien_xet_tuyen_cac_nganh
+  - utter_Cach_tinh_diem_xet_tuyen_hoc_ba
+  - utter_Unexpected
+  - utter_fallback
+  - utter_thuan_loi_va_ho_tro
+  - utter_hoc_song_nganh
+  - utter_hoc_thac_si
+  - utter_muc_tieu_hoc_song_nganh
+  - utter_doi_tuong_hoc_song_nganh
+  - utter_uu_diem_hoc_song_nganh
+  - utter_dieu_kien_hoc_song_nganh
+  - utter_danh_sach_nganh_hoc_song_nganh
+  - utter_danh_muc_nganh_thac_si
+  - utter_gioi_thieu_nganh_thac_si
+  - utter_uu_diem_nganh_thac_si
+  - action_Chi_tieu_tuyen_sinh
+  - action_Ma_nganh
+  - action_Diem_xet_tuyen
+  - action_Cong_viec_ra_truong
+  - action_Thong_tin_nganh
+  - action_Ti_le_co_viec_lam
+  - action_To_hop_xet_tuyen
+  - action_Cac_nganh_dao_tao
+  - action_Cac_khoa_cua_truong
+  - utter_khoa_toan_tin
+  - utter_khoa_su_pham
+  - utter_khoa_VatLyKyThuatHatNhan
+  - utter_khoa_CNTT
+  - utter_khoa_HoahocVaMoitruong
+  - utter_khoa_SinhHoc
+  - utter_khoa_KinhteQuantrikinhdoanh
+  - utter_khoa_NongLam
+  - utter_khoa_LuatHoc
+  - utter_khoa_DuLich
+  - utter_khoa_QuocTeHoc
+  - utter_khoa_NguVanvaLichSu
+  - utter_khoa_XahoihocvaCongtacxahoi
+  - utter_khoa_NgoaiNgu
+  - utter_ma_truong
+  - utter_phuong_thuc_xet_tuyen
+  - utter_xet_hocba
+  - utter_xet_thpt
+  - utter_xet_dgnl
+  - utter_xet_thang
+  - utter_ho_so_hoc_ba
+  - utter_tinh_diem_hoc_ba
+  - utter_cach_nop_hoc_ba
+  - utter_buu_dien
+  - utter_truc_tiep
+  - utter_thoi_han_hoc_ba
+  - utter_ho_so_thpt
+  - utter_cach_thuc_thpt
+  - utter_thoi_han_thpt
+  - utter_ho_so_dgnl
+  - utter_cach_thuc_dgnl
+  - utter_thoi_han_dgnl
+  - utter_qd_truong
+  - utter_qd_bo
 forms: {}
 e2e_actions: []

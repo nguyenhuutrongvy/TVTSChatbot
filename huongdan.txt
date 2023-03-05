@@ -1,0 +1,20 @@
+1> Responses:
+- Locate: domain.yml
+- Named: utter_{action} (utter_ask) (utter_cheeer) 
+- Là những câu trả lời mà bot trả về cho người dùng
+
+2> Intent:
+- Locate: data/nlu.yml
+- Named: {intent} (mood_happy) (ask_for_help) (need_support)
+- Là Ý định của người dùng (Ví dụ: Người dùng nói hôm nay tôi khỏe => bot hiểu intent là vui)
+
+3> Entites:
+- Locate: domain.yml
+- named: Y chang intent
+- Là thông tin mà bot phải thu thập được từ lời thoại của người dùng 
+- (VD: Người dùng trả lời:"Tôi tên A". Thì bot sẽ gán entity Name là A)
+
+
+(Đọc thêm, Ko quan trọng)
+rule: là luật mà bot phải thực hiện bất cứ lúc nào
+story: là kịch bản mà bot thực hiện
