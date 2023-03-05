@@ -1,0 +1,222 @@
+﻿- intent: thuan_loi_ho_tro
+  examples: |
+    - thuận lợi và hỗ trợ
+    - hỗ trợ
+    - thuận lợi
+- intent: hoc_song_nganh
+  examples: |
+    - học song ngành
+    - thuận lợi và hỗ trợ của học song ngành
+    - song ngành
+    - học 2 ngành liên tiếp
+    - học 2 ngành trong cùng một khoảng thời gian
+- intent: hoc_tich_luy_hoc_phan_thac_si
+  examples: |
+    - học tích lũy học phần thạc sĩ
+    - học thạc sĩ
+    - thạc sĩ
+    - tích lũy thạc sĩ
+    - tích lũy học thạc sĩ
+- intent: muc_tieu_song_nganh
+  examples: |
+    - mục tiêu
+    - mục tiêu của học song ngành
+    - mục tiêu cần đạt được của học song ngành
+    - học song ngành cần đạt mục tiêu gì
+    - mục tiêu cần đạt nhất của học song ngành
+- intent: doi_tuong_song_nganh
+  examples: |
+    - đối tượng
+    - ai có thể học song ngành
+    - đối tượng có thể học song ngành
+    - tôi có thể học song ngành không
+    - học song nganh cần những gì
+- intent: uu_diem_song_nganh
+  examples: |
+    - ưu điểm
+    - học song ngành mình đạt được những gì
+    - ưu điểm của học song ngành
+    - học song ngành có gì tốt
+    - học song ngành giúp gì cho tương lai
+- intent: dieu_kien_song_nganh
+  examples: |
+    - điều kiện
+    - tôi có thể học song ngành hay không
+    - học song ngành cần gì
+- intent: danh_sach_nganh_song_nganh
+  examples: |
+    - danh sách ngành
+    - danh sách các ngành có thể học song ngành
+    - những môn có thể học song ngành
+- intent: danh_muc_nganh_thac_si
+  examples: |
+    - danh muc nganh
+    - danh sách các ngành có thể học lên thạc sĩ
+    - các ngành có thể học lên thạc sĩ là gì
+- intent: gioi_thieu_thac_si
+  examples: |
+    - giới thiệu
+    - tổng quan về học thạc sĩ
+    - liên quan tới thạc sĩ
+    - ngành thạc sĩ của trường
+- intent: uu_diem_thac_si
+  examples: |
+    - ưu điểm
+    - ưu diểm của ngành thạc sĩ
+    - học thạc sĩ thì có lợi gì
+    - tại sao phải học thạc sĩ
+- intent: khoa_toan_tin
+  examples: |
+    - thông tin của khoa toán tin
+    - khoa toán
+- intent: khoa_su_pham
+  examples: |
+    - thông tin khoa sư phạm
+    - khoa sư phạm
+- intent: khoa_VatLyKyThuatHatNhan
+  examples: |
+    - thông tin khoa vật lý ky thuật hat nhân
+    - khoa vật lý kỹ thuật hạt nhân
+- intent: khoa_ToanHoc
+  examples: |
+    - thông tin khoa toan hoc
+    - khoa toán tin
+- intent: khoa_CNTT
+  examples: |
+    - thông tin khoa công nghệ thông tin
+    - khoa công nghệ thông tin
+- intent: khoa_HoahocVaMoitruong
+  examples: |
+    - thông tin khoa hóa học và môi trường
+    - khoa hóa học và môi trường
+- intent: khoa_SinhHoc
+  examples: |
+    - thông tin khoa sinh học
+    - khoa sinh học
+- intent: khoa_KinhteQuantrikinhdoanh
+  examples: |
+    - thông tin khoa kinh tế quản trị kinh doanh
+    - khoa kinh tế quản trị kinh doanh
+- intent: khoa_NongLam
+  examples: |
+    - thông tin khoa nông lâm
+    - khoa nông lâm
+- intent: khoa_LuatHoc
+  examples: |
+    - thông tin khoa luật học
+    - khoa ngữ văn và lịch sử
+- intent: khoa_DuLich
+  examples: |
+    - thông tin khoa du lịch
+    - khoa ngữ văn và lịch sử
+- intent: khoa_QuocTeHoc
+  examples: |
+    - thông tin khoa quốc tế học
+    - khoa ngữ văn và lịch sử
+- intent: khoa_NguVanvaLichSu
+  examples: |
+    - thông tin khoa ngữ văn và lịch sử
+    - khoa ngữ văn và lịch sử
+- intent: khoa_NgoaiNgu
+  examples: |
+    - thông tin khoa ngoai ngữ
+    - khoa ngoại ngữ
+- intent: ma_truong
+  examples: |
+    - Cho minh hỏi mã trường của trường mình là gì vậy ạ?
+    - Mã trường
+    - Mã số của trường là gì?
+    - Cho em xin thông tin về mã trường với ạ
+    - Mã trường Đại học Đà Lạt là gì?
+    - Em cần biết mã trường của mình ạ
+    - Bạn ơi, bạn cho mình mã số của trường với ạ
+    - Mình phải điền gì vào ô "Mã trường"
+- intent: phuong_thuc_xet_tuyen
+  examples: |
+    - Phương thức xét tuyển của trường Đại học Đà Lạt là?
+    - Phương thức xét tuyển
+    - Đại học Đà Lạt xét tuyển với những phương thức nào?
+    - Em có thể xét tuyển bằng hình thức nào ạ?
+    - Đại học Đà Lạt có bao nhiêu hình thức xét tuyển
+    - Cho em hỏi trường Đại Học Đà lạt nhận xét tốt nghiệp với những hình thức nào ạ?
+    - Em có thể được xét tuyển bằng hình thức nào ạ?
+- intent: hoc_ba
+  examples: |
+    - Cho em xin thông tin về xét học bạ ạ
+    - Trường đại học Đà Lạt có xét học bạ không ạ?
+    - Em có thể xét tuyển bằng học bạ không ạ?
+    - Em muốn được xét tuyển bằng học bạ ạ
+- intent: thptqg
+  examples: |
+    - Cho em xin thông tin về xét điểm THPTQG với ạ
+    - Trường đại học Đà Lạt có xét điểm thi THPTQG không ạ?
+    - Em có thể xét tuyển bằng điểm thi tốt nghiệp THPTQG không ạ?
+    - Em muốn được xét tuyển bằng điểm THPTQG ạ
+- intent: dgnl
+  examples: |
+    - Cho em xin thông tin về xét điểm thi đánh giá năng lực ạ
+    - Trường đại học Đà Lạt có xét điểm thi Đánh giá năng lực không ạ?
+    - Em có thể xét tuyển bằng kết quả kì thi đánh giá năng lực không ạ?
+    - Em muốn được xét tuyển bằng điẻm thi đánh giá năng lực ạ
+- intent: xet_thang
+  examples: |
+    - Cho em xin thông tin về xét tuyển thẳng với ạ
+    - Trường đại học Đà Lạt có xét tuyển thẳng không ạ?
+    - Em có thể xét tuyển thẳng không ạ?
+    - Em muốn được xét tuyển thẳng vào trường Đại học Đà Lạt ạ
+- intent: ho_so_hoc_ba
+  examples: |
+    - Cho em hỏi về hồ sơ đăng kí xét tuyển học bạ với ạ
+    - Hồ sơ xét tuyển học bạ gồm những gì
+- intent: tinh_diem_hoc_ba
+  examples: |
+    - Điểm học bạ được tính như thế nào ạ?
+    - Cách tính điểm xét tuyển học bạ
+- intent: cach_nop_hoc_ba
+  examples: |
+    - Em có thể nộp hồ sơ đăng kí xét tuyển học bạ bằng cách nào ạ?
+    - Các cách nộp hồ sơ xét tuyển học bạ
+- intent: thoi_han_hoc_ba
+  examples: |
+    - Khi nào là hạn chót nộp hồ sơ đăng kí xét tuyển học bạ ạ?
+    - Lúc nào là hạn cuối nộp hồ sơ
+- intent: ho_so_thpt
+  examples: |
+    - Hồ sơ đăng kí xét tuyển bằng điểm thi THPTQG gồm những gì ạ?
+    - hồ sơ đăng kí xét tuyển bằng điểm thi THPTQG
+- intent: cach_thuc_thpt
+  examples: |
+    - Em muốn biết cách thức xét điểm thi tốt nghiệp trung học phổ thông quốc gia ạ!
+    - cách thức nộp hồ sơ đăng kí xét tuyển bằng điểm thi THPTQG
+- intent: thoi_han_thpt
+  examples: |
+    - Khi nào là hạn chót nộp hồ sơ đăng kí xét tuyển bằng điểm thi THPTQG ạ?
+    - hạn chót nộp hồ sơ đăng kí xét tuyển bằng điểm thi THPTQG
+- intent: ho_so_dgnl
+  examples: |
+    - Hồ sơ đăng kí xét tuyển bằng điểm thi Đánh giá năng lực gồm những gì ạ?
+    - xét tuyển bằng điểm thi Đánh giá năng lực cần nộp gì
+- intent: cach_thuc_dgnl
+  examples: |
+    - Em muốn biết cách thức xét điểm thi đánh giá năng lực ạ!
+    - quy trình xét tuyển đánh giá năng lực
+- intent: thoi_han_dgnl
+  examples: |
+    - Khi nào là hạn chót nộp hồ sơ đăng kí xét tuyển bằng điểm thi Đánh giá năng lực ạ?
+    - Hạn nộp hồ sơ xét tuyển bằng đánh giá năng lực
+- intent: qd_truong
+  examples: |
+    - Em có đủ tiêu chí để xét tốt tuyển thẳng theo quy định của trường không ạ?
+    - Trường có xét tuyển thẳng k
+- intent: qd_bo
+  examples: |
+    - Em có đủ tiêu chí để xét tốt tuyển thẳng theo quy định của bộ không ạ?
+    - Cho biết tiêu chí xét tuyển thẳng
+- intent: truc_tiep
+  examples: |
+    - Em muốn nộp hồ sơ đăng kí học bạ trực tiếp thì em phải nộp ở đâu ạ?
+    - Em tới trường nộp hồ sơ liên hệ ai ạ
+- intent: buu_dien
+  examples: |
+    - Em đang ở xa, không thể lên trường trực tiếp được, vậy Em có thể gửi hồ sơ thông qua bưu điện được không ạ?
+    - Có thể gửi hồ sơ qua bưu điện k?

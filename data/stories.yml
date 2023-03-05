@@ -174,7 +174,7 @@ stories:
   - action: utter_type_admission
   - intent: Thong_tin_nganh
   - action: action_Thong_tin_nganh
-- story: unexpected information
+- story: thong_tin_unexpected information
   steps:
   - intent: Unexpected
   - action: utter_Unexpected
