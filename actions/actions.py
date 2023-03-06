@@ -35,7 +35,7 @@ class ActionChiTieuTuyenSinh(Action):
     def name(self) -> Text:
         return "action_Chi_tieu_tuyen_sinh"
     
-    def FindFaculty(self,entity):
+    def FindFaculty(self, entity):
         for row in self.ws.iter_rows("F"):
             for cell in row:
                 if cell.value == entity:
