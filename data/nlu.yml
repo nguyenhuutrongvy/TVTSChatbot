@@ -1551,3 +1551,263 @@ nlu:
   examples: |
     - Em đang ở xa, không thể lên trường trực tiếp được, vậy Em có thể gửi hồ sơ thông qua bưu điện được không ạ?
     - Có thể gửi hồ sơ qua bưu điện k?
+
+- intent: tuyen_sinh_2023
+  examples: |
+    - tuyen_sinh_2023
+    - Tuyển sinh 2023
+
+- intent: nganh_tuyen_sinh
+  examples: |
+    - nganh_tuyen_sinh
+    - Ngành tuyển sinh
+
+- intent: dai_hoc
+  examples: |
+    - dai_hoc
+    - Đại học
+
+- intent: dao_tao_song_nganh
+  examples: |
+    - dao_tao_song_nganh
+    - Đào tạo song ngành
+
+- intent: muc_tieu_dao_tao_song_nganh
+  examples: |
+    - muc_tieu_dao_tao_song_nganh
+    - Mục tiêu đào tạo song ngành
+
+- intent: doi_tuong_dao_tao_song_nganh
+  examples: |
+    - doi_tuong_dao_tao_song_nganh
+    - Đối tượng đào tạo song ngành
+
+- intent: dieu_kien_hoc_dao_tao_song_nganh
+  examples: |
+    - dieu_kien_hoc_dao_tao_song_nganh
+    - Điều kiện học đào tạo song ngành
+
+- intent: danh_sach_dao_tao_song_nganh
+  examples: |
+    - danh_sach_dao_tao_song_nganh
+    - Danh sách đào tạo song ngành
+
+- intent: danh_sach_cac_nganh
+  examples: |
+    - danh_sach_cac_nganh
+    - Danh sách các ngành
+
+- intent: danh_sach_nganh_tong_hop
+  examples: |
+    - danh_sach_nganh_tong_hop
+    - Danh sách ngành tổng hợp
+
+- intent: diem_chuan_nganh_tong_hop
+  examples: |
+    - diem_chuan_nganh_tong_hop
+    - Điểm chuẩn ngành tổng hợp
+
+- intent: ma_nganh_tong_hop
+  examples: |
+    - ma_nganh_tong_hop
+    - Mã ngành tổng hợp
+
+- intent: chi_tieu_du_kien_nganh_tong_hop
+  examples: |
+    - chi_tieu_du_kien_nganh_tong_hop
+    - Chỉ tiêu dự kiến ngành tổng hợp
+
+- intent: to_hop_mon_xet_tuyen
+  examples: |
+    - to_hop_mon_xet_tuyen
+    - Tổ hợp môn xét tuyển
+
+- intent: thong_tin_nganh_tong_hop
+  examples: |
+    - thong_tin_nganh_tong_hop
+    - Thông tin ngành tổng hợp
+
+- intent: chuan_dau_ra_nganh_tong_hop
+  examples: |
+    - chuan_dau_ra_nganh_tong_hop
+    - Chuẩn đầu ra ngành tổng hợp
+
+- intent: co_hoi_viec_lam_nganh_tong_hop
+  examples: |
+    - co_hoi_viec_lam_nganh_tong_hop
+    - Cơ hội việc làm ngành tổng hợp
+
+- intent: danh_sach_cac_nganh_su_pham
+  examples: |
+    - danh_sach_cac_nganh_su_pham
+    - Danh sách các ngành sư phạm
+
+- intent: danh_sach_nganh_su_pham
+  examples: |
+    - danh_sach_nganh_su_pham
+    - Danh sách ngành sư phạm
+
+- intent: diem_chuan_su_pham
+  examples: |
+    - diem_chuan_su_pham
+    - Điểm chuẩn sư phạm
+
+- intent: ma_nganh_su_pham
+  examples: |
+    - ma_nganh_su_pham
+    - Mã ngành sư phạm
+
+- intent: chi_tieu_du_kien_su_pham
+  examples: |
+    - chi_tieu_du_kien_su_pham
+    - Chỉ tiêu dự kiến sư phạm
+
+- intent: to_hop_xet_tuyen_su_pham
+  examples: |
+    - to_hop_xet_tuyen_su_pham
+    - Tổ hợp xét tuyển sư phạm
+
+- intent: thong_tin_nganh_su_pham
+  examples: |
+    - thong_tin_nganh_su_pham
+    - Thông tin ngành sư phạm
+
+- intent: chuan_dau_ra_su_pham
+  examples: |
+    - chuan_dau_ra_su_pham
+    - Chuẩn đầu ra sư phạm
+
+- intent: co_hoi_viec_lam_su_pham
+  examples: |
+    - co_hoi_viec_lam_su_pham
+    - Cơ hội việc làm sư phạm
+
+- intent: xet_tuyen_cac_nganh_su_pham
+  examples: |
+    - xet_tuyen_cac_nganh_su_pham
+    - Xét tuyển các ngành sư phạm
+
+- intent: dieu_kien_su_pham
+  examples: |
+    - dieu_kien_su_pham
+    - Điều kiện sư phạm
+
+- intent: chi_tieu_su_pham
+  examples: |
+    - chi_tieu_su_pham
+    - Chỉ tiêu sư phạm
+
+- intent: ho_tro_su_pham
+  examples: |
+    - ho_tro_su_pham
+    - Hỗ trợ sư phạm
+
+- intent: thac_si_tuyen_sinh
+  examples: |
+    - thac_si_tuyen_sinh
+    - Thạc sĩ tuyển sinh
+
+- intent: tien_si
+  examples: |
+    - tien_si
+    - Tiến sĩ
+
+- intent: ma_truong_tuyen_sinh
+  examples: |
+    - ma_truong_tuyen_sinh
+    - Mã trường tuyển sinh
+
+- intent: phuong_thuc_xet_tuyen_tuyen_sinh
+  examples: |
+    - phuong_thuc_xet_tuyen_tuyen_sinh
+    - Phương thức xét tuyển tuyển sinh
+
+- intent: bang_hoc_ba
+  examples: |
+    - bang_hoc_ba
+    - Bằng học bạ
+
+- intent: ho_so_bang_hoc_ba
+  examples: |
+    - ho_so_bang_hoc_ba
+    - Hồ sơ bằng học bạ
+
+- intent: cach_tinh_diem_xet_hoc_ba
+  examples: |
+    - cach_tinh_diem_xet_hoc_ba
+    - Cách tính điểm xét học bạ
+
+- intent: cach_nop_ho_so_hoc_ba
+  examples: |
+    - cach_nop_ho_so_hoc_ba
+    - Các nộp hồ sơ học bạ
+
+- intent: nop_ho_so_hoc_ba_truc_tiep
+  examples: |
+    - nop_ho_so_hoc_ba_truc_tiep
+    - Nộp hồ sơ học bạ trực tiếp
+
+- intent: nop_ho_so_hoc_ba_truc_tuyen
+  examples: |
+    - nop_ho_so_hoc_ba_truc_tuyen
+    - Nộp hồ sơ học bạ trực tuyến
+
+- intent: thoi_han_nop_ho_so_hoc_ba
+  examples: |
+    - thoi_han_nop_ho_so_hoc_ba
+    - Thời hạn nộp hồ sơ học bạ
+
+- intent: bang_diem_thi_tn_thpt
+  examples: |
+    - bang_diem_thi_tn_thpt
+    - Bằng điểm thi tốt nghiệp THPT
+
+- intent: ho_so_tn_thpt
+  examples: |
+    - ho_so_tn_thpt
+    - Hồ sơ tốt nghiệp THPT
+
+- intent: cach_thuc_tn_thpt
+  examples: |
+    - cach_thuc_tn_thpt
+    - Cách thức tốt nghiệp THPT
+
+- intent: thoi_han_tn_thpt
+  examples: |
+    - thoi_han_tn_thpt
+    - Thời hạn tốt nghiệp THPT
+
+- intent: bang_diem_thi_dgnl
+  examples: |
+    - bang_diem_thi_dgnl
+    - Bằng điểm thi ĐGNL
+
+- intent: nop_ho_so_dgnl
+  examples: |
+    - nop_ho_so_dgnl
+    - Nộp hồ sơ ĐGNL
+
+- intent: cach_thuc_cua_dgnl
+  examples: |
+    - cach_thuc_cua_dgnl
+    - Cách thức ĐGNL
+
+- intent: thoi_han_cua_dgnl
+  examples: |
+    - thoi_han_cua_dgnl
+    - Thời hạn ĐGNL
+
+- intent: xet_tuyen_thang
+  examples: |
+    - xet_tuyen_thang
+    - Xét tuyển thẳng
+
+- intent: theo_quy_dinh_cua_truong
+  examples: |
+    - theo_quy_dinh_cua_truong
+    - Theo quy định của trường
+
+- intent: theo_quy_dinh_cua_bo
+  examples: |
+    - theo_quy_dinh_cua_bo
+    - Theo quy định của Bộ

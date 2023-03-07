@@ -226,6 +226,8 @@ responses:
          payload: <POSTBACK_PAGELOAD>
        - title: Thuận lợi và hỗ trợ
          payload: /thuan_loi_ho_tro
+       - title: Tuyển sinh 2023
+         payload: /tuyen_sinh_2023
   utter_goodbye:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: Tạm biệt. Cảm ơn vì đã hỏi tôi. Tôi luôn sẵn sàng phục vụ.
@@ -487,6 +489,333 @@ responses:
   - text: |-
       Nếu bạn là một trong những đối tượng của điều 7 phần 2 của Quy chế tuyển sinh của Bộ, bạn sẽ được tuyển thẳng vào trường nhé. Chi tiết về quy chế bạn có thể tham khảo văn bản sau:
       https://moet.gov.vn/content/vanban/Lists/VBPQ/Attachments/1239/Quy%20che%20tuyen%20sinh.pdf 
+
+  utter_tuyen_sinh_2023:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Ngành tuyển sinh
+        payload: /nganh_tuyen_sinh
+      - title: Mã trường
+        payload: /ma_truong_tuyen_sinh
+      - title: Phương thức xét tuyển
+        payload: /phuong_thuc_xet_tuyen_tuyen_sinh
+
+  utter_nganh_tuyen_sinh:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Đại học
+        payload: /dai_hoc
+      - title: Thạc sĩ
+        payload: /thac_si_tuyen_sinh
+      - title: Tiến sĩ
+        payload: /tien_si
+
+  utter_dai_hoc:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Đào tạo song ngành
+        payload: /dao_tao_song_nganh
+      - title: Danh sách các ngành
+        payload: /danh_sach_cac_nganh
+
+  utter_dao_tao_song_nganh:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Mục tiêu
+        payload: /muc_tieu_dao_tao_song_nganh
+      - title: Đối tượng
+        payload: /doi_tuong_dao_tao_song_nganh
+      - title: Điều kiện học song ngành
+        payload: /dieu_kien_hoc_dao_tao_song_nganh
+      - title: Danh sách ngành
+        payload: /danh_sach_dao_tao_song_nganh
+        
+  utter_muc_tieu_dao_tao_song_nganh:
+  - text: "Bạn đã chọn..."
+
+  utter_doi_tuong_dao_tao_song_nganh:
+  - text: "Bạn đã chọn..."
+
+  utter_dieu_kien_hoc_dao_tao_song_nganh:
+  - text: "Bạn đã chọn..."
+
+  utter_danh_sach_dao_tao_song_nganh:
+  - text: "Bạn đã chọn..."
+
+  utter_danh_sach_cac_nganh:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Danh sách ngành tổng hợp
+        payload: /danh_sach_nganh_tong_hop
+      - title: Ngành sư phạm
+        payload: /danh_sach_cac_nganh_su_pham
+
+  utter_danh_sach_nganh_tong_hop:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Điểm chuẩn
+        payload: /diem_chuan_nganh_tong_hop
+      - title: Mã ngành
+        payload: /ma_nganh_tong_hop
+      - title: Chỉ tiêu dự kiến
+        payload: /chi_tieu_du_kien_nganh_tong_hop
+      - title: Tổ hợp môn xét tuyển
+        payload: /to_hop_mon_xet_tuyen
+      - title: Thông tin ngành
+        payload: /thong_tin_nganh_tong_hop
+
+  utter_diem_chuan_nganh_tong_hop:
+  - text: "Bạn đã chọn..."
+
+  utter_ma_nganh_tong_hop:
+  - text: "Bạn đã chọn..."
+
+  utter_chi_tieu_du_kien_nganh_tong_hop:
+  - text: "Bạn đã chọn..."
+
+  utter_to_hop_mon_xet_tuyen:
+  - text: "Bạn đã chọn..."
+
+  utter_thong_tin_nganh_tong_hop:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Chuẩn đầu ra
+        payload: /chuan_dau_ra_nganh_tong_hop
+      - title: Cơ hội việc làm
+        payload: /co_hoi_viec_lam_nganh_tong_hop
+
+  utter_chuan_dau_ra_nganh_tong_hop:
+  - text: "Bạn đã chọn..."
+
+  utter_co_hoi_viec_lam_nganh_tong_hop:
+  - text: "Bạn đã chọn..."
+
+  utter_danh_sach_cac_nganh_su_pham:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Danh sách ngành
+        payload: /danh_sach_nganh_su_pham
+      - title: Thông tin ngành
+        payload: /thong_tin_nganh_su_pham
+      - title: Xét tuyển sư phạm
+        payload: /xet_tuyen_cac_nganh_su_pham
+
+  utter_danh_sach_nganh_su_pham:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Điểm chuẩn
+        payload: /diem_chuan_su_pham
+      - title: Mã ngành
+        payload: /ma_nganh_su_pham
+      - title: Chỉ tiêu dự kiến
+        payload: /chi_tieu_du_kien_su_pham
+      - title: Tổ hợp xét tuyển
+        payload: /to_hop_xet_tuyen_su_pham
+
+  utter_diem_chuan_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_ma_nganh_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_chi_tieu_du_kien_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_to_hop_xet_tuyen_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_thong_tin_nganh_su_pham:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Chuẩn đầu ra
+        payload: /chuan_dau_ra_su_pham
+      - title: Cơ hội việc làm
+        payload: /co_hoi_viec_lam_su_pham
+
+  utter_chuan_dau_ra_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_co_hoi_viec_lam_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_xet_tuyen_cac_nganh_su_pham:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Điều kiện
+        payload: /dieu_kien_su_pham
+      - title: Chỉ tiêu
+        payload: /chi_tieu_su_pham
+      - title: Hỗ trợ
+        payload: /ho_tro_su_pham
+
+  utter_dieu_kien_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_chi_tieu_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_ho_tro_su_pham:
+  - text: "Bạn đã chọn..."
+
+  utter_thac_si_tuyen_sinh:
+  - text: "Bạn đã chọn..."
+
+  utter_tien_si:
+  - text: "Bạn đã chọn..."
+
+  utter_ma_truong_tuyen_sinh:
+  - text: "Dạ mã trường của trường Đại học Đà Lạt là: TDL"
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_phuong_thuc_xet_tuyen_tuyen_sinh:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Bằng học bạ
+        payload: /bang_hoc_ba
+      - title: Bằng điểm thi TN THPT
+        payload: /bang_diem_thi_tn_thpt
+      - title: Bằng điểm thi ĐGNL
+        payload: /bang_diem_thi_dgnl
+      - title: Xét tuyển thẳng
+        payload: /xet_tuyen_thang
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_bang_hoc_ba:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Hồ sơ
+        payload: /ho_so_bang_hoc_ba
+      - title: Cách tính điểm xét
+        payload: /cach_tinh_diem_xet_hoc_ba
+      - title: Cách nộp hồ sơ
+        payload: /cach_nop_ho_so_hoc_ba
+      - title: Thời hạn nộp hồ sơ
+        payload: /thoi_han_nop_ho_so_hoc_ba
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_ho_so_bang_hoc_ba:
+  - text: "– Phiếu ĐKXT (theo mẫu của Trường Đại học Đà Lạt, thí sinh truy cập website www.dlu.edu.vn; mục Tuyển sinh 2020); Thí sinh lưu ý cần sử dụng đúng mẫu phiếu ĐKXT ứng với phương thức đăng ký;\n– Bản sao Học bạ THPT hoặc giấy chứng nhận kết quả kỳ thi đánh giá năng lực;\n– Lệ phí ĐKXT: 30.000đ/1 nguyện vọng (nộp qua bưu điện hoặc trực tiếp tại Trường)"
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_cach_tinh_diem_xet_hoc_ba:
+  - text: "- Nếu thí sinh sử dụng kết quả học tập lớp 12 để ĐKXT thì lấy tổng điểm 3 môn tổng kết cả năm lớp 12 trong tổ hợp môn mà thí sinh sử dụng để ĐKXT theo các điều kiện ở mục 2.2 và 2.3 ở trên;\n- Nếu thí sinh sử dụng kết quả học tập lớp 11 cộng với học kỳ 1 lớp 12 thì phải đạt các điều kiện ở mục 2.2 và 2.3 và cách tính tổng điểm ĐKXT như sau:\n\tThí sinh A chọn tổ hợp môn ĐKXT là A00: Toán, Vật lý, Hóa học thì:\n\t\to Điểm môn Toán = (Điểm tổng kết môn Toán năm lớp 11 + Điểm tổng kết môn Toán HKI lớp 12)/2;\n\t\to Điểm môn Vật lý = (Điểm tổng kết môn Vật lý năm lớp 11 + Điểm tổng kết môn Vật lý HKI lớp 12)/2;\n\t\to Điểm môn Hóa học = (Điểm tổng kết môn Hóa học năm lớp 11 + Điểm tổng kết môn Hóa học HKI lớp 12)/2;\nTổng điểm ĐKXT =  Điểm môn Toán + Điểm môn Vật lý + Điểm môn Hóa học\n- Nếu trong tổ hợp môn ĐKXT có môn KHTN thì điểm của môn KHTN là điểm trung bình cộng của 3 môn Vật lý, Hoá học và Sinh học; Nếu trong tổ hợp môn ĐKXT có môn KHXH thì điểm của môn KHXH là điểm trung bình cộng của 3 môn Lịch sử, Địa lý và Giáo dục công dân."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_cach_nop_ho_so_hoc_ba:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Trực tiếp
+        payload: /nop_ho_so_hoc_ba_truc_tiep
+      - title: Trực tuyến
+        payload: /nop_ho_so_hoc_ba_truc_tuyen
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_nop_ho_so_hoc_ba_truc_tiep:
+  - text: "Dạ anh/ chị nộp trực tiếp tại Trường theo địa chỉ: Bộ phận tuyển sinh – Phòng Quản lý Đào tạo, Trường Đại học Đà Lạt, số 01, Phù Đổng Thiên Vương, TP Đà Lạt, tỉnh Lâm Đồng."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_nop_ho_so_hoc_ba_truc_tuyen:
+  - text: "Dạ hiện tại Trường chưa hỗ trợ hình thức nộp hồ sơ trực tuyến, anh/ chị vui lòng chuyển phát nhanh hồ sơ qua đường bưu điện theo địa chỉ: Bộ phận tuyển sinh – Phòng Quản lý Đào tạo, Trường Đại học Đà Lạt, số 01, Phù Đổng Thiên Vương, TP Đà Lạt, tỉnh Lâm Đồng."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_thoi_han_nop_ho_so_hoc_ba:
+  - text: "- Đối với phương thức xét tuyển sử dụng kết quả thi THPT 2021:\n+ Đợt 1: Thời gian nhận ĐKXT theo quy định của Bộ Giáo dục và Đào tạo (thí sinh đăng ký thi THPT và đăng ký xét tuyển đại học từ ngày 24/04 đến 10/05 tại các Điểm thu nhận hồ sơ do Sở Giáo dục và Đào tạo tổ chức);\n+ Các Đợt bổ sung: Thời gian nhận ĐKXT từ ngày 16/08 (Dự kiến).\n- Đối với phương thức xét tuyển theo học bạ THPT:\n+ Đợt 1: nhận hồ sơ từ ngày 31/05/2021 - 02/07/2021.\n+ Đợt 2: nhận hồ sơ từ ngày 16/08/2021 (Dự kiến)\n+ Các Đợt tiếp theo (nếu có): Trường sẽ thông báo cụ thể trên website.\n- Đối với phương thức xét tuyển sử dụng kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia Tp. Hồ Chí Minh năm 2021:\n+ Đợt 1: nhận hồ sơ từ ngày 31/05/2021 - 02/07/2021.\n+ Đợt 2: nhận hồ sơ từ ngày 16/08/2021 (Dự kiến)\n+ Các Đợt tiếp theo (nếu có): Trường sẽ thông báo cụ thể trên website."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_bang_diem_thi_tn_thpt:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Hồ sơ
+        payload: /ho_so_tn_thpt
+      - title: Cách thức
+        payload: /cach_thuc_tn_thpt
+      - title: Thời hạn
+        payload: /thoi_han_tn_thpt
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_ho_so_tn_thpt:
+  - text: "– Phiếu ĐKXT (theo mẫu của Trường Đại học Đà Lạt, thí sinh truy cập website www.dlu.edu.vn; mục Tuyển sinh 2020); Thí sinh lưu ý cần sử dụng đúng mẫu phiếu ĐKXT ứng với phương thức đăng ký;\n– Bản sao Học bạ THPT hoặc giấy chứng nhận kết quả kỳ thi đánh giá năng lực;\n– Lệ phí ĐKXT: 30.000đ/1 nguyện vọng (nộp qua bưu điện hoặc trực tiếp tại Trường)"
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_cach_thuc_tn_thpt:
+  - text: "- Các ngành đào tạo giáo viên: Thí sinh có học lực lớp 12 đạt loại giỏi hoặc điểm xét tốt nghiệp THPT đạt từ 8.0 trở lên;\n- Các ngành khác: Tổng điểm 3 môn trong tổ hợp môn ĐKXT lớn hơn hoặc bằng 17 điểm và không có môn nào trong tổ hợp môn ĐKXT có điểm trung bình dưới 5.0."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_thoi_han_tn_thpt:
+  - text: "- Đối với phương thức xét tuyển sử dụng kết quả thi THPT 2021:\n+ Đợt 1: Thời gian nhận ĐKXT theo quy định của Bộ Giáo dục và Đào tạo (thí sinh đăng ký thi THPT và đăng ký xét tuyển đại học từ ngày 24/04 đến 10/05 tại các Điểm thu nhận hồ sơ do Sở Giáo dục và Đào tạo tổ chức);\n+ Các Đợt bổ sung: Thời gian nhận ĐKXT từ ngày 16/08 (Dự kiến).\n- Đối với phương thức xét tuyển theo học bạ THPT:\n+ Đợt 1: nhận hồ sơ từ ngày 31/05/2021 - 02/07/2021.\n+ Đợt 2: nhận hồ sơ từ ngày 16/08/2021 (Dự kiến)\n+ Các Đợt tiếp theo (nếu có): Trường sẽ thông báo cụ thể trên website.\n- Đối với phương thức xét tuyển sử dụng kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia Tp. Hồ Chí Minh năm 2021:\n+ Đợt 1: nhận hồ sơ từ ngày 31/05/2021 - 02/07/2021.\n+ Đợt 2: nhận hồ sơ từ ngày 16/08/2021 (Dự kiến)\n+ Các Đợt tiếp theo (nếu có): Trường sẽ thông báo cụ thể trên website."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_bang_diem_thi_dgnl:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Hồ sơ
+        payload: /nop_ho_so_dgnl
+      - title: Cách thức
+        payload: /cach_thuc_cua_dgnl
+      - title: Thời hạn
+        payload: /thoi_han_cua_dgnl
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_nop_ho_so_dgnl:
+  - text: "– Phiếu ĐKXT (theo mẫu của Trường Đại học Đà Lạt, thí sinh truy cập website www.dlu.edu.vn; mục Tuyển sinh 2020); Thí sinh lưu ý cần sử dụng đúng mẫu phiếu ĐKXT ứng với phương thức đăng ký;\n– Bản sao Học bạ THPT hoặc giấy chứng nhận kết quả kỳ thi đánh giá năng lực;\n– Lệ phí ĐKXT: 30.000đ/1 nguyện vọng (nộp qua bưu điện hoặc trực tiếp tại Trường)"
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_cach_thuc_cua_dgnl:
+  - text: "- Các ngành sư phạm: Đạt từ 800 điểm trở lên theo thang điểm 1200, quy đổi theo thang điểm 30 đạt từ 20 điểm trở lên.\n- Các ngành ngoài sư phạm: Đạt từ 600 điểm trở lên theo thang điểm 1200, quy đổi theo thang điểm 30 đạt từ 15 điểm trở lên"
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_thoi_han_cua_dgnl:
+  - text: "- Đối với phương thức xét tuyển sử dụng kết quả thi THPT 2021:\n+ Đợt 1: Thời gian nhận ĐKXT theo quy định của Bộ Giáo dục và Đào tạo (thí sinh đăng ký thi THPT và đăng ký xét tuyển đại học từ ngày 24/04 đến 10/05 tại các Điểm thu nhận hồ sơ do Sở Giáo dục và Đào tạo tổ chức);\n+ Các Đợt bổ sung: Thời gian nhận ĐKXT từ ngày 16/08 (Dự kiến).\n- Đối với phương thức xét tuyển theo học bạ THPT:\n+ Đợt 1: nhận hồ sơ từ ngày 31/05/2021 - 02/07/2021.\n+ Đợt 2: nhận hồ sơ từ ngày 16/08/2021 (Dự kiến)\n+ Các Đợt tiếp theo (nếu có): Trường sẽ thông báo cụ thể trên website.\n- Đối với phương thức xét tuyển sử dụng kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia Tp. Hồ Chí Minh năm 2021:\n+ Đợt 1: nhận hồ sơ từ ngày 31/05/2021 - 02/07/2021.\n+ Đợt 2: nhận hồ sơ từ ngày 16/08/2021 (Dự kiến)\n+ Các Đợt tiếp theo (nếu có): Trường sẽ thông báo cụ thể trên website."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_xet_tuyen_thang:
+  - text: "Anh/ chị vui lòng chọn 1 trong các mục dưới đây để được hỗ trợ ạ!"
+    quick_replies:
+      - title: Theo quy định của trường
+        payload: /theo_quy_dinh_cua_truong
+      - title: Theo quy định của Bộ
+        payload: /theo_quy_dinh_cua_bo
+
+  utter_theo_quy_dinh_cua_truong:
+  - text: "- Xét tuyển thẳng theo khoản 2 và khoản 3 Điều 7 Quy chế tuyển sinh Quy chế tuyển sinh trình độ đại học; tuyển sinh trình độ cao đẳng ngành Giáo dục Mầm non ban hành kèm theo Thông tư số 09/2020/TT-BGDĐT ngày 07/5/2020 của Bộ Giáo dục và Đào tạo."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
+
+  utter_theo_quy_dinh_cua_bo:
+  - text: "- Xét tuyển thẳng theo khoản 2 và khoản 3 Điều 7 Quy chế tuyển sinh Quy chế tuyển sinh trình độ đại học; tuyển sinh trình độ cao đẳng ngành Giáo dục Mầm non ban hành kèm theo Thông tư số 09/2020/TT-BGDĐT ngày 07/5/2020 của Bộ Giáo dục và Đào tạo."
+    quick_replies:
+      - title: Tuyển sinh 2023
+        payload: /tuyen_sinh_2023
 
 actions:
   - utter_greet

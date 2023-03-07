@@ -351,3 +351,264 @@ rules:
   steps: 
   - intent: qd_bo
   - action: utter_qd_bo
+
+- rule: tuyen_sinh_2023
+  steps:
+  - intent: tuyen_sinh_2023
+  - action: utter_tuyen_sinh_2023
+  
+- rule: nganh_tuyen_sinh
+  steps:
+  - intent: nganh_tuyen_sinh
+  - action: utter_nganh_tuyen_sinh
+  
+- rule: dai_hoc
+  steps:
+  - intent: dai_hoc
+  - action: utter_dai_hoc
+  
+- rule: dao_tao_song_nganh
+  steps:
+  - intent: dao_tao_song_nganh
+  - action: utter_dao_tao_song_nganh
+  
+- rule: muc_tieu_dao_tao_song_nganh
+  steps:
+  - intent: muc_tieu_dao_tao_song_nganh
+  - action: utter_muc_tieu_dao_tao_song_nganh
+  
+- rule: doi_tuong_dao_tao_song_nganh
+  steps:
+  - intent: doi_tuong_dao_tao_song_nganh
+  - action: utter_doi_tuong_dao_tao_song_nganh
+  
+- rule: dieu_kien_hoc_dao_tao_song_nganh
+  steps:
+  - intent: dieu_kien_hoc_dao_tao_song_nganh
+  - action: utter_dieu_kien_hoc_dao_tao_song_nganh
+  
+- rule: danh_sach_dao_tao_song_nganh
+  steps:
+  - intent: danh_sach_dao_tao_song_nganh
+  - action: utter_danh_sach_dao_tao_song_nganh
+  
+- rule: danh_sach_cac_nganh
+  steps:
+  - intent: danh_sach_cac_nganh
+  - action: utter_danh_sach_cac_nganh
+  
+- rule: danh_sach_nganh_tong_hop
+  steps:
+  - intent: danh_sach_nganh_tong_hop
+  - action: utter_danh_sach_nganh_tong_hop
+  
+- rule: diem_chuan_nganh_tong_hop
+  steps:
+  - intent: diem_chuan_nganh_tong_hop
+  - action: utter_diem_chuan_nganh_tong_hop
+  
+- rule: ma_nganh_tong_hop
+  steps:
+  - intent: ma_nganh_tong_hop
+  - action: utter_ma_nganh_tong_hop
+  
+- rule: chi_tieu_du_kien_nganh_tong_hop
+  steps:
+  - intent: chi_tieu_du_kien_nganh_tong_hop
+  - action: utter_chi_tieu_du_kien_nganh_tong_hop
+  
+- rule: to_hop_mon_xet_tuyen
+  steps:
+  - intent: to_hop_mon_xet_tuyen
+  - action: utter_to_hop_mon_xet_tuyen
+  
+- rule: thong_tin_nganh_tong_hop
+  steps:
+  - intent: thong_tin_nganh_tong_hop
+  - action: utter_thong_tin_nganh_tong_hop
+  
+- rule: chuan_dau_ra_nganh_tong_hop
+  steps:
+  - intent: chuan_dau_ra_nganh_tong_hop
+  - action: utter_chuan_dau_ra_nganh_tong_hop
+  
+- rule: co_hoi_viec_lam_nganh_tong_hop
+  steps:
+  - intent: co_hoi_viec_lam_nganh_tong_hop
+  - action: utter_co_hoi_viec_lam_nganh_tong_hop
+  
+- rule: danh_sach_cac_nganh_su_pham
+  steps:
+  - intent: danh_sach_cac_nganh_su_pham
+  - action: utter_danh_sach_cac_nganh_su_pham
+  
+- rule: danh_sach_nganh_su_pham
+  steps:
+  - intent: danh_sach_nganh_su_pham
+  - action: utter_danh_sach_nganh_su_pham
+  
+- rule: diem_chuan_su_pham
+  steps:
+  - intent: diem_chuan_su_pham
+  - action: utter_diem_chuan_su_pham
+  
+- rule: ma_nganh_su_pham
+  steps:
+  - intent: ma_nganh_su_pham
+  - action: utter_ma_nganh_su_pham
+  
+- rule: chi_tieu_du_kien_su_pham
+  steps:
+  - intent: chi_tieu_du_kien_su_pham
+  - action: utter_chi_tieu_du_kien_su_pham
+  
+- rule: to_hop_xet_tuyen_su_pham
+  steps:
+  - intent: to_hop_xet_tuyen_su_pham
+  - action: utter_to_hop_xet_tuyen_su_pham
+  
+- rule: thong_tin_nganh_su_pham
+  steps:
+  - intent: thong_tin_nganh_su_pham
+  - action: utter_thong_tin_nganh_su_pham
+  
+- rule: chuan_dau_ra_su_pham
+  steps:
+  - intent: chuan_dau_ra_su_pham
+  - action: utter_chuan_dau_ra_su_pham
+  
+- rule: co_hoi_viec_lam_su_pham
+  steps:
+  - intent: co_hoi_viec_lam_su_pham
+  - action: utter_co_hoi_viec_lam_su_pham
+  
+- rule: xet_tuyen_cac_nganh_su_pham
+  steps:
+  - intent: xet_tuyen_cac_nganh_su_pham
+  - action: utter_xet_tuyen_cac_nganh_su_pham
+  
+- rule: dieu_kien_su_pham
+  steps:
+  - intent: dieu_kien_su_pham
+  - action: utter_dieu_kien_su_pham
+  
+- rule: chi_tieu_su_pham
+  steps:
+  - intent: chi_tieu_su_pham
+  - action: utter_chi_tieu_su_pham
+  
+- rule: ho_tro_su_pham
+  steps:
+  - intent: ho_tro_su_pham
+  - action: utter_ho_tro_su_pham
+  
+- rule: thac_si_tuyen_sinh
+  steps:
+  - intent: thac_si_tuyen_sinh
+  - action: utter_thac_si_tuyen_sinh
+  
+- rule: tien_si
+  steps:
+  - intent: tien_si
+  - action: utter_tien_si
+  
+- rule: ma_truong_tuyen_sinh
+  steps:
+  - intent: ma_truong_tuyen_sinh
+  - action: utter_ma_truong_tuyen_sinh
+  
+- rule: phuong_thuc_xet_tuyen_tuyen_sinh
+  steps:
+  - intent: phuong_thuc_xet_tuyen_tuyen_sinh
+  - action: utter_phuong_thuc_xet_tuyen_tuyen_sinh
+  
+- rule: bang_hoc_ba
+  steps:
+  - intent: bang_hoc_ba
+  - action: utter_bang_hoc_ba
+  
+- rule: ho_so_bang_hoc_ba
+  steps:
+  - intent: ho_so_bang_hoc_ba
+  - action: utter_ho_so_bang_hoc_ba
+  
+- rule: cach_tinh_diem_xet_hoc_ba
+  steps:
+  - intent: cach_tinh_diem_xet_hoc_ba
+  - action: utter_cach_tinh_diem_xet_hoc_ba
+  
+- rule: cach_nop_ho_so_hoc_ba
+  steps:
+  - intent: cach_nop_ho_so_hoc_ba
+  - action: utter_cach_nop_ho_so_hoc_ba
+  
+- rule: nop_ho_so_hoc_ba_truc_tiep
+  steps:
+  - intent: nop_ho_so_hoc_ba_truc_tiep
+  - action: utter_nop_ho_so_hoc_ba_truc_tiep
+  
+- rule: nop_ho_so_hoc_ba_truc_tuyen
+  steps:
+  - intent: nop_ho_so_hoc_ba_truc_tuyen
+  - action: utter_nop_ho_so_hoc_ba_truc_tuyen
+  
+- rule: thoi_han_nop_ho_so_hoc_ba
+  steps:
+  - intent: thoi_han_nop_ho_so_hoc_ba
+  - action: utter_thoi_han_nop_ho_so_hoc_ba
+  
+- rule: bang_diem_thi_tn_thpt
+  steps:
+  - intent: bang_diem_thi_tn_thpt
+  - action: utter_bang_diem_thi_tn_thpt
+  
+- rule: ho_so_tn_thpt
+  steps:
+  - intent: ho_so_tn_thpt
+  - action: utter_ho_so_tn_thpt
+  
+- rule: cach_thuc_tn_thpt
+  steps:
+  - intent: cach_thuc_tn_thpt
+  - action: utter_cach_thuc_tn_thpt
+  
+- rule: thoi_han_tn_thpt
+  steps:
+  - intent: thoi_han_tn_thpt
+  - action: utter_thoi_han_tn_thpt
+  
+- rule: bang_diem_thi_dgnl
+  steps:
+  - intent: bang_diem_thi_dgnl
+  - action: utter_bang_diem_thi_dgnl
+  
+- rule: nop_ho_so_dgnl
+  steps:
+  - intent: nop_ho_so_dgnl
+  - action: utter_nop_ho_so_dgnl
+  
+- rule: cach_thuc_cua_dgnl
+  steps:
+  - intent: cach_thuc_cua_dgnl
+  - action: utter_cach_thuc_cua_dgnl
+  
+- rule: thoi_han_cua_dgnl
+  steps:
+  - intent: thoi_han_cua_dgnl
+  - action: utter_thoi_han_cua_dgnl
+  
+- rule: xet_tuyen_thang
+  steps:
+  - intent: xet_tuyen_thang
+  - action: utter_xet_tuyen_thang
+  
+- rule: theo_quy_dinh_cua_truong
+  steps:
+  - intent: theo_quy_dinh_cua_truong
+  - action: utter_theo_quy_dinh_cua_truong
+  
+- rule: theo_quy_dinh_cua_bo
+  steps:
+  - intent: theo_quy_dinh_cua_bo
+  - action: utter_theo_quy_dinh_cua_bo
+  
