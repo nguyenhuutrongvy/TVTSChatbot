@@ -1811,3 +1811,94 @@ nlu:
   examples: |
     - theo_quy_dinh_cua_bo
     - Theo quy định của Bộ
+
+- intent: Hoc_phi_hoc_bong
+  examples: |
+    - Cho mình hỏi về học phí học bổng với ạ
+    - bạn cho mình hỏi về học bổng học phí với ạ
+    - bot cho hỏi về học phí học bổng với ạ
+    - ad cho em hỏi về học phí học bổng ạ
+- intent: Hocphi
+  examples: |
+    - e chào ad ạ, ad cho e hỏi là học phí của trường mình ngành nào cũng 5 triệu một học kì phải không ạ
+    - cho mình hỏi học phí trường mình một năm khoảng bao nhiêu
+    - học phí một năm khoảng bao nhiêu
+    - học phí tính như thế nào ạ
+    - cho em hỏi học phí thế nào
+    - học phí mỗi học kỳ là bao nhiêu ạ
+    - học phí thế nào ạ
+    - cho mình hỏi về học phí ngành Luật
+    - cho em hỏi về học phí
+    - học phí các ngành thế nào
+    - học phí các ngành giống nhau không
+    - Cho e hỏi là học phí của trường mình là bao nhiêu ạ
+    - Cho tôi học học phí trường mình bn
+    - Cho mình hỏi thêm về học phí
+    - Thông tin cho tôi về học phí nhé
+    - 1 năm khoảng bao nhieu ad
+    - Học 1 năm khoảng bao nhiêu
+    - Cho mình biết về học phí một năm
+    - Vậy học phí bn 1 năm ạ
+    - Cho hỏi học phí khoảng bao nhiêu 1 năm
+    - 1 năm học phí khoảng bn
+    - Học phí trường này là bao nhiêu?
+- intent: Hocbong
+  examples: |
+    - e chào ad ạ, ad cho e hỏi là trường mình có học bổng không ạ
+    - cho mình hỏi học bổng trường mình khoảng bao nhiêu ạ
+    - học bổng trường có bao nhiêu đợt để nhận
+    - trường có các loại học bổng nào ạ
+    - cho em hỏi làm sao để nhận học bổng trường ạ
+    - học bổng của trường có giá trị cao không ạ 
+    - bot cho hỏi về học bổng của trường
+    - học bổng trường như thế nào ạ
+- intent: Hoc_bong_khuyen_khich
+  examples: |
+    - bot cho em hỏi, học bổng khuyến khích là gì ạ
+    - học bổng khuyến khích là sao ạ
+    - học bổng khuyến khích bao nhiêu tiền thế ạ
+    - trường cho em hỏi học bổng khuyến khích bao tiền thế
+    - làm sao để nhận học bổng khuyến khích vậy 
+- intent: Hoc_bong_tai_tro
+  examples: |
+    - ad cho em hỏi học bổng tài trợ bao nhiêu tiền vậy ạ
+    - học bổng tài trợ gồm những gì thế 
+    - làm sao để nhận học bổng tài trợ thế ạ
+    - bao nhiêu lâu mới có học bổng tài trợ khi có tên trong danh sách vậy ạ
+    - bot cho hỏi học bổng tài trợ nhiều tiền không vậy
+- intent: Hoc_bong_khen_thuong
+  examples: |
+    - trường cho em hỏi một kỳ có mấy học bổng khen thưởng vậy ạ
+    - bot cho hỏi học bổng khen thưởng bao nhiêu tiền thế ạ
+- ad cho hỏi bao lâu mới nhận được học bổng khen thưởng
+    - làm sao để nhận được học bổng khen thưởng vậy ạ
+    - bot cho hỏi học bổng khen thưởng có gì vậy
+- intent: Kytucxa
+  examples: |
+    - ad cho hỏi trường mình có ký túc xá không
+    - bạn cho hỏi trường mình có ký túc xá không
+    - trường có ktx không ạ
+    - trường mình có ký túc xá không ạ
+    - cho hỏi thông tin về ký túc xá của trường
+    - em muốn hỏi về ký túc xá
+    - ký túc xá của trường thế nào ạ
+    - tôi muốn biết thêm về ký túc xá của trường
+- intent: Thong_tin_ktx
+  examples: |
+    - ad cho mình hỏi thông tin ký túc xá được không
+    - bạn cho mình hỏi thông tin ký túc xá được không
+    - xin thông tin ktx được không ạ
+    - bot cho em hỏi thông tin ký túc xá với ạ
+- intent: Dieu_kien_o_ktx
+  examples: |
+    - ad cho hỏi điều kiện để ở ký túc xá với ạ
+    - điều kiện ở ktx như thế nào ạ
+    - cho em xin điều kiện ở ktx như thế nào ạ
+    - điều kiện ở ktx trường mình ra sao ạ
+- intent: Chi_phi_ktx
+  examples: |
+    - ad cho hỏi chi phí để ở ký túc xá với
+    - bạn cho hỏi ký túc xá trường mình là bao nhiêu
+    - chi phí ở ktx trường có đắt không
+    - ở ktx trường chi phí bao nhiêu là đủ
+    - cho hỏi chi phí ký túc xá trường ra sao
